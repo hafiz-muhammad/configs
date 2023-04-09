@@ -1,6 +1,4 @@
 # Configuration documentation: https://docs.helix-editor.com/master/configuration.html
-  
-theme = "gruvbox"
 
 [editor]
 scrolloff = 5
