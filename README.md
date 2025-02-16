@@ -74,7 +74,6 @@ pip install autotiling
 ## Text Editors & IDEs
 - [nano](https://www.nano-editor.org/) - GNU nano is a small editor for on the terminal.
 - [VSCodium](https://vscodium.com/) - Binary releases of VS Code without MS branding/telemetry/licensing.
-  - [Gruvbox Theme](https://open-vsx.org/extension/jdinhlife/gruvbox) - Color Theme: Gruvbox Dark Medium
 - [Geany](https://src.fedoraproject.org/rpms/geany) - Geany is a small and fast integrated development environment with basic
 features and few dependencies to other packages or Desktop Environments.
 
@@ -109,18 +108,17 @@ hardening. Agentless, and installation optional.
     - Family: FiraCode Nerd Font
     - Size: 10
     - Style: Regular
-
-- [gruvbox-plus-icon-pack](https://github.com/SylEleuth/gruvbox-plus-icon-pack) - Gruvbox Plus icon pack for Linux desktops based on Gruvbox color theme.
-- [Gruvbox Plus theme for GTK2 and GTK3](https://github.com/SylEleuth/gruvbox-plus-gtk) - Gruvbox+ dark theme for GTK2 and GTK3.
-
-
-
-
 - [feh](https://github.com/derf/feh) - feh is a light-weight, configurable and versatile image viewer.
 - [Nitrogen](https://src.fedoraproject.org/rpms/nitrogen) - Background browser and setter for X windows.
 - [Nerd Fonts](https://www.nerdfonts.com/) - Iconic font aggregator, collection, & patcher.
 - [Oh My Posh](https://ohmyposh.dev/) - A prompt theme engine for any shell.
-  - Oh My Posh theme: [gruvbox](https://github.com/JanDeDobbeleer/oh-my-posh/blob/main/themes/gruvbox.omp.json)
+
+Gruvbox Icons & Themes
+- [Oh My Posh gruvbox theme](https://github.com/JanDeDobbeleer/oh-my-posh/blob/main/themes/gruvbox.omp.json)
+- [gruvbox-plus-icon-pack](https://github.com/SylEleuth/gruvbox-plus-icon-pack) - Gruvbox Plus icon pack for Linux desktops based on Gruvbox color theme.
+- [Gruvbox Plus theme for GTK2 and GTK3](https://github.com/SylEleuth/gruvbox-plus-gtk) - Gruvbox+ dark theme for GTK2 and GTK3.
+
+
 
 <br>
 
