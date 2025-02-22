@@ -4,10 +4,10 @@
 # License: https://github.com/hagezi/dns-blocklists/blob/main/LICENSE
 # Issues: https://github.com/hagezi/dns-blocklists/issues
 # Expires: 1 day
-# Last modified: 17 Feb 2025 18:53 UTC
-# Version: 2025.0217.1853.44
+# Last modified: 22 Feb 2025 00:13 UTC
+# Version: 2025.0222.0013.05
 # Syntax: Hosts (including possible subdomains)
-# Number of entries: 695
+# Number of entries: 696
 #
 0.0.0.0 c-bingapis-com.dual-a-0034.a-msedge.net
 0.0.0.0 measure.office.com.akamaized.net
@@ -62,6 +62,7 @@
 0.0.0.0 eastus2-0.in.applicationinsights.azure.com
 0.0.0.0 eastus2-3.in.applicationinsights.azure.com
 0.0.0.0 eastus2-4.in.applicationinsights.azure.com
+0.0.0.0 francecentral-0.in.applicationinsights.azure.com
 0.0.0.0 francecentral-1.in.applicationinsights.azure.com
 0.0.0.0 germanywestcentral-0.in.applicationinsights.azure.com
 0.0.0.0 germanywestcentral-1.in.applicationinsights.azure.com
@@ -116,9 +117,7 @@
 0.0.0.0 azsc-bingads-westus.westus.cloudapp.azure.com
 0.0.0.0 collector.azure.cn
 0.0.0.0 js.monitor.azure.com
-0.0.0.0 adsdkpreprod.azureedge.net
 0.0.0.0 adsdkprod.azureedge.net
-0.0.0.0 adsdkpreprod.afd.azureedge.net
 0.0.0.0 adsdkprod.afd.azureedge.net
 0.0.0.0 cjs-diagnostics-office-com-gvdhgwfwbbfsd9g3.z01.azurefd.net
 0.0.0.0 location-microsoft-com.b-0005.b-msedge.net
@@ -168,7 +167,6 @@
 0.0.0.0 ffc-word-telemetry.officeapps.live.com
 0.0.0.0 frc-visio-telemetry.officeapps.live.com
 0.0.0.0 inc-visio-telemetry.officeapps.live.com
-0.0.0.0 jpc-visio-telemetry.officeapps.live.com
 0.0.0.0 nexus.officeapps.live.com
 0.0.0.0 nexusrules.officeapps.live.com
 0.0.0.0 noc-visio-telemetry.officeapps.live.com
@@ -438,6 +436,7 @@
 0.0.0.0 gateway.bingviz.microsoftapp.net
 0.0.0.0 msads.net
 0.0.0.0 ads1.msads.net
+0.0.0.0 a.ads1.msads.net
 0.0.0.0 ads2.msads.net
 0.0.0.0 a.ads2.msads.net
 0.0.0.0 b.ads2.msads.net
@@ -452,6 +451,8 @@
 0.0.0.0 ads1.msn.com
 0.0.0.0 ads2.msn.com
 0.0.0.0 adsyndication.msn.com
+0.0.0.0 images.adsyndication.msn.com
+0.0.0.0 images-ppe.adsyndication.msn.com
 0.0.0.0 analytics.msn.com
 0.0.0.0 metric.appex-rf.msn.com
 0.0.0.0 c.ar.msn.com
