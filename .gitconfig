@@ -1,0 +1,60 @@
+[filter "lfs"]
+    required = true
+    clean = git-lfs clean -- %f
+    smudge = git-lfs smudge -- %f
+    process = git-lfs filter-process
+[user]
+    name = Abdul Hafiz Muhammad
+    email = hafiz.muhammad.github@outlook.com
+    #signingkey = 
+[github]
+    user = hafiz-muhammad
+[help]
+    autocorrect = 1
+[fetch]
+    prune = true
+[status]
+    short = true
+[apply]
+    # Detect whitespace errors when applying a patch
+    whitespace = fix
+[merge]
+    # Include summaries of merged commits in newly created merge commit messages
+    log = true
+#[commit]
+    #gpgsign = true
+[alias] 
+    # View abbreviated SHA, description, and history graph of the latest 20 commits
+    l = log --pretty=oneline -n 20 --graph --abbrev-commit
+
+    # Show reflog
+    rl = reflog
+
+    # Credit an author on the latest commit
+    credit = "!f() { git commit --amend --author \"$1 <$2>\" -C HEAD; }; f"
+
+    # Interactive rebase with the given number of latest commits
+    reb = "!r() { git rebase -i HEAD~$1; }; r"
+    
+    # Commit all changes
+    ca = !git add -A && git commit -av
+
+    # Delete a branch forcefully
+    del = branch -D
+
+    # View the current working tree status using the short format
+    s = status -s
+
+    # list branches sorted by last modified
+    b = "!git for-each-ref --sort='-authordate' --format='%(authordate)%09%(objectname:short)%09%(refname)' refs/heads | sed -e 's-refs/heads/--'"
+
+    # list aliases
+    a = "!git config -l | grep alias | cut -c 7-"
+
+    # List contributors with number of commits
+    contributors = shortlog --summary --numbered 
+[init]
+    defaultBranch = main
+#[core]
+    #editor =
+
