@@ -4,8 +4,8 @@
 # License: https://github.com/hagezi/dns-blocklists/blob/main/LICENSE
 # Issues: https://github.com/hagezi/dns-blocklists/issues
 # Expires: 1 day
-# Last modified: 22 Feb 2025 00:13 UTC
-# Version: 2025.0222.0013.05
+# Last modified: 27 Feb 2025 08:11 UTC
+# Version: 2025.0227.0811.04
 # Syntax: Hosts (including possible subdomains)
 # Number of entries: 696
 #
@@ -30,6 +30,7 @@
 0.0.0.0 dc.applicationinsights.azure.cn
 0.0.0.0 dc.applicationinsights.azure.com
 0.0.0.0 dc.applicationinsights.azure.us
+0.0.0.0 www.dc.applicationinsights.azure.com
 0.0.0.0 in.applicationinsights.azure.cn
 0.0.0.0 in.applicationinsights.azure.com
 0.0.0.0 in.applicationinsights.azure.us
@@ -62,7 +63,6 @@
 0.0.0.0 eastus2-0.in.applicationinsights.azure.com
 0.0.0.0 eastus2-3.in.applicationinsights.azure.com
 0.0.0.0 eastus2-4.in.applicationinsights.azure.com
-0.0.0.0 francecentral-0.in.applicationinsights.azure.com
 0.0.0.0 francecentral-1.in.applicationinsights.azure.com
 0.0.0.0 germanywestcentral-0.in.applicationinsights.azure.com
 0.0.0.0 germanywestcentral-1.in.applicationinsights.azure.com
@@ -111,6 +111,7 @@
 0.0.0.0 westus2-global.in.applicationinsights.azure.com
 0.0.0.0 westus3-1.in.applicationinsights.azure.com
 0.0.0.0 live.applicationinsights.azure.com
+0.0.0.0 www.live.applicationinsights.azure.com
 0.0.0.0 inference-app-gateway.eastus2.cloudapp.azure.com
 0.0.0.0 inference-app-gateway.koreacentral.cloudapp.azure.com
 0.0.0.0 inference-app-gateway.northeurope.cloudapp.azure.com
@@ -258,6 +259,7 @@
 0.0.0.0 applicationinsights.microsoft.com
 0.0.0.0 dc.applicationinsights.microsoft.com
 0.0.0.0 rt.applicationinsights.microsoft.com
+0.0.0.0 www.rt.applicationinsights.microsoft.com
 0.0.0.0 pipe.aria.microsoft.com
 0.0.0.0 browser.pipe.aria.microsoft.com
 0.0.0.0 eu.pipe.aria.microsoft.com
@@ -569,7 +571,6 @@
 0.0.0.0 powerpointonline.nelsdf.measure.office.net
 0.0.0.0 sdwan.measure.office.com
 0.0.0.0 wan.measure.office.com
-0.0.0.0 hubblecontent.osi.office.net
 0.0.0.0 adsdk.trafficmanager.net
 0.0.0.0 agps-location-livenet.trafficmanager.net
 0.0.0.0 analytics.trafficmanager.net
@@ -676,7 +677,6 @@
 0.0.0.0 analytics-dev-lleap-events.servicebus.windows.net
 0.0.0.0 analytics-dev-simpad-events.servicebus.windows.net
 0.0.0.0 analyticsehnwe.servicebus.windows.net
-0.0.0.0 analyticsiot-prod-simpad-ehn.servicebus.windows.net
 0.0.0.0 btv-du-dev-eventhub-streamanalytics.servicebus.windows.net
 0.0.0.0 btv-du-prod-eventhub-streamanalytics.servicebus.windows.net
 0.0.0.0 citrixanalyticseh.servicebus.windows.net
