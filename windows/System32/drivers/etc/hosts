@@ -4,8 +4,8 @@
 # License: https://github.com/hagezi/dns-blocklists/blob/main/LICENSE
 # Issues: https://github.com/hagezi/dns-blocklists/issues
 # Expires: 1 day
-# Last modified: 01 Mar 2025 00:14 UTC
-# Version: 2025.0301.0014.25
+# Last modified: 08 Mar 2025 00:29 UTC
+# Version: 2025.0308.0029.43
 # Syntax: Hosts (including possible subdomains)
 # Number of entries: 696
 #
@@ -174,6 +174,7 @@
 0.0.0.0 pgtbr1-excel-telemetry-vip.officeapps.live.com
 0.0.0.0 pgtbr1-powerpoint-telemetry-vip.officeapps.live.com
 0.0.0.0 pgtbr1-word-telemetry-vip.officeapps.live.com
+0.0.0.0 pgtbr2-excel-telemetry-vip.officeapps.live.com
 0.0.0.0 pgtca1-excel-telemetry-vip.officeapps.live.com
 0.0.0.0 pgtca1-powerpoint-telemetry-vip.officeapps.live.com
 0.0.0.0 pgtca1-word-telemetry-vip.officeapps.live.com
@@ -617,7 +618,6 @@
 0.0.0.0 v20-asimov-win.vortex.data.trafficmanager.net
 0.0.0.0 dsp-ad-cache-tm.trafficmanager.net
 0.0.0.0 adstore.response.gcp.eastus.trafficmanager.net
-0.0.0.0 adstore.response.eastus.trafficmanager.net
 0.0.0.0 telemetry.eastus.trafficmanager.net
 0.0.0.0 eventservice.trafficmanager.net
 0.0.0.0 fsad.trafficmanager.net
