@@ -4,10 +4,10 @@
 # License: https://github.com/hagezi/dns-blocklists/blob/main/LICENSE
 # Issues: https://github.com/hagezi/dns-blocklists/issues
 # Expires: 1 day
-# Last modified: 08 Mar 2025 00:29 UTC
-# Version: 2025.0308.0029.43
+# Last modified: 14 Mar 2025 05:28 UTC
+# Version: 2025.0314.0528.19
 # Syntax: Hosts (including possible subdomains)
-# Number of entries: 696
+# Number of entries: 704
 #
 0.0.0.0 c-bingapis-com.dual-a-0034.a-msedge.net
 0.0.0.0 measure.office.com.akamaized.net
@@ -116,7 +116,6 @@
 0.0.0.0 azsc-bingads-westus.westus.cloudapp.azure.com
 0.0.0.0 collector.azure.cn
 0.0.0.0 js.monitor.azure.com
-0.0.0.0 adsdkpreprod.azureedge.net
 0.0.0.0 adsdkprod.azureedge.net
 0.0.0.0 adsdkpreprod.afd.azureedge.net
 0.0.0.0 adsdkprod.afd.azureedge.net
@@ -246,6 +245,7 @@
 0.0.0.0 developers.ads.microsoft.com
 0.0.0.0 dmc.ads.microsoft.com
 0.0.0.0 help.ads.microsoft.com
+0.0.0.0 learninglab.ads.microsoft.com
 0.0.0.0 mmcapi.ads.microsoft.com
 0.0.0.0 smetric.ads.microsoft.com
 0.0.0.0 status.ads.microsoft.com
@@ -301,6 +301,7 @@
 0.0.0.0 ch1b.bingads.microsoft.com
 0.0.0.0 community.bingads.microsoft.com
 0.0.0.0 developers.bingads.microsoft.com
+0.0.0.0 express.bingads.microsoft.com
 0.0.0.0 fd.bingads.microsoft.com
 0.0.0.0 feedback.bingads.microsoft.com
 0.0.0.0 help.bingads.microsoft.com
@@ -443,10 +444,13 @@
 0.0.0.0 a.ads2.msads.net
 0.0.0.0 b.ads2.msads.net
 0.0.0.0 www.msads.net
+0.0.0.0 az667904.vo.msecnd.net
 0.0.0.0 fp.msedge.net
 0.0.0.0 win10-trt.msedge.net
 0.0.0.0 ac2.msn.com
 0.0.0.0 ac3.msn.com
+0.0.0.0 accesshollywood.msn.com
+0.0.0.0 accountservices.msn.com
 0.0.0.0 ad.msn.com
 0.0.0.0 adevents.msn.com
 0.0.0.0 ads.msn.com
@@ -466,7 +470,9 @@
 0.0.0.0 arc9.msn.com
 0.0.0.0 c.at.msn.com
 0.0.0.0 c.be.msn.com
+0.0.0.0 actualite.fr.be.msn.com
 0.0.0.0 c.br.msn.com
+0.0.0.0 actualites.ca.msn.com
 0.0.0.0 c.ca.msn.com
 0.0.0.0 c.cl.msn.com
 0.0.0.0 confiant.msn.com
@@ -571,6 +577,7 @@
 0.0.0.0 powerpointonline.nelsdf.measure.office.net
 0.0.0.0 sdwan.measure.office.com
 0.0.0.0 wan.measure.office.com
+0.0.0.0 ads-msn-com-profile.trafficmanager.net
 0.0.0.0 adsdk.trafficmanager.net
 0.0.0.0 agps-location-livenet.trafficmanager.net
 0.0.0.0 analytics.trafficmanager.net
@@ -646,6 +653,7 @@
 0.0.0.0 tenmax-ads.trafficmanager.net
 0.0.0.0 tm-analytics-pr.trafficmanager.net
 0.0.0.0 tm-enrollment-telemetry-datacore.trafficmanager.net
+0.0.0.0 vstelemetry.trafficmanager.net
 0.0.0.0 euc-excel-telemetry.wac.trafficmanager.net
 0.0.0.0 euc-powerpoint-telemetry.wac.trafficmanager.net
 0.0.0.0 euc-word-telemetry.wac.trafficmanager.net
