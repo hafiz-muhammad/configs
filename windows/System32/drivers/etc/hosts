@@ -4,10 +4,10 @@
 # License: https://github.com/hagezi/dns-blocklists/blob/main/LICENSE
 # Issues: https://github.com/hagezi/dns-blocklists/issues
 # Expires: 1 day
-# Last modified: 14 Mar 2025 05:28 UTC
-# Version: 2025.0314.0528.19
+# Last modified: 14 Mar 2025 05:39 UTC
+# Version: 2025.0314.0539.10
 # Syntax: Hosts (including possible subdomains)
-# Number of entries: 704
+# Number of entries: 702
 #
 0.0.0.0 c-bingapis-com.dual-a-0034.a-msedge.net
 0.0.0.0 measure.office.com.akamaized.net
@@ -113,9 +113,11 @@
 0.0.0.0 inference-app-gateway.eastus2.cloudapp.azure.com
 0.0.0.0 inference-app-gateway.koreacentral.cloudapp.azure.com
 0.0.0.0 inference-app-gateway.northeurope.cloudapp.azure.com
+0.0.0.0 azsc-edge-bingads-westeurope.westeurope.cloudapp.azure.com
 0.0.0.0 azsc-bingads-westus.westus.cloudapp.azure.com
 0.0.0.0 collector.azure.cn
 0.0.0.0 js.monitor.azure.com
+0.0.0.0 adsdkpreprod.azureedge.net
 0.0.0.0 adsdkprod.azureedge.net
 0.0.0.0 adsdkpreprod.afd.azureedge.net
 0.0.0.0 adsdkprod.afd.azureedge.net
@@ -449,8 +451,6 @@
 0.0.0.0 win10-trt.msedge.net
 0.0.0.0 ac2.msn.com
 0.0.0.0 ac3.msn.com
-0.0.0.0 accesshollywood.msn.com
-0.0.0.0 accountservices.msn.com
 0.0.0.0 ad.msn.com
 0.0.0.0 adevents.msn.com
 0.0.0.0 ads.msn.com
@@ -470,9 +470,7 @@
 0.0.0.0 arc9.msn.com
 0.0.0.0 c.at.msn.com
 0.0.0.0 c.be.msn.com
-0.0.0.0 actualite.fr.be.msn.com
 0.0.0.0 c.br.msn.com
-0.0.0.0 actualites.ca.msn.com
 0.0.0.0 c.ca.msn.com
 0.0.0.0 c.cl.msn.com
 0.0.0.0 confiant.msn.com
