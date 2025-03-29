@@ -4,10 +4,10 @@
 # License: https://github.com/hagezi/dns-blocklists/blob/main/LICENSE
 # Issues: https://github.com/hagezi/dns-blocklists/issues
 # Expires: 1 day
-# Last modified: 22 Mar 2025 00:22 UTC
-# Version: 2025.0322.0022.38
+# Last modified: 29 Mar 2025 00:20 UTC
+# Version: 2025.0329.0020.22
 # Syntax: Hosts (including possible subdomains)
-# Number of entries: 703
+# Number of entries: 698
 #
 0.0.0.0 c-bingapis-com.dual-a-0034.a-msedge.net
 0.0.0.0 measure.office.com.akamaized.net
@@ -90,6 +90,7 @@
 0.0.0.0 ukwest-0.in.applicationinsights.azure.com
 0.0.0.0 usgovarizona-0.in.applicationinsights.azure.us
 0.0.0.0 usgovarizona-global.in.applicationinsights.azure.us
+0.0.0.0 usgovtexas-0.in.applicationinsights.azure.us
 0.0.0.0 usgovvirginia-0.in.applicationinsights.azure.us
 0.0.0.0 usgovvirginia-1.in.applicationinsights.azure.us
 0.0.0.0 usgovvirginia-global.in.applicationinsights.azure.us
@@ -110,7 +111,6 @@
 0.0.0.0 westus2-global.in.applicationinsights.azure.com
 0.0.0.0 westus3-1.in.applicationinsights.azure.com
 0.0.0.0 live.applicationinsights.azure.com
-0.0.0.0 inference-app-gateway.eastus2.cloudapp.azure.com
 0.0.0.0 inference-app-gateway.koreacentral.cloudapp.azure.com
 0.0.0.0 inference-app-gateway.northeurope.cloudapp.azure.com
 0.0.0.0 azsc-edge-bingads-westeurope.westeurope.cloudapp.azure.com
@@ -169,7 +169,6 @@
 0.0.0.0 ffc-word-telemetry.officeapps.live.com
 0.0.0.0 frc-visio-telemetry.officeapps.live.com
 0.0.0.0 inc-visio-telemetry.officeapps.live.com
-0.0.0.0 jpc-visio-telemetry.officeapps.live.com
 0.0.0.0 nexus.officeapps.live.com
 0.0.0.0 nexusrules.officeapps.live.com
 0.0.0.0 noc-visio-telemetry.officeapps.live.com
@@ -257,7 +256,6 @@
 0.0.0.0 adsdk.microsoft.com
 0.0.0.0 advertising.microsoft.com
 0.0.0.0 community.advertising.microsoft.com
-0.0.0.0 fp.advertising.microsoft.com
 0.0.0.0 sts.advertising.microsoft.com
 0.0.0.0 analyticspixel.microsoft.com
 0.0.0.0 applicationinsights.microsoft.com
@@ -442,7 +440,6 @@
 0.0.0.0 gateway.bingviz.microsoftapp.net
 0.0.0.0 msads.net
 0.0.0.0 ads1.msads.net
-0.0.0.0 a.ads1.msads.net
 0.0.0.0 ads2.msads.net
 0.0.0.0 a.ads2.msads.net
 0.0.0.0 b.ads2.msads.net
@@ -458,8 +455,6 @@
 0.0.0.0 ads1.msn.com
 0.0.0.0 ads2.msn.com
 0.0.0.0 adsyndication.msn.com
-0.0.0.0 images.adsyndication.msn.com
-0.0.0.0 images-ppe.adsyndication.msn.com
 0.0.0.0 analytics.msn.com
 0.0.0.0 metric.appex-rf.msn.com
 0.0.0.0 c.ar.msn.com
