@@ -4,10 +4,10 @@
 # License: https://github.com/hagezi/dns-blocklists/blob/main/LICENSE
 # Issues: https://github.com/hagezi/dns-blocklists/issues
 # Expires: 1 day
-# Last modified: 29 Mar 2025 00:20 UTC
-# Version: 2025.0329.0020.22
+# Last modified: 30 Mar 2025 18:08 UTC
+# Version: 2025.0330.1808.29
 # Syntax: Hosts (including possible subdomains)
-# Number of entries: 698
+# Number of entries: 700
 #
 0.0.0.0 c-bingapis-com.dual-a-0034.a-msedge.net
 0.0.0.0 measure.office.com.akamaized.net
@@ -121,6 +121,7 @@
 0.0.0.0 adsdkprod.azureedge.net
 0.0.0.0 adsdkpreprod.afd.azureedge.net
 0.0.0.0 adsdkprod.afd.azureedge.net
+0.0.0.0 msadsscale.azureedge.net
 0.0.0.0 cjs-diagnostics-office-com-gvdhgwfwbbfsd9g3.z01.azurefd.net
 0.0.0.0 location-microsoft-com.b-0005.b-msedge.net
 0.0.0.0 a4.bing.com
@@ -403,6 +404,7 @@
 0.0.0.0 geover-prod.do.dsp.mp.microsoft.com
 0.0.0.0 track.mp.microsoft.com
 0.0.0.0 dm3.track.mp.microsoft.com
+0.0.0.0 msadsscale.microsoft.com
 0.0.0.0 oca.microsoft.com
 0.0.0.0 watson.officeint.microsoft.com
 0.0.0.0 analytics.pstnhub.microsoft.com
