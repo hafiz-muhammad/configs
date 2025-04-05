@@ -4,10 +4,10 @@
 # License: https://github.com/hagezi/dns-blocklists/blob/main/LICENSE
 # Issues: https://github.com/hagezi/dns-blocklists/issues
 # Expires: 1 day
-# Last modified: 02 Apr 2025 23:26 UTC
-# Version: 2025.0402.2326.07
+# Last modified: 04 Apr 2025 23:56 UTC
+# Version: 2025.0404.2356.07
 # Syntax: Hosts (including possible subdomains)
-# Number of entries: 701
+# Number of entries: 702
 #
 0.0.0.0 c-bingapis-com.dual-a-0034.a-msedge.net
 0.0.0.0 measure.office.com.akamaized.net
@@ -108,7 +108,6 @@
 0.0.0.0 westus2-4.in.applicationinsights.azure.com
 0.0.0.0 westus2-5.in.applicationinsights.azure.com
 0.0.0.0 westus2-global.in.applicationinsights.azure.com
-0.0.0.0 westus3.in.applicationinsights.azure.com
 0.0.0.0 westus3-1.in.applicationinsights.azure.com
 0.0.0.0 live.applicationinsights.azure.com
 0.0.0.0 inference-app-gateway.eastus2.cloudapp.azure.com
@@ -156,6 +155,7 @@
 0.0.0.0 auc-visio-telemetry.officeapps.live.com
 0.0.0.0 brc-visio-telemetry.officeapps.live.com
 0.0.0.0 cac-visio-telemetry.officeapps.live.com
+0.0.0.0 chc-visio-telemetry.officeapps.live.com
 0.0.0.0 dec-visio-telemetry.officeapps.live.com
 0.0.0.0 euc-excel-telemetry.officeapps.live.com
 0.0.0.0 euc-onenote-telemetry.officeapps.live.com
@@ -587,6 +587,7 @@
 0.0.0.0 bf-tracker-release-tm.trafficmanager.net
 0.0.0.0 bingads.trafficmanager.net
 0.0.0.0 azure.bingads.trafficmanager.net
+0.0.0.0 bingadsedgeextension-prod.trafficmanager.net
 0.0.0.0 collector-main.trafficmanager.net
 0.0.0.0 tracker.flightview.com.trafficmanager.net
 0.0.0.0 events.data.trafficmanager.net
