@@ -4,10 +4,10 @@
 # License: https://github.com/hagezi/dns-blocklists/blob/main/LICENSE
 # Issues: https://github.com/hagezi/dns-blocklists/issues
 # Expires: 1 day
-# Last modified: 11 Apr 2025 23:06 UTC
-# Version: 2025.0411.2306.55
+# Last modified: 18 Apr 2025 23:12 UTC
+# Version: 2025.0418.2312.58
 # Syntax: Hosts (including possible subdomains)
-# Number of entries: 699
+# Number of entries: 701
 #
 0.0.0.0 c-bingapis-com.dual-a-0034.a-msedge.net
 0.0.0.0 measure.office.com.akamaized.net
@@ -197,6 +197,7 @@
 0.0.0.0 pgtmx1-word-telemetry-vip.officeapps.live.com
 0.0.0.0 pgtsg1-excel-telemetry-vip.officeapps.live.com
 0.0.0.0 pgtsg1-powerpoint-telemetry-vip.officeapps.live.com
+0.0.0.0 pgtsg1-word-telemetry-vip.officeapps.live.com
 0.0.0.0 pgtus1-excel-telemetry-vip.officeapps.live.com
 0.0.0.0 pgtus1-powerpoint-telemetry-vip.officeapps.live.com
 0.0.0.0 pgtus1-word-telemetry-vip.officeapps.live.com
@@ -368,6 +369,7 @@
 0.0.0.0 uk-v20.events.data.microsoft.com
 0.0.0.0 umwatson.events.data.microsoft.com
 0.0.0.0 umwatsonc.events.data.microsoft.com
+0.0.0.0 us-ic3.events.data.microsoft.com
 0.0.0.0 us-mesh.events.data.microsoft.com
 0.0.0.0 us-mobile.events.data.microsoft.com
 0.0.0.0 us-teams.events.data.microsoft.com
