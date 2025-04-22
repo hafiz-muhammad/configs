@@ -1,0 +1,86 @@
+####################
+# Linux
+####################
+
+*~
+
+# temporary files which can be created if a process still has a handle open of a deleted file
+.fuse_hidden*
+
+# KDE directory preferences
+.directory
+
+# Linux trash folder which might appear on any partition or disk
+.Trash-*
+
+# .nfs files are created when an open file is removed but is still being accessed
+.nfs*
+
+# Linux package files
+*.rpm
+*.AppImage
+*.flatpakref
+
+####################
+# Windows
+####################
+
+# Executables
+.exe
+.x86_64
+.app
+
+# Shortcuts
+*.lnk
+
+# Dump file
+*.stackdump
+
+# System files
+[Dd]esktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# Windows Installer files
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+
+# Windows thumbnail cache files
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+
+# Temporary files
+*.tmp
+
+# Dynamic libraries
+*.dll
+
+####################
+# Logs
+####################
+
+# Common log files from various platforms
+*.log
+
+####################
+# Synced Files
+####################
+
+# Syncthing
+Sync/
+
+####################
+# Development
+####################
+
+# Environments
+.venv
+.env
+env/
+venv/
