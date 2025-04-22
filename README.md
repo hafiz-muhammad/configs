@@ -1,5 +1,4 @@
 ## Fedora i3 Spin
-<details><summary>Click here to show or hide</summary>
 
 | Fedora i3 Spin w/ Gruvbox colorscheme                        | Fedora i3 Spin w/ Midnight Haze (alacritty colorscheme)                  |
 |:------------------------------------------------------------:|:------------------------------------------------------------------------:|
@@ -424,5 +423,3 @@ systemctl --user start psd
 ```console
 systemctl --user status psd
 ```
-
-</details>
