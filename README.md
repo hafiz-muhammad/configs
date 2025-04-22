@@ -1,6 +1,3 @@
-<h1 align="center">My Configs</h1>
-
-
 ## Fedora i3 Spin
 <details><summary>Click here to show or hide</summary>
 
