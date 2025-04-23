@@ -1,9 +1,8 @@
 ## Fedora i3 Spin
 
-| Fedora i3 Spin w/ Gruvbox colorscheme                        | Fedora i3 Spin w/ Midnight Haze (alacritty colorscheme)                  |
-|:------------------------------------------------------------:|:------------------------------------------------------------------------:|
-| ![Fedora i3 Spin Gruvbox](https://github.com/hafiz-muhammad/myconfigs/blob/main/assets/screenshots/i3-gruvbox.png) | ![Fedora i3 Spin Midnight Haze](https://github.com/hafiz-muhammad/myconfigs/blob/main/assets/screenshots/i3-midnight-haze.png) |
-
+| Fedora i3 Spin w/ Gruvbox colorscheme |
+|:-------------------------------------:|
+| ![Fedora i3 Spin Gruvbox](https://github.com/hafiz-muhammad/myconfigs/blob/main/assets/screenshots/i3-gruvbox.png) |
 ---
 
 ## Documentations
