@@ -4,8 +4,8 @@
 # License: https://github.com/hagezi/dns-blocklists/blob/main/LICENSE
 # Issues: https://github.com/hagezi/dns-blocklists/issues
 # Expires: 1 day
-# Last modified: 25 Apr 2025 23:15 UTC
-# Version: 2025.0425.2315.53
+# Last modified: 30 Apr 2025 23:02 UTC
+# Version: 2025.0430.2302.15
 # Syntax: Hosts (including possible subdomains)
 # Number of entries: 701
 #
@@ -30,6 +30,7 @@
 0.0.0.0 dc.applicationinsights.azure.cn
 0.0.0.0 dc.applicationinsights.azure.com
 0.0.0.0 dc.applicationinsights.azure.us
+0.0.0.0 www.dc.applicationinsights.azure.com
 0.0.0.0 in.applicationinsights.azure.cn
 0.0.0.0 in.applicationinsights.azure.com
 0.0.0.0 in.applicationinsights.azure.us
@@ -110,6 +111,7 @@
 0.0.0.0 westus2-global.in.applicationinsights.azure.com
 0.0.0.0 westus3-1.in.applicationinsights.azure.com
 0.0.0.0 live.applicationinsights.azure.com
+0.0.0.0 www.live.applicationinsights.azure.com
 0.0.0.0 inference-app-gateway.eastus2.cloudapp.azure.com
 0.0.0.0 inference-app-gateway.koreacentral.cloudapp.azure.com
 0.0.0.0 inference-app-gateway.northeurope.cloudapp.azure.com
@@ -263,6 +265,7 @@
 0.0.0.0 applicationinsights.microsoft.com
 0.0.0.0 dc.applicationinsights.microsoft.com
 0.0.0.0 rt.applicationinsights.microsoft.com
+0.0.0.0 www.rt.applicationinsights.microsoft.com
 0.0.0.0 pipe.aria.microsoft.com
 0.0.0.0 browser.pipe.aria.microsoft.com
 0.0.0.0 eu.pipe.aria.microsoft.com
@@ -368,7 +371,6 @@
 0.0.0.0 uk-v20.events.data.microsoft.com
 0.0.0.0 umwatson.events.data.microsoft.com
 0.0.0.0 umwatsonc.events.data.microsoft.com
-0.0.0.0 us-ic3.events.data.microsoft.com
 0.0.0.0 us-mesh.events.data.microsoft.com
 0.0.0.0 us-mobile.events.data.microsoft.com
 0.0.0.0 us-teams.events.data.microsoft.com
@@ -681,12 +683,10 @@
 0.0.0.0 analytics-dev-lleap-events.servicebus.windows.net
 0.0.0.0 analytics-dev-simpad-events.servicebus.windows.net
 0.0.0.0 analyticsehnwe.servicebus.windows.net
-0.0.0.0 analyticsiot-prod-simpad-ehn.servicebus.windows.net
 0.0.0.0 btv-du-dev-eventhub-streamanalytics.servicebus.windows.net
 0.0.0.0 btv-du-prod-eventhub-streamanalytics.servicebus.windows.net
 0.0.0.0 citrixanalyticseh.servicebus.windows.net
 0.0.0.0 citrixanalyticseh-alias.servicebus.windows.net
-0.0.0.0 citrixanalyticseh2.servicebus.windows.net
 0.0.0.0 citrixanalyticseh2-alias.servicebus.windows.net
 0.0.0.0 citrixanalyticsehaps.servicebus.windows.net
 0.0.0.0 citrixanalyticsehaps-alias.servicebus.windows.net
