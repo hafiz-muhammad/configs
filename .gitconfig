@@ -52,7 +52,11 @@
     a = "!git config -l | grep alias | cut -c 7-"
 
     # List contributors with number of commits
-    contributors = shortlog --summary --numbered 
+    contributors = shortlog --summary --numbered
+
+    cl = clone
+    pl = pull
+    pu = push
 [init]
     defaultBranch = main
 #[core]
