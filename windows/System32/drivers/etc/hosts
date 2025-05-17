@@ -4,10 +4,10 @@
 # License: https://github.com/hagezi/dns-blocklists/blob/main/LICENSE
 # Issues: https://github.com/hagezi/dns-blocklists/issues
 # Expires: 1 day
-# Last modified: 08 May 2025 23:04 UTC
-# Version: 2025.0508.2304.41
+# Last modified: 17 May 2025 00:12 UTC
+# Version: 2025.0517.0012.23
 # Syntax: Hosts (including possible subdomains)
-# Number of entries: 765
+# Number of entries: 767
 #
 0.0.0.0 c-bingapis-com.dual-a-0034.a-msedge.net
 0.0.0.0 measure.office.com.akamaized.net
@@ -192,6 +192,8 @@
 0.0.0.0 pgtbr1-powerpoint-telemetry-vip.officeapps.live.com
 0.0.0.0 pgtbr1-word-telemetry-vip.officeapps.live.com
 0.0.0.0 pgtbr2-excel-telemetry-vip.officeapps.live.com
+0.0.0.0 pgtbr2-powerpoint-telemetry-vip.officeapps.live.com
+0.0.0.0 pgtbr2-word-telemetry-vip.officeapps.live.com
 0.0.0.0 pgtca1-excel-telemetry-vip.officeapps.live.com
 0.0.0.0 pgtca1-powerpoint-telemetry-vip.officeapps.live.com
 0.0.0.0 pgtca1-word-telemetry-vip.officeapps.live.com
@@ -680,7 +682,6 @@
 0.0.0.0 v20-asimov-win.vortex.data.trafficmanager.net
 0.0.0.0 dsp-ad-cache-tm.trafficmanager.net
 0.0.0.0 adstore.response.gcp.eastus.trafficmanager.net
-0.0.0.0 adstore.response.eastus.trafficmanager.net
 0.0.0.0 telemetry.eastus.trafficmanager.net
 0.0.0.0 eventservice.trafficmanager.net
 0.0.0.0 fsad.trafficmanager.net
@@ -763,6 +764,7 @@
 0.0.0.0 jetanalytics.servicebus.windows.net
 0.0.0.0 nexxtv-events.servicebus.windows.net
 0.0.0.0 ppm-licensingtelemetry.servicebus.windows.net
+0.0.0.0 analyticsehnwe.privatelink.servicebus.windows.net
 0.0.0.0 prod-eh-v1-analytics.servicebus.windows.net
 0.0.0.0 prod-eventhub-analytics.servicebus.windows.net
 0.0.0.0 production-jobactivity-analytics.servicebus.windows.net
