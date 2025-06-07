@@ -4,10 +4,10 @@
 # License: https://github.com/hagezi/dns-blocklists/blob/main/LICENSE
 # Issues: https://github.com/hagezi/dns-blocklists/issues
 # Expires: 1 day
-# Last modified: 28 May 2025 22:02 UTC
-# Version: 2025.0528.2202.49
+# Last modified: 07 Jun 2025 00:25 UTC
+# Version: 2025.0607.0025.35
 # Syntax: Hosts (including possible subdomains)
-# Number of entries: 774
+# Number of entries: 778
 #
 0.0.0.0 c-bingapis-com.dual-a-0034.a-msedge.net
 0.0.0.0 measure.office.com.akamaized.net
@@ -102,6 +102,7 @@
 0.0.0.0 usgovvirginia-1.in.applicationinsights.azure.us
 0.0.0.0 usgovvirginia-global.in.applicationinsights.azure.us
 0.0.0.0 westeurope.in.applicationinsights.azure.com
+0.0.0.0 www.westeurope.in.applicationinsights.azure.com
 0.0.0.0 westeurope-0.in.applicationinsights.azure.com
 0.0.0.0 westeurope-1.in.applicationinsights.azure.com
 0.0.0.0 westeurope-2.in.applicationinsights.azure.com
@@ -260,6 +261,7 @@
 0.0.0.0 about-test.ads.microsoft.com
 0.0.0.0 about-test-deploy.ads.microsoft.com
 0.0.0.0 adlibrary.ads.microsoft.com
+0.0.0.0 api.ads.microsoft.com
 0.0.0.0 bcp.ads.microsoft.com
 0.0.0.0 beta.ads.microsoft.com
 0.0.0.0 api.beta.ads.microsoft.com
@@ -269,6 +271,8 @@
 0.0.0.0 help.ads.microsoft.com
 0.0.0.0 learninglab.ads.microsoft.com
 0.0.0.0 mmcapi.ads.microsoft.com
+0.0.0.0 sandbox.ads.microsoft.com
+0.0.0.0 api.sandbox.ads.microsoft.com
 0.0.0.0 smetric.ads.microsoft.com
 0.0.0.0 status.ads.microsoft.com
 0.0.0.0 tip.ads.microsoft.com
@@ -372,6 +376,7 @@
 0.0.0.0 eu-ic3.events.data.microsoft.com
 0.0.0.0 eu-mobile.events.data.microsoft.com
 0.0.0.0 eu-office.events.data.microsoft.com
+0.0.0.0 eu-r-mobile.events.data.microsoft.com
 0.0.0.0 eu-teams.events.data.microsoft.com
 0.0.0.0 eu-v10.events.data.microsoft.com
 0.0.0.0 eu-v10c.events.data.microsoft.com
@@ -647,7 +652,6 @@
 0.0.0.0 atm-settingsfe-prod-geo2.trafficmanager.net
 0.0.0.0 beacons.trafficmanager.net
 0.0.0.0 bf-analytics-tracker-tm.trafficmanager.net
-0.0.0.0 bf-tracker-release-tm.trafficmanager.net
 0.0.0.0 bingads.trafficmanager.net
 0.0.0.0 azure.bingads.trafficmanager.net
 0.0.0.0 bingadsresources.trafficmanager.net
