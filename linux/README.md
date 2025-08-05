@@ -13,7 +13,9 @@
 
 ## Essential Software & Utilities
 - [picom](https://src.fedoraproject.org/rpms/picom) - picom is a compositor for X, and a fork of Compton.
-- [Polybar](https://github.com/polybar/polybar) - A fast and easy-to-use status bar. 
+- [Polybar](https://github.com/polybar/polybar) - A fast and easy-to-use status bar.
+- [i3lock](https://packages.fedoraproject.org/pkgs/i3lock/i3lock/) - i3lock is a simple screen locker like slock.
+- [scrot](https://packages.fedoraproject.org/pkgs/scrot/scrot/) - Command line screen capture utility.
 - [Alacritty](https://github.com/alacritty/alacritty) - A cross-platform, OpenGL terminal emulator.
 - [Rofi](https://github.com/davatorium/rofi) - A window switcher, application launcher and dmenu replacement.
   - [Rofimoji](https://github.com/fdw/rofimoji) - Emoji, unicode and general character picker for rofi and rofi-likes.
