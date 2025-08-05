@@ -52,8 +52,6 @@ unusually rich command set that provides both high-level operations and full acc
 - [Pip](https://developer.fedoraproject.org/tech/languages/python/pypi-installation.html) - Pip is the package installer for Python. You can use pip to install packages from the Python Package Index and other indexes.
 - [Ruby](https://pypi.org/project/ruby/) - A tool for translating text from source grammar to target grammar (context-free) with corresponding dictionary.
 - [Node.js](https://developer.fedoraproject.org/tech/languages/nodejs/nodejs.html) - Open-source cross-platform server-side JavaScript runtime environment.
-- [i3lock](https://src.fedoraproject.org/rpms/i3lock) - i3lock is a simple screen locker like slock. After starting it, you will see a white screen (you can configure the color/an image). You can return to your screen by entering your password.
-- [scrot](https://src.fedoraproject.org/rpms/scrot) - scrot is a simple command line screen capture utility.
 - [ImageMagick](https://src.fedoraproject.org/rpms/ImageMagick) - ImageMagick is an image display and manipulation tool for the X Window System. ImageMagick can read and write JPEG, TIFF, PNM, GIF, and Photo CD image formats. It can resize, rotate, sharpen, color reduce, or add special effects to an image, and when finished you can either save the completed work in the original format or a different one. ImageMagick also includes command line programs for creating animated or transparent .gifs, creating composite images, creating thumbnail images, and more.
 - [calcurse](https://src.fedoraproject.org/rpms/calcurse) - Calcurse is a text-based calendar and scheduling application. It helps
 keep track of events, appointments, and everyday tasks.
@@ -237,17 +235,6 @@ sudo dnf install cups*
 sudo dnf install system-config-printer
 sudo systemctl start cups.service
 sudo systemctl enable cups.service
-```
-
-<br>
-
-## ZRAM Installation and Enabling Service
-```console
-sudo dnf install zram zram-generator-defaults zram-generator
-sudo systemctl start zram-swap.service
-sudo systemctl start zram-swap.service
-sudo systemctl enable zram-swap.service
-reboot
 ```
 
 <br>
