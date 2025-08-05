@@ -337,31 +337,6 @@ sudo dnf install nvidia-settings && nvidia-settings
 - Apply and Save to Configuration File.
 - Reboot
 
-<br>
-
-## How To Speed Up DNF Package Manager
-**1.** Update Fedora and installed packages. Install ```dnf-plugins-core```.
-```console
-sudo dnf upgrade --refresh -y
-sudo dnf install dnf-plugins-core -y
-```
-
-**2.** Edit the DNF configuration file. You can use whatever text editor you'd like, it doesn't have to be nano.
-```console
-sudo nano /etc/dnf/dnf.conf
-```
-
-**3.** Add the following to dnf.conf:
-
-Enable the fastest mirror: ```fastestmirror=True```
-
-Set the maximum number of simultaneous package downloads: ```max_parallel_downloads=10```
-
-**4.** Run the following command in the terminal:
-```console
-sudo dnf upgrade --refresh -y
-```
-
 <br> 
 
 ## Force ALSA to Detect All Available Audio Devices
