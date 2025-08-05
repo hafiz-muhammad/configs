@@ -223,7 +223,7 @@ sudo dnf install gvfs*
 This will also fix laggy video playback in Firefox.
 ```console
 sudo dnf install https://mirrors.rpmfusion.org/free/fedora/rpmfusion-free-release-$(rpm -E %fedora).noarch.rpm
-sudo dnf install ffmpeg ffmpeg-libs
+sudo dnf install ffmpeg ffmpeg-libs --allowerasing
 ```
 
 <br>
