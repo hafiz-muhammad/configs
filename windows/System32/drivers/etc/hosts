@@ -4,10 +4,10 @@
 # License: https://github.com/hagezi/dns-blocklists/blob/main/LICENSE
 # Issues: https://github.com/hagezi/dns-blocklists/issues
 # Expires: 1 day
-# Last modified: 01 Aug 2025 18:59 UTC
-# Version: 2025.0801.1859.02
+# Last modified: 08 Aug 2025 23:09 UTC
+# Version: 2025.0808.2309.27
 # Syntax: Hosts (including possible subdomains)
-# Number of entries: 917
+# Number of entries: 977
 #
 0.0.0.0 c-bingapis-com.dual-a-0034.a-msedge.net
 0.0.0.0 measure.office.com.akamaized.net
@@ -779,19 +779,74 @@
 0.0.0.0 m365cdn.nelsdf.measure.office.net
 0.0.0.0 powerpointonline.nelsdf.measure.office.net
 0.0.0.0 sdwan.measure.office.com
-0.0.0.0 wan.measure.office.com
+0.0.0.0 acs-events.trafficmanager.net
+0.0.0.0 dev.acs-events.trafficmanager.net
+0.0.0.0 ads.trafficmanager.net
+0.0.0.0 copilot.ads.trafficmanager.net
+0.0.0.0 dricopilot.copilot.ads.trafficmanager.net
+0.0.0.0 copilot-si.ads.trafficmanager.net
+0.0.0.0 dricopilot-si.copilot-si.ads.trafficmanager.net
+0.0.0.0 grafana.ads.trafficmanager.net
+0.0.0.0 bcp-ldc1.grafana.ads.trafficmanager.net
+0.0.0.0 bcp-ldc2.grafana.ads.trafficmanager.net
+0.0.0.0 bcp-wus-ldc1.grafana.ads.trafficmanager.net
+0.0.0.0 bcp-wus-ldc2.grafana.ads.trafficmanager.net
+0.0.0.0 prod-cus-ldc1.grafana.ads.trafficmanager.net
+0.0.0.0 prod-cus-ldc2.grafana.ads.trafficmanager.net
+0.0.0.0 prod-ldc1.grafana.ads.trafficmanager.net
+0.0.0.0 prod-ldc2.grafana.ads.trafficmanager.net
+0.0.0.0 si-ldc1.grafana.ads.trafficmanager.net
+0.0.0.0 si-ldc2.grafana.ads.trafficmanager.net
+0.0.0.0 si-mock.grafana.ads.trafficmanager.net
+0.0.0.0 tip-ldc3.grafana.ads.trafficmanager.net
+0.0.0.0 ingress.ads.trafficmanager.net
+0.0.0.0 bcp-ldc1.ingress.ads.trafficmanager.net
+0.0.0.0 bcp-ldc2.ingress.ads.trafficmanager.net
+0.0.0.0 ccmt-aks-cus-prod-ldc1.ingress.ads.trafficmanager.net
+0.0.0.0 ccmt-aks-cus-prod-ldc2.ingress.ads.trafficmanager.net
+0.0.0.0 ccmt-aks-eus-si-ldc1.ingress.ads.trafficmanager.net
+0.0.0.0 ccmt-aks-eus-si-ldc2.ingress.ads.trafficmanager.net
+0.0.0.0 ccmt-aks-wus-bcp-ldc1.ingress.ads.trafficmanager.net
+0.0.0.0 ccmt-aks-wus-bcp-ldc2.ingress.ads.trafficmanager.net
+0.0.0.0 cmmt-aks-cus-prod-ldc1.ingress.ads.trafficmanager.net
+0.0.0.0 cmmt-aks-cus-prod-ldc2.ingress.ads.trafficmanager.net
+0.0.0.0 cmmt-aks-cus-tip-ldc3.ingress.ads.trafficmanager.net
+0.0.0.0 cmmt-aks-eus-si-ldc1.ingress.ads.trafficmanager.net
+0.0.0.0 cmmt-aks-eus-si-ldc2.ingress.ads.trafficmanager.net
+0.0.0.0 cmmt-aks-wus-bcp-ldc1.ingress.ads.trafficmanager.net
+0.0.0.0 cmmt-aks-wus-bcp-ldc2.ingress.ads.trafficmanager.net
+0.0.0.0 prod-cus-ldc1.ingress.ads.trafficmanager.net
+0.0.0.0 prod-ldc1.ingress.ads.trafficmanager.net
+0.0.0.0 prod-ldc2.ingress.ads.trafficmanager.net
+0.0.0.0 sa-aks-si-eastus2.ingress.ads.trafficmanager.net
+0.0.0.0 sa-aks-si-ncus.ingress.ads.trafficmanager.net
+0.0.0.0 si-ldc1.ingress.ads.trafficmanager.net
+0.0.0.0 si-ldc2.ingress.ads.trafficmanager.net
+0.0.0.0 si-mock.ingress.ads.trafficmanager.net
+0.0.0.0 tip-ldc3.ingress.ads.trafficmanager.net
+0.0.0.0 ads-act.trafficmanager.net
+0.0.0.0 api.ads-act.trafficmanager.net
+0.0.0.0 ads-act-test.trafficmanager.net
+0.0.0.0 api.ads-act-test.trafficmanager.net
 0.0.0.0 ads-msn-com-profile.trafficmanager.net
+0.0.0.0 adsdemandcatalog.trafficmanager.net
+0.0.0.0 adsdemandcatalogapi.trafficmanager.net
 0.0.0.0 adsdk.trafficmanager.net
+0.0.0.0 adsl.trafficmanager.net
 0.0.0.0 agps-location-livenet.trafficmanager.net
 0.0.0.0 analytics.trafficmanager.net
 0.0.0.0 hub.analytics.trafficmanager.net
 0.0.0.0 geo.hub.analytics.trafficmanager.net
 0.0.0.0 analytics-listener.trafficmanager.net
 0.0.0.0 atm-settingsfe-prod-geo2.trafficmanager.net
+0.0.0.0 avdab-p-corniche-events-relay.trafficmanager.net
+0.0.0.0 avdab-s-corniche-events-relay.trafficmanager.net
+0.0.0.0 avdab-t-corniche-events-relay.trafficmanager.net
 0.0.0.0 beacons.trafficmanager.net
 0.0.0.0 bf-analytics-tracker-tm.trafficmanager.net
 0.0.0.0 bingads.trafficmanager.net
 0.0.0.0 azure.bingads.trafficmanager.net
+0.0.0.0 resources.azure.bingads.trafficmanager.net
 0.0.0.0 bingadsresources.trafficmanager.net
 0.0.0.0 collection-location-livenet.trafficmanager.net
 0.0.0.0 collector-main.trafficmanager.net
@@ -831,7 +886,10 @@
 0.0.0.0 dsp-ad-cache-tm.trafficmanager.net
 0.0.0.0 adstore.response.gcp.eastus.trafficmanager.net
 0.0.0.0 telemetry.eastus.trafficmanager.net
+0.0.0.0 eudfmeventsapiprod.trafficmanager.net
 0.0.0.0 eventservice.trafficmanager.net
+0.0.0.0 fraudeventsvc-ppe.trafficmanager.net
+0.0.0.0 atm.fraudeventsvc-ppe.trafficmanager.net
 0.0.0.0 fsad.trafficmanager.net
 0.0.0.0 ghochv3eng.trafficmanager.net
 0.0.0.0 glance-analytics.trafficmanager.net
@@ -844,6 +902,7 @@
 0.0.0.0 o365diagtelemetry.trafficmanager.net
 0.0.0.0 office-events-data.trafficmanager.net
 0.0.0.0 oms-analytics.trafficmanager.net
+0.0.0.0 partnerfraudevents.trafficmanager.net
 0.0.0.0 pixel-sync.trafficmanager.net
 0.0.0.0 rdm-trafficmanager-ticketscenter-metrics.trafficmanager.net
 0.0.0.0 sconsentit9.trafficmanager.net
@@ -858,6 +917,7 @@
 0.0.0.0 tenmax-ads.trafficmanager.net
 0.0.0.0 tm-analytics-pr.trafficmanager.net
 0.0.0.0 tm-enrollment-telemetry-datacore.trafficmanager.net
+0.0.0.0 traf-fraudevents-int.trafficmanager.net
 0.0.0.0 us-mesh-events-data-leafs.trafficmanager.net
 0.0.0.0 vstelemetry.trafficmanager.net
 0.0.0.0 euc-excel-telemetry.wac.trafficmanager.net
