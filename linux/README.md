@@ -5,7 +5,7 @@
 | ![Fedora i3 Spin Gruvbox](https://github.com/hafiz-muhammad/myconfigs/blob/main/assets/screenshots/i3-gruvbox.png) |
 ---
 
-## Documentations
+## Documentation
 - [i3wm Documentation](https://i3wm.org/docs/)
 - [Fedora Documentation](https://docs.fedoraproject.org/en-US/docs/)
 
