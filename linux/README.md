@@ -91,8 +91,6 @@ making any compromises.
 <br>
 
 ## Essential Security Utilities
-- [UFW](https://src.fedoraproject.org/rpms/ufw) - Ufw stands for Uncomplicated Firewall, and is program for managing a netfilter firewall. It provides a command line interface and aims to be 
-uncomplicated and easy to use.
 - [ClamAV](https://github.com/Cisco-Talos/clamav) - ClamAV® is an open source antivirus engine for detecting trojans, viruses, malware & other malicious threats.
 - [chkrootkit](http://www.chkrootkit.org/) - chkrootkit is a tool to locally check for signs of a rootkit.
 - [Lynis](https://github.com/CISOfy/lynis) - Lynis - Security auditing tool for Linux, macOS, and UNIX-based systems. Assists with compliance testing (HIPAA/ISO27001/PCI DSS) and system 
@@ -119,8 +117,6 @@ Gruvbox Icons & Themes
 - [gruvbox-plus-icon-pack](https://github.com/SylEleuth/gruvbox-plus-icon-pack) - Gruvbox Plus icon pack for Linux desktops based on Gruvbox color theme.
 - [Gruvbox Plus theme for GTK2 and GTK3](https://github.com/SylEleuth/gruvbox-plus-gtk) - Gruvbox+ dark theme for GTK2 and GTK3.
 
-
-
 <br>
 
 ## System Monitoring and Information Utilities
@@ -134,55 +130,21 @@ access and hardware monitoring.
 
 <br>
 
-## Media Players & Utilities
-- [VLC](https://www.videolan.org/vlc/) - VLC is a free and open source cross-platform multimedia player and framework that plays most multimedia files, and various streaming protocols.                
-- [Lollypop](https://src.fedoraproject.org/rpms/lollypop) - A GNOME music playing application.
-- [Playerctl](https://github.com/altdesktop/playerctl) - Playerctl is a command-line utility and library for controlling media players that implement the MPRIS D-Bus Interface Specification.
-
-<br>
-
-## Wine
-- [Wine](https://www.winehq.org/) - Wine (originally an acronym for "Wine Is Not an Emulator") is a 
-compatibility layer capable of running Windows applications on several 
-POSIX-compliant operating systems, such as Linux, macOS, & BSD. 
-Instead of simulating internal Windows logic like a virtual machine or 
-emulator, Wine translates Windows API calls into POSIX calls on-the-fly,
-eliminating the performance and memory penalties of other methods and 
-allowing you to cleanly integrate Windows applications into your 
-desktop.
-- [Winetricks](https://github.com/Winetricks/winetricks) - Winetricks is an easy way to work around problems in Wine.
-
-<br>
-
 ## Other Software & Utilities
 - [KeePassXC](https://keepassxc.org/) - A Cross-Platform Password Manager
-- [VeraCrypt](https://www.veracrypt.fr/en/Home.html) - VeraCrypt is a free open source disk encryption software for Windows, Mac OSX and Linux.
-- [Cryptomator](https://cryptomator.org/) - Encrypt Dropbox, Google Drive, and any other cloud. Cryptomator is free and open source.
 - [Syncthing](https://syncthing.net/) - A continuous file synchronization program. It synchronizes files between two or more computers in real time, safely protected from prying eyes.
 - [Authenticator](https://flathub.org/apps/details/com.belmoussaoui.Authenticator) - Simple application for generating Two-Factor Authentication Codes.
   - [gnome-keyring](https://src.fedoraproject.org/rpms/gnome-keyring) - The gnome-keyring session daemon manages passwords and other types of
 secrets for the user, storing them encrypted with a main password.
 Applications can use the gnome-keyring library to integrate with the keyring.
 - [Thunderbird](https://src.fedoraproject.org/rpms/thunderbird) - Mozilla Thunderbird is a standalone mail and newsgroup client.
-- [Ferdium](https://github.com/ferdium/ferdium-app) - All your services in one place, built by the community
-- [VirtualBox](https://www.virtualbox.org/) - Oracle VM VirtualBox is a type-2 hypervisor for x86 virtualization developed by Oracle Corporation.
-- [Ranger](https://github.com/ranger/ranger) - A VIM-inspired filemanager for the console.
 - [AppImageLauncher](https://github.com/TheAssassin/AppImageLauncher) - Helper application for Linux distributions serving as a kind of "entry point" for running and integrating AppImages.
-- [GIMP](https://www.gimp.org/) - A free and open-source raster graphics editor.
-- [Inkscape](https://inkscape.org/) - A free and open-source vector graphics editor used to create vector images.
-- [Krita](https://krita.org/en/) - A free and open source painting program.
 - [BleachBit](https://src.fedoraproject.org/rpms/bleachbit) - Delete traces of your computer activity and other junk files to free
 disk space and maintain privacy.
-- [PeaZip](https://peazip.github.io/peazip-linux.html) - PeaZip is free file archiver utility, based on Open Source technologies of 7-Zip, p7zip, Brotli, FreeArc, PAQ, Zstandard, and PEA projects. Cross-platform, full-featured but user-friendly alternative to WinRar, WinZip and similar general purpose archive manager applications, open and extract 200+ archive formats: 001, 7Z, ACE, ARC, ARJ, BR, BZ2, CAB, DMG, GZ, ISO, LHA, PAQ, PEA, RAR, TAR, UDF, WIM, XZ, ZIP, ZIPX, ZST - view full list of supported archive file formats for archiving and for extraction.
-- [Joplin](https://joplinapp.org/) - A free, open source note taking and to-do application, which can handle a large number of notes organised into notebooks.
-- [Metadata Cleaner](https://flathub.org/apps/details/fr.romainvigier.MetadataCleaner) - View and clean metadata in files.
-- [qBittorrent](https://src.fedoraproject.org/rpms/qbittorrent) - A Bittorrent client using rb_libtorrent and a Qt6 Graphical User Interface. It aims to be as fast as possible and to provide multi-OS, unicode support.
-- [GitHub Desktop](https://flathub.org/apps/details/io.github.shiftey.Desktop) - This version of GitHub Desktop is a fork that adds support for Linux.
 - [LibreOffice](https://src.fedoraproject.org/rpms/libreoffice) - LibreOffice is an Open Source, community-developed, office productivity suite.
 It includes the key desktop applications, such as a word processor, spreadsheet, presentation manager, formula editor and drawing program, with a user interface and feature set similar to other office suites.  Sophisticated and flexible, LibreOffice also works transparently with a variety of file formats, including Microsoft Office File Formats.
-- [prename](https://src.fedoraproject.org/rpms/prename) - Prename renames the file names supplied according to the rule specified as
-the first argument. The argument is a Perl expression which is expected
-to modify the $_ string for at least some of the file names specified.
+- [VLC](https://www.videolan.org/vlc/) - VLC is a free and open source cross-platform multimedia player and framework that plays most multimedia files, and various streaming protocols.                
+- [Playerctl](https://github.com/altdesktop/playerctl) - Playerctl is a command-line utility and library for controlling media players that implement the MPRIS D-Bus Interface Specification.
 
 ---
 
@@ -235,17 +197,6 @@ sudo dnf install cups*
 sudo dnf install system-config-printer
 sudo systemctl start cups.service
 sudo systemctl enable cups.service
-```
-
-<br>
-
-## Install and Apply Default Restrictive Policy for UFW
-```console
-sudo dnf install ufw
-sudo systemctl start ufw.service
-sudo systemctl enable ufw.service
-sudo ufw enable
-sudo ufw default deny incoming
 ```
 
 <br>
