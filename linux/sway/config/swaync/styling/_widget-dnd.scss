@@ -1,0 +1,22 @@
+.widget-dnd {
+  color: @nord6;
+  margin: 8px;
+  font-size: 1.1rem;
+}
+
+.widget-dnd > switch {
+  font-size: initial;
+  border-radius: 0px;
+  background: @nord14;
+  border: 1px solid @nord4;
+  box-shadow: none;
+}
+
+.widget-dnd > switch:checked {
+  background: @nord13;
+}
+
+.widget-dnd > switch slider {
+  background: @nord3;
+  border-radius: 0px;
+}

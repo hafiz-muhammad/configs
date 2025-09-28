@@ -1,0 +1,12 @@
+{
+  "bluetooth": {
+    "format": "<span font='16px'>{icon}</span>\u0020{device_battery_percentage}%",
+    "format-disabled": "<span font='16px'>{icon}</span>\u0020{status}",
+    "format-off": "<span font='16px'>{icon}</span>\u0020{status}",
+    "format-on": "<span font='16px'>{icon}</span>\u0020{status}",
+    "format-icons": "󰂯",
+    "on-click": "blueman-manager",
+    "tooltip": true,
+    "tooltip-format": "Device alias: {device_alias}\n{device_alias} battery health: {device_battery_percentage}%"
+  }
+}

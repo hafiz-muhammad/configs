@@ -1,0 +1,9 @@
+{
+  "disk": {
+    "interval": 30,
+    "format": "<span font='16px'></span>\u0020{percentage_used}%",
+    "path": "/",
+    "tooltip": true,
+    "tooltip-format": "Disk usage: {used}/{total}\nFree disk space: {free}"
+  }
+}

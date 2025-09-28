@@ -1,0 +1,77 @@
+{
+  "clock": {
+    "interval": 60,
+    "format": "<span font='16px'></span>\u0020{:%I:%M %p}",
+    "format-alt": "<span font='16px'></span>\u0020{:%b %d, %Y}",
+    "tooltip": true,
+    "tooltip-format": "<big>{:%A\n%B %d, %Y\n}</big>\n<tt><small>{calendar}</small></tt>",
+    "calendar": {
+      "mode": "month",
+      "mode-mon-col": 3,
+      "weeks-pos": "left",
+      "on-scroll": 1,
+      "on-click-right": "mode",
+      "format": {
+        "months": "<span color='#eceff4'><b>{}</b></span>",
+        "days": "<span color='#eceff4'><b>{}</b></span>",
+        "weeks": "<span foreground='#88c0d0'><b>W{}</b></span>",
+        "weekdays": "<span color='#8fbcbb'><b>{}</b></span>",
+        "today": "<span background='#d8dee9' foreground='#2e3440' weight='bold'>{}</span>"
+      }
+    },
+    "actions": {
+      "on-click-right": "mode",
+      "on-click-forward": "tz_up",
+      "on-click-backward": "tz_down",
+      "on-scroll-up": "shift_up",
+      "on-scroll-down": "shift_down"
+    },
+    "timezones": [
+      // List of timezones: https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+      //
+      // "UTC"
+      "US/Eastern"
+      // "US/Central"
+      // "US/Mountain"
+      // "US/Pacific"
+      // "Canada/Newfoundland"
+      // "Canada/Atlantic"
+      // "Canada/Eastern"
+      // "Canada/Central"
+      // "Canada/Mountain"
+      // "Canada/Pacific"
+      // "Canada/Saskatchewan"
+      // "Canada/Yukon"
+      // "Europe/London"
+      // "Europe/Paris"
+      // "Europe/Moscow"
+      // "Asia/Tokyo"
+      // "Asia/Kolkata"
+      // "Africa/Johannesburg"
+      // "Africa/Cairo"
+      // "Pacific/Auckland"
+      // "Pacific/Honolulu"
+      // "Australia/Sydney"
+      // "America/Sao_Paulo"
+      // "America/Mexico_City"
+      // "America/Tijuana"
+      // "America/Hermosillo"
+      // "America/Cancun"
+      // "America/Merida"
+      // "America/Monterrey"
+      // "America/Chihuahua"
+      // "America/Mazatlan"
+      // "America/Ojinaga"
+      // "America/Bahia_Banderas"
+      // "Atlantic/Azores"
+      // "Atlantic/Bermuda"
+      // "Atlantic/Cape_Verde"
+      // "Atlantic/Canary"
+      // "Atlantic/Faroe"
+      // "Atlantic/Madeira"
+      // "Atlantic/Reykjavik"
+      // "Atlantic/South_Georgia"
+      // "Atlantic/Stanley"
+    ]
+  }
+}

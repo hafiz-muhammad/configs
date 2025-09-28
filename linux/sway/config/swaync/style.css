@@ -1,0 +1,6 @@
+@import 'styling/_color-scheme.scss';
+@import 'styling/_control-center.scss';
+@import 'styling/_notification.scss';
+@import 'styling/_widget-dnd.scss';
+@import 'styling/_widget-menubar.scss';
+@import 'styling/_widget-title.scss';

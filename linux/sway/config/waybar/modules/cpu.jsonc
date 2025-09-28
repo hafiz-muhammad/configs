@@ -1,0 +1,8 @@
+{
+  "cpu": {
+    "interval": 1.0,
+    "format": "<span font='16px'>{icon}</span>\u0020{usage}%",
+    "format-icons": "",
+    "tooltip": true
+  }
+}

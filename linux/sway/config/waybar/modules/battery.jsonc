@@ -1,0 +1,21 @@
+{
+  "battery": {
+    "interval": 1.0,
+    "states": {
+      "good": 100,
+      "warning": 50,
+      "critical": 20
+    },
+    "format": "<span font='16px'>{icon}</span>\u0020{capacity}%",
+    "format-charging": "<span font='16px'>󱐋</span>\u0020{capacity}%",
+    "format-plugged": "<span font='16px'></span>\u0020{capacity}%",
+    "format-icons": ["", "", "", "", ""],
+    "tooltip": true,
+    "tooltip-format": "Battery health: {health}%\nCharge cycles: {cycles}\nTime until empty: {time}",
+    "tooltip-format-charging": "Charge cycles: {cycles}\nTime until full:\u0020{time}\nPower draw: {power} w",
+    "tooltip-format-plugged": "Plugged in.\nPower draw: {power} w",
+    "tooltip-fully-charged": "Fully charged.",
+    "on-click": "alacritty --title tuned-adm -e bash -c 'tuned-adm profile && exec bash'",
+    "on-click-right": "alacritty --title tuned-adm -e bash -c 'tuned-adm -h && exec bash'"
+  }
+}

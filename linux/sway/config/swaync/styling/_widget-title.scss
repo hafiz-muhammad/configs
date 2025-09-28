@@ -1,0 +1,19 @@
+.widget-title {
+  color: @nord6;
+  margin: 8px;
+  font-size: 1.5rem;
+}
+
+.widget-title > button {
+  font-size: initial;
+  color: @nord6;
+  text-shadow: none;
+  background: @nord0;
+  border: 1px solid @nord4;
+  box-shadow: none;
+  border-radius: 0px;
+}
+
+.widget-title > button:hover {
+  background: @nord11;
+}

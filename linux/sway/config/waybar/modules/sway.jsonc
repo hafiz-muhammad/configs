@@ -1,0 +1,36 @@
+{
+  "sway/workspaces": {
+    //"format": "<span font='16px'>{icon}</span>",
+    "on-click": "activate",
+    "sort-by-number": true
+    //"format-icons": {
+      //"1": "",
+      //"2": "",
+      //"3": "",
+      //"4": "",
+      //"5": "",
+      //"6": "",
+      //"7": "",
+      //"8": "",
+      //"9": "",
+      //"10": ""
+    //},
+  },
+  "sway/scratchpad": {
+    "format": "<span font='16px'>{icon}</span>",
+    "show-empty": false,
+    "format-icons": ["\u0020"],
+    "tooltip": true,
+    "tooltip-format": "{app}: {title}",
+    "on-click": "swaymsg scratchpad show"
+  },
+  "sway/window": {
+    "format": "{app_id}",
+    "icon": false,
+    "swap-icon-label": false,
+    "all-outputs": false,
+    "tooltip": true,
+    "max-length": 14,
+    "tooltip-format": "{title}"
+  }
+}

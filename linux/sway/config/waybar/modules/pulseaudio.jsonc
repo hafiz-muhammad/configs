@@ -1,0 +1,31 @@
+{
+  "pulseaudio": {
+    "format": "<span font='16px'>{icon}</span>\u0020{volume}%",
+    "format-muted": "<span font='16px'>󰖁</span>\u0020{volume}%",
+    "format-bluetooth": "<span font='16px'>{icon}</span>\u0020{volume}%",
+    "max-volume": 125,
+    "format-icons": {
+      "headphone": "",
+      "hands-free": "󱠱",
+      "headset": "󰋎",
+      "phone": "",
+      "hifi": "",
+      "portable": "",
+      "hdmi": "󰡁",
+      "speaker": "󰓃",
+      "car": "",
+      "default": [
+        "",
+        "",
+        " "
+      ]
+    },
+    "on-click": "pavucontrol",
+    "on-click-middle": "pactl set-sink-mute @DEFAULT_SINK@ toggle",
+    "on-click-right": "alacritty -e bash -c 'alsamixer && exec bash'",
+    "on-scroll-up": "exec pactl set-sink-volume @DEFAULT_SINK@ +5%",
+    "on-scroll-down": "exec pactl set-sink-volume @DEFAULT_SINK@ -5%",
+    "tooltip": true,
+    "tooltip-format": "{desc} volume: {volume}%"
+  }
+}

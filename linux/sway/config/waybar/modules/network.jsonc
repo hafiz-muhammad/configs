@@ -1,0 +1,19 @@
+{
+  "network": {
+    // "interface": "INTERFACE_NAME",
+    "format-wifi": "<span font='16px'>{icon}</span>\u0020{signalStrength}%",
+    "format-ethernet": "<span font='16px'>{icon}</span>",
+    "format-disconnected": "<span font='16px'>󰖪</span>\u0020off",
+    "format-linked": "<span font='16px'>{icon}</span>\u0020",
+    "tooltip": true,
+    "tooltip-format": "Network name: {essid}\nNetwork interface: {ifname}\nSignal dBm: {signaldBm} dBm\nPrivate IP address: {ipaddr}",
+    "tooltip-format-disconnected": "Disconnected",
+    "format-icons": {
+      "wifi": "󰖩",
+      "ethernet": "",
+      "linked": ""
+    },
+    "on-click": "exec alacritty --class Alacritty -t nmtui -e nmtui",
+    "on-click-right": "nm-connection-editor"
+  }
+}

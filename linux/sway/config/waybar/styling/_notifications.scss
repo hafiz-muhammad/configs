@@ -1,0 +1,13 @@
+#custom-notifications.notification,
+#custom-notifications.inhibited-notification,
+#custom-notifications.dnd-inhibited-notification,
+#custom-notifications.dnd-notification {
+  color: @nord6;
+}
+
+#custom-notifications.none,
+#custom-notifications.inhibited-none,
+#custom-notifications.dnd-none,
+#custom-notifications.dnd-inhibited-none {
+  color: @nord13;
+}

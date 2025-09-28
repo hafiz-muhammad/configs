@@ -1,0 +1,17 @@
+{
+  "mpris": {
+    "interval": 1,
+    "format": "<span color='#d8dee9'>|</span>\u0020{player}:\u0020<span font='16px'>{player_icon}</span>\u0020{dynamic}",
+    "format-paused": "<span color='#d8dee9'>|</span>\u0020{player}:\u0020<span font='16px'>{status_icon}</span>",
+    "dynamic-len": 10,
+    "player-icons": {
+      "default": "󰐊",
+      "mpv": "󰝚"
+    },
+    "status-icons": {
+      "paused": "󰏤"
+    },
+    "tooltip": true,
+    "tooltip-format": "{player}: {artist} - {title}\n\n{status}"
+  }
+}

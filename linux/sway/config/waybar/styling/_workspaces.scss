@@ -1,0 +1,53 @@
+#workspaces button {
+  color: @nord6;
+  box-shadow: none;
+  text-shadow: none;
+  outline-style: none;
+  font-weight: 600;
+}
+
+#workspaces button:hover {
+  color: @nord8;
+}
+
+#workspaces button.focused {
+  color: @nord0;
+  background: @nord9;
+  padding-right: 10px;
+  padding-left: 10px;
+  padding-bottom: 0px;
+  border: @nord9;
+  border-radius: 5px;
+}
+
+@keyframes blink {
+  0% {
+    background: @nord3;
+  }
+  100% {
+    background: @nord12;
+  }
+}
+
+#workspaces button.urgent {
+  color: @nord0;
+  animation-name: blink;
+  animation-duration: 0.5s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  padding-right: 10px;
+  padding-left: 10px;
+  padding-bottom: 0px;
+  border-radius: 5px;
+}
+
+#workspaces button.urgent:hover {
+  color: @nord0;
+  background: @nord12;
+  animation: none;
+}
+
+#workspaces button.urgent.focused {
+  color: @nord0;
+}

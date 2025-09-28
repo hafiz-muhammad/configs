@@ -1,0 +1,8 @@
+window#waybar {
+  background-color: @nord3;
+}
+
+window#waybar.empty .modules-center #window {
+  background: none;
+  background-color: transparent;
+}

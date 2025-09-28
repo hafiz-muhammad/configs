@@ -1,0 +1,7 @@
+# Qt environment variables for theming and Wayland support
+QT_QPA_PLATFORMTHEME=qt5ct
+QT_QPA_PLATFORMTHEME=qt6ct
+QT_QPA_PLATFORM=wayland
+
+# Fix Java apps incorrect rendering on Sway
+_JAVA_AWT_WM_NONREPARENTING=1

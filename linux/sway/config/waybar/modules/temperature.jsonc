@@ -1,0 +1,14 @@
+{
+  "temperature": {
+    "interval": 1,
+    // "hwmon-path": "TEMPERATURE_PATH",
+    "hwmon-path-abs": "/sys/devices/platform/coretemp.0/hwmon",
+    "input-filename": "temp2_input",
+    "critical-threshold": 80,
+    "format-critical": "<span font='16px'>{icon}</span>\u0020{temperatureC}°C",
+    "format": "<span font='16px'>{icon}</span>\u0020{temperatureC}°C",
+    "format-icons": ["", "", ""],
+    "tooltip": true,
+    "tooltip-format": "Temperature: {temperatureC}°C"
+  }
+}

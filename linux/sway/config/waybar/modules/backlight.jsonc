@@ -1,0 +1,8 @@
+{
+  "backlight": {
+    "format": "<span font='16px'>{icon}</span>\u0020{percent}%",
+    "format-icons": ["", "", "", "", "", "", "", "", ""],
+    "tooltip": true,
+    "tooltip-format": "Backlight brightness: {percent}%"
+  }
+}

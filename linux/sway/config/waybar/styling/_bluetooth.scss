@@ -1,0 +1,15 @@
+#bluetooth {
+  color: @nord6;
+}
+
+#bluetooth.on {
+  color: @nord14;
+}
+
+#bluetooth.disabled {
+  color: @nord12;
+}
+
+#bluetooth.off {
+  color: @nord11;
+}

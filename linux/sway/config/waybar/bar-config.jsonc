@@ -1,0 +1,26 @@
+{
+  "layer": "bottom",
+  "position": "top",
+  "spacing": 6,
+  "start_hidden": false,
+  "reload_style_on_change": true,
+  "passthrough": false,
+  "output": ["eDP-1", "HDMI-A-1"],
+  "modules-left": ["clock", "sway/workspaces", "mpris"],
+  "modules-center": ["sway/window"],
+  "modules-right": [
+    "privacy",
+    "sway/scratchpad",
+    "idle_inhibitor",
+    "custom/notifications",
+    "backlight",
+    "bluetooth",
+    "pulseaudio",
+    "network",
+    "cpu",
+    "temperature",
+    "disk",
+    "memory",
+    "battery"
+  ]
+}

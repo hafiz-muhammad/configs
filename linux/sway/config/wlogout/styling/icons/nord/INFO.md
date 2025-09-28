@@ -1,0 +1,1 @@
+Color of icons: #eceff4

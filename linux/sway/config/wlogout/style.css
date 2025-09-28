@@ -1,0 +1,10 @@
+@import 'styling/_button.scss';
+@import 'styling/_colors-scheme.scss';
+@import 'styling/_global.scss';
+@import 'styling/_hibernate.scss';
+@import 'styling/_logout.scss';
+@import 'styling/_lock.scss';
+@import 'styling/_reboot.scss';
+@import 'styling/_shutdown.scss';
+@import 'styling/_suspend.scss';
+@import 'styling/_window.scss';

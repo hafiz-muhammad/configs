@@ -1,0 +1,43 @@
+.control-center {
+  /* The Control Center which contains the old notifications + widgets */
+  background: @nord3;
+  color: @nord9;
+  border: solid;
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 0px;
+}
+
+.control-center .control-center-list-placeholder {
+  /* The placeholder when there are no notifications */
+  opacity: 0.5;
+}
+
+.control-center .control-center-list {
+  /* List of notifications */
+  background: transparent;
+}
+
+.control-center .control-center-list .notification {
+  box-shadow: 0 0 0 1px rgba(38, 48, 64, 0.3), 0 1px 3px 1px rgba(38, 48, 64, 0.7), 0 2px 6px 2px rgba(38, 48, 64, 0.3);
+}
+
+/* .control-center .control-center-list .notification .notification-default-action,
+.control-center .control-center-list .notification .notification-action {
+} */
+
+.control-center .control-center-list .notification .notification-default-action:hover,
+.control-center .control-center-list .notification .notification-action:hover {
+  background-color: @nord3;
+}
+
+.blank-window {
+  /* Window behind control center and on all other monitors */
+  background: transparent;
+}
+
+.topbar-buttons > button {
+  /* Name defined in config after # */
+  border: none;
+  background: transparent;
+}

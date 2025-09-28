@@ -1,0 +1,23 @@
+button {
+  color: @nord6;
+  background-color: @nord0;
+  border-style: solid;
+  border-width: 2px;
+  border-color: @nord2;
+  border-radius: 0px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 10%;
+  margin: 10px;
+  box-shadow: none;
+  text-shadow: none;
+  outline-style: none;
+}
+
+button:hover,
+button:focus {
+  background-color: @nord2;
+  background-size: 25%;
+  border-radius: 5px;
+  border-color: @nord9;
+}

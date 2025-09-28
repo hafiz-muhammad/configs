@@ -1,0 +1,21 @@
+{
+  // Inclusions
+  "include": [
+    "$HOME/.config/waybar/bar-config.jsonc",
+    "$HOME/.config/waybar/modules/backlight.jsonc",
+    "$HOME/.config/waybar/modules/battery.jsonc",
+    "$HOME/.config/waybar/modules/bluetooth.jsonc",
+    "$HOME/.config/waybar/modules/clock.jsonc",
+    "$HOME/.config/waybar/modules/cpu.jsonc",
+    "$HOME/.config/waybar/modules/custom.jsonc",
+    "$HOME/.config/waybar/modules/disk.jsonc",
+    "$HOME/.config/waybar/modules/idle-inhibitor.jsonc",
+    "$HOME/.config/waybar/modules/memory.jsonc",
+    "$HOME/.config/waybar/modules/mpris.jsonc",
+    "$HOME/.config/waybar/modules/network.jsonc",
+    "$HOME/.config/waybar/modules/privacy.jsonc",
+    "$HOME/.config/waybar/modules/pulseaudio.jsonc",
+    "$HOME/.config/waybar/modules/sway.jsonc",
+    "$HOME/.config/waybar/modules/temperature.jsonc"
+  ]
+}

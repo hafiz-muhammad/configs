@@ -1,0 +1,16 @@
+#battery.charging,
+#battery.plugged {
+  color: @nord7;
+}
+
+#battery.good:not(.charging) {
+  color: @nord6;
+}
+
+#battery.warning:not(.charging) {
+  color: @nord12;
+}
+
+#battery.critical:not(.charging) {
+  color: @nord11;
+}

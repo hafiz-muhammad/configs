@@ -1,0 +1,7 @@
+#temperature {
+  color: @nord6;
+}
+
+#temperature.critical {
+  color: @nord11;
+}
