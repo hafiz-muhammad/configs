@@ -14,7 +14,13 @@
 </p>
 
 
-## My Setup
+<h1 align="center">
+  <a title="lewing@isc.tamu.edu Larry Ewing and The GIMP, CC0, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Tux.svg"><img height="45" alt="Tux, mascot of Linux" src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Tux.svg/256px-Tux.svg.png?20220320193426"></a>
+  My Configuration for <a href="https://fedoraproject.org/spins/sway">Fedora Sway Spin</a>
+  <a title="™/®Red Hat, Inc., Public domain, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Fedora_icon_(2021).svg"><img height="45" alt="Fedora icon (2021)" src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Fedora_icon_%282021%29.svg/512px-Fedora_icon_%282021%29.svg.png?20220308003156"></a>
+</h1>
+
+## Software & Customization
 
 <details><summary>Main/Essential</summary>
 
@@ -331,6 +337,8 @@ If your audio output isn't switching correctly delete `~/.local/state/wireplumbe
 | Fedora Sway Spin w/ Nord color scheme                                                                                                   |
 |:---------------------------------------------------------------------------------------------------------------------------------------:|
 | ![Fedora Sway Spin Nord](assets/screenshots/sway-nord.png)                                                                              |
+
+---
 
 ## No Longer Using
 
