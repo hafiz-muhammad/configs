@@ -7,6 +7,13 @@
 - [Fedora Documentation](https://docs.fedoraproject.org/en-US/docs/)
 </details>
 
+<p align="center">
+  <div align=center>
+    <img src="assets/Linux.png" width="1000" alt="Linux Banner">
+  </div>
+</p>
+
+
 ## My Setup
 
 <details><summary>Main/Essential</summary>
@@ -366,7 +373,11 @@ If your audio output isn't switching correctly delete `~/.local/state/wireplumbe
 
 <br>
 
-# Microsoft Windows
+<p align="center">
+  <div align=center>
+    <img src="assets/Windows.png" width="1000" alt="Windows Banner">
+  </div>
+</p>
 
 ## Software
 - [O&O ShutUp10++](https://www.oo-software.com/en/shutup10)
