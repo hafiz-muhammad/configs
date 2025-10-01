@@ -7,7 +7,7 @@
 - [Fedora Documentation](https://docs.fedoraproject.org/en-US/docs/)
 </details>
 
-## Applications, Tools & Customizations
+## My Setup
 
 <details><summary>Main/Essential</summary>
 
