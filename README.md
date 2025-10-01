@@ -1,11 +1,4 @@
-## Resources 
 
-<details><summary>Documentation</summary>
-
-- [Sway Wiki](https://github.com/swaywm/sway/wiki)
-- [Sway - ArchWiki](https://wiki.archlinux.org/title/Sway)
-- [Fedora Documentation](https://docs.fedoraproject.org/en-US/docs/)
-</details>
 
 <p align="center">
   <div align=center>
@@ -19,6 +12,15 @@
   My Configuration for <a href="https://fedoraproject.org/spins/sway">Fedora Sway Spin</a>
   <a title="™/®Red Hat, Inc., Public domain, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Fedora_icon_(2021).svg"><img height="45" alt="Fedora icon (2021)" src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Fedora_icon_%282021%29.svg/512px-Fedora_icon_%282021%29.svg.png?20220308003156"></a>
 </h1>
+
+## Resources 
+
+<details><summary>Documentation</summary>
+
+- [Sway Wiki](https://github.com/swaywm/sway/wiki)
+- [Sway - ArchWiki](https://wiki.archlinux.org/title/Sway)
+- [Fedora Documentation](https://docs.fedoraproject.org/en-US/docs/)
+</details>
 
 ## Software & Customization
 
@@ -340,7 +342,9 @@ If your audio output isn't switching correctly delete `~/.local/state/wireplumbe
 
 ---
 
-## No Longer Using
+<div align="center">
+    <h1>No Longer Using</h1>
+</div>
 
 ### Fedora i3 Spin
 
