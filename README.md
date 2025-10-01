@@ -1,17 +1,13 @@
-<div align="center">
-    <h2>⬥ Documentation ⬥</h2>
-</div>
-<details><summary>Sway, i3, and Fedora</summary>
+## Resources 
+
+<details><summary>Documentation</summary>
 
 - [Sway Wiki](https://github.com/swaywm/sway/wiki)
 - [Sway - ArchWiki](https://wiki.archlinux.org/title/Sway)
-- [i3wm Documentation](https://i3wm.org/docs/)
 - [Fedora Documentation](https://docs.fedoraproject.org/en-US/docs/)
 </details>
 
-<div align="center">
-    <h2>⬥ Software ⬥</h2>
-</div>
+## Applications, Tools & Customizations
 
 <details><summary>Main/Essential</summary>
 
@@ -30,10 +26,6 @@
 - [pipewire-alsa](https://packages.fedoraproject.org/pkgs/pipewire/pipewire-alsa/) - An ALSA plugin for the PipeWire media server.
 - [ffmpeg-free](https://packages.fedoraproject.org/pkgs/ffmpeg/ffmpeg-free/) - A multimedia framework to record, convert and stream audio and video.
 - [nodejs](https://packages.fedoraproject.org/pkgs/nodejs22/nodejs/) - JavaScript runtime.
-
----
-
-### Sway
 - [waybar](https://packages.fedoraproject.org/pkgs/waybar/waybar/) -  Status bar for Sway and Wlroots based compositors.
 - [swaylock](https://packages.fedoraproject.org/pkgs/swaylock/swaylock/) - Lockscreen for Wayland compositors.
 - [swaybg](https://packages.fedoraproject.org/pkgs/swaybg/swaybg/) - Wallpaper tool for Wayland compositors.
@@ -52,28 +44,7 @@
 - [copyq](https://packages.fedoraproject.org/pkgs/copyq/copyq/) - Graphical clipboard manager.
 - [NetworkManager-tui](https://packages.fedoraproject.org/pkgs/NetworkManager/NetworkManager-tui/) - NetworkManager-tui provides a text-based user interface for managing network connections in a non-graphical environment.
 - [tuned](https://packages.fedoraproject.org/pkgs/tuned/tuned/) - A dynamic adaptive system tuning daemon.
-- [tune-ppd](https://packages.fedoraproject.org/pkgs/tuned/tuned-ppd/) - power-profiles-daemon compatibility daemon.
-
----
-
-### i3
-- [picom](https://packages.fedoraproject.org/pkgs/picom/picom/) - Lightweight compositor for X11.
-- [polybar](https://packages.fedoraproject.org/pkgs/polybar/polybar/) - A fast and easy-to-use status bar.
-- [i3lock](https://packages.fedoraproject.org/pkgs/i3lock/i3lock/) - i3lock is a simple screen locker like slock.
-- [scrot](https://packages.fedoraproject.org/pkgs/scrot/scrot/) - Command line screen capture utility.
-- [rofi](https://packages.fedoraproject.org/pkgs/rofi/rofi/) - A window switcher, application launcher and dmenu replacement.
-  - [Rofimoji](https://github.com/fdw/rofimoji) - Emoji, unicode and general character picker for rofi and rofi-likes.
-- [Greenclip](https://github.com/erebe/greenclip) - Simple clipboard manager to be integrated with rofi - Static binary available
-- [nm-connection-editor-desktop](https://packages.fedoraproject.org/pkgs/network-manager-applet/nm-connection-editor-desktop/) - The desktop file for nm-connection-editor.
-- [xfce4-power-manager](https://packages.fedoraproject.org/pkgs/xfce4-power-manager/xfce4-power-manager/) - Power management for the Xfce desktop environment.
-- [xbacklight](https://packages.fedoraproject.org/pkgs/xbacklight/xbacklight/) - Adjust backlight brightness using RandR.
-- [flameshot](https://packages.fedoraproject.org/pkgs/flameshot/flameshot/) - Powerful yet simple to use screenshot software.
-- [SimpleScreenRecorder](https://github.com/MaartenBaert/ssr) - SimpleScreenRecorder is a screen recorder for Linux.
-- [ristretto](https://packages.fedoraproject.org/pkgs/ristretto/ristretto/) - Image-viewer for the Xfce desktop environment.
-- [arandr](https://packages.fedoraproject.org/pkgs/arandr/arandr/) - Simple GTK+ XRandR GUI.
-- [ImageMagick](https://packages.fedoraproject.org/pkgs/ImageMagick/ImageMagick/) - An X application for displaying and manipulating images.
-- [lxpolkit](https://packages.fedoraproject.org/pkgs/lxsession/lxpolkit/) - A simple policykit authentication agent for the LXDE desktop.
-- [calcurse](https://packages.fedoraproject.org/pkgs/calcurse/calcurse/) - A text-based calendar and scheduling application. 
+- [tuned-ppd](https://packages.fedoraproject.org/pkgs/tuned/tuned-ppd/) - power-profiles-daemon compatibility daemon.
 </details>
 
 <details><summary>Web Browsers</summary>
@@ -101,10 +72,6 @@
 
 - [Embellish](https://flathub.org/en/apps/io.github.getnf.embellish) - An application for managing Nerd Fonts.
 - [Oh My Posh](https://ohmyposh.dev/) - A prompt theme engine for any shell.
-
----
-
-### Sway
 - [Oh My Posh nordtron theme](https://github.com/JanDeDobbeleer/oh-my-posh/blob/main/themes/nordtron.omp.json)
 - [adwaita-icon-theme](https://github.com/GNOME/adwaita-icon-theme) - Icon set for GNOME core apps.
 
@@ -112,16 +79,6 @@ Optional GTK themes:
 - [Nordic](https://github.com/EliverLara/Nordic) - Dark Gtk3.20+ theme created using the awesome Nord color pallete.
 - [Adwaita-dark](https://packages.fedoraproject.org/pkgs/gnome-themes-extra/gnome-themes-extra/) - This module houses themes and theme-y tidbits that don’t really fit in anywhere
 else, or deserve their own module.
-
----
-
-### i3
-- [lxappearance](https://packages.fedoraproject.org/pkgs/lxappearance/lxappearance/) - LXAppearance is a new GTK+ theme switcher developed for LXDE, the Lightweight X11 Desktop Environment.
-- [feh](https://github.com/derf/feh) - feh is a light-weight, configurable and versatile image viewer.
-- [nitrogen](https://packages.fedoraproject.org/pkgs/nitrogen/nitrogen/) - Background browser and setter for X windows.
-- [Oh My Posh gruvbox theme](https://github.com/JanDeDobbeleer/oh-my-posh/blob/main/themes/gruvbox.omp.json)
-- [gruvbox-plus-icon-pack](https://github.com/SylEleuth/gruvbox-plus-icon-pack) - Gruvbox Plus icon pack for Linux desktops based on Gruvbox color theme.
-- [Gruvbox Plus theme for GTK2 and GTK3](https://github.com/SylEleuth/gruvbox-plus-gtk) - Gruvbox+ dark theme for GTK2 and GTK3.
 </details>
 
 <details><summary>Optimization</summary>
@@ -172,16 +129,246 @@ firewalld.
 - [VLC](https://flathub.org/en/apps/org.videolan.VLC) - A free and open source cross-platform multimedia player.
 </details>
 
-<div align="center">
-    <h2>⬥ Screenshots ⬥</h2>
-</div>
+## Instructions & Help
+
+<details><summary>Show/Hide</summary>
+
+### Disable Display Manager to Use TTY to Login
+**1.** Check what display manager you're running:
+```console
+systemctl status display-manager
+```
+
+**2.** Disable the display manager:
+```console
+sudo systemctl disable <display_manager_name>.service
+```
+
+**3.** Copy & paste what's in .[`.bash_profile`](linux/sway/.bash_profile) at the end of your `.bash_profile` file.
+
+**4.** Reboot.
+
+<br>
+
+### Disable Graphical Boot 
+
+**1.** Edit the grub file located in `/etc/default/`:
+```console
+sudo nano /etc/default/grub
+```
+
+**2.** Remove `rhgb` & `quite` from the line beginning with `GRUMB_CMDLINE_LINUX`.
+
+**3.** Save the changes.
+
+**4.** Update grub:
+[ Fedora Docs - The GRUB2 Bootloader – Installation and Configuration](https://docs.fedoraproject.org/en-US/quick-docs/grub2-bootloader/)
+```console
+sudo grub2-mkconfig -o /boot/grub2/grub.cfg
+```
+
+**5.** Reboot.
+
+<br>
+
+### Install Autotiling
+Installation: 
+```console
+pip install autotiling
+```
+
+<br>
+
+### Install & Setup Oh My Posh
+[Official Oh My Posh Linux instructions](https://ohmyposh.dev/docs/installation/linux)
+
+**1.** Make bin folder in home directory:
+```console
+mkdir ~/bin
+```
+
+**2.** Installation:    
+```console
+curl -s https://ohmyposh.dev/install.sh | bash -s -- -d ~/bin
+```
+
+**3.** Copy the line/s for Oh My Posh from [`.bashrc`](linux/sway/.bashrc) in this repository, and add it at the end of `.bashrc` in your home directory.
+
+**4.** Reload profile for changes to take effect:
+```console
+exec bash
+```
+<br>
+
+### Install Optional Themes
+
+**Nordic Theme**
+
+If `~/.themes` doesn't exist, create it.
+
+Clone repository into `~/.themes`:
+```console
+cd ~/.themes
+```
+```console
+git clone https://github.com/EliverLara/Nordic ~/.themes/Nordic
+```
+
+**Adwaita-dark**
+
+If not already installed, run the following command:
+```console
+sudo dnf install gnome-themes-extra
+```
+<br>
+
+### Enable [Flathub](https://flathub.org/home) on Fedora
+```console
+sudo dnf install flatpak
+flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
+```
+<br>
+
+### Enable [RPM Fusion](https://rpmfusion.org/) Repositories
+**Free Repository**
+```console
+sudo dnf install https://download1.rpmfusion.org/free/fedora/rpmfusion-free-release-$(rpm -E %fedora).noarch.rpm -y && dnf upgrade -y
+```
+**Nonfree Repository**
+```console
+sudo dnf install https://download1.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-$(rpm -E %fedora).noarch.rpm -y && dnf upgrade -y
+```
+<br>
+
+### Configure VA-API Video Decoding for Firefox
+- [AMD](https://fedoraproject.org/wiki/Firefox_Hardware_acceleration#Configure_VA-API_Video_decoding_on_AMD)
+- [Intel](https://fedoraproject.org/wiki/Firefox_Hardware_acceleration#Configure_VA-API_Video_decoding_on_Intel)
+- [NVIDIA](https://fedoraproject.org/wiki/Firefox_Hardware_acceleration#Configure_VA-API_Video_decoding_on_NVIDIA)
+
+<br>
+
+### CUPS Installation and Enabling Service
+CUPS admin web GUI: http://localhost:631/
+```console
+sudo dnf install cups
+sudo dnf install system-config-printer
+sudo systemctl start cups.service
+sudo systemctl enable cups.service
+```
+
+<br>
+
+### ClamAV Installation and Enabling Service
+[Installing ClamAV](https://docs.clamav.net/manual/Installing.html#installing-clamav)
+```console
+sudo dnf upgrade --refresh
+sudo dnf install clamav clamd clamav-update -y
+sudo systemctl enable clamav-freshclam --now
+sudo systemctl stop clamav-freshclam
+```
+
+<br>
+
+### Fail2Ban Installation and Enabling Service
+```console
+sudo dnf install fail2ban
+sudo systemctl start fail2ban
+sudo systemctl enable fail2ban
+```
+
+<br>
+
+### How to Install and Configure profile-sync-daemon
+More information on the [ArchWiki](https://wiki.archlinux.org/title/Profile-sync-daemon).
+
+**1.** Install profile-sync-daemon:
+```console
+sudo dnf install profile-sync-daemon
+```
+
+**2.** Create Psd configuration file by running the following command:
+```console
+psd
+```
+
+**3.** Edit psd configuration file:
+```console
+nano ~/.config/psd/psd.conf
+```
+Look for the line labeled **BROWSERS** in the configuration file, remove the **#** symbol to uncomment it, and then include your browsers separated by spaces. (e.g. BROWSERS=(chromium firefox))
+
+**4.** Enable and Start psd Service:
+```console
+systemctl --user enable psd 
+```
+
+```console
+reboot
+```
+
+```console
+systemctl --user start psd
+```
+
+**5.** Verify psd Service is Started or Not:
+```console
+systemctl --user status psd
+```
+
+### Audio Output Issue Fix
+If your audio output isn't switching correctly delete `~/.local/state/wireplumber` and reboot.
+</details>
+
+## Screenshots
 
 | Fedora Sway Spin w/ Nord color scheme                                                                                                   |
 |:---------------------------------------------------------------------------------------------------------------------------------------:|
 | ![Fedora Sway Spin Nord](assets/screenshots/sway-nord.png)                                                                              |
 
+## No Longer Using
+
+### Fedora i3 Spin
+
+<details><summary>List</summary>
+
+- [picom](https://packages.fedoraproject.org/pkgs/picom/picom/) - Lightweight compositor for X11.
+- [polybar](https://packages.fedoraproject.org/pkgs/polybar/polybar/) - A fast and easy-to-use status bar.
+- [i3lock](https://packages.fedoraproject.org/pkgs/i3lock/i3lock/) - i3lock is a simple screen locker like slock.
+- [scrot](https://packages.fedoraproject.org/pkgs/scrot/scrot/) - Command line screen capture utility.
+- [rofi](https://packages.fedoraproject.org/pkgs/rofi/rofi/) - A window switcher, application launcher and dmenu replacement.
+  - [Rofimoji](https://github.com/fdw/rofimoji) - Emoji, unicode and general character picker for rofi and rofi-likes.
+- [Greenclip](https://github.com/erebe/greenclip) - Simple clipboard manager to be integrated with rofi - Static binary available
+- [nm-connection-editor-desktop](https://packages.fedoraproject.org/pkgs/network-manager-applet/nm-connection-editor-desktop/) - The desktop file for nm-connection-editor.
+- [xfce4-power-manager](https://packages.fedoraproject.org/pkgs/xfce4-power-manager/xfce4-power-manager/) - Power management for the Xfce desktop environment.
+- [xbacklight](https://packages.fedoraproject.org/pkgs/xbacklight/xbacklight/) - Adjust backlight brightness using RandR.
+- [flameshot](https://packages.fedoraproject.org/pkgs/flameshot/flameshot/) - Powerful yet simple to use screenshot software.
+- [SimpleScreenRecorder](https://github.com/MaartenBaert/ssr) - SimpleScreenRecorder is a screen recorder for Linux.
+- [ristretto](https://packages.fedoraproject.org/pkgs/ristretto/ristretto/) - Image-viewer for the Xfce desktop environment.
+- [arandr](https://packages.fedoraproject.org/pkgs/arandr/arandr/) - Simple GTK+ XRandR GUI.
+- [ImageMagick](https://packages.fedoraproject.org/pkgs/ImageMagick/ImageMagick/) - An X application for displaying and manipulating images.
+- [lxpolkit](https://packages.fedoraproject.org/pkgs/lxsession/lxpolkit/) - A simple policykit authentication agent for the LXDE desktop.
+- [calcurse](https://packages.fedoraproject.org/pkgs/calcurse/calcurse/) - A text-based calendar and scheduling application. 
+- [lxappearance](https://packages.fedoraproject.org/pkgs/lxappearance/lxappearance/) - LXAppearance is a new GTK+ theme switcher developed for LXDE, the Lightweight X11 Desktop Environment.
+- [feh](https://github.com/derf/feh) - feh is a light-weight, configurable and versatile image viewer.
+- [nitrogen](https://packages.fedoraproject.org/pkgs/nitrogen/nitrogen/) - Background browser and setter for X windows.
+- [Oh My Posh gruvbox theme](https://github.com/JanDeDobbeleer/oh-my-posh/blob/main/themes/gruvbox.omp.json)
+- [gruvbox-plus-icon-pack](https://github.com/SylEleuth/gruvbox-plus-icon-pack) - Gruvbox Plus icon pack for Linux desktops based on Gruvbox color theme.
+- [Gruvbox Plus theme for GTK2 and GTK3](https://github.com/SylEleuth/gruvbox-plus-gtk) - Gruvbox+ dark theme for GTK2 and GTK3.
+</details>
+
 | Fedora i3 Spin w/ Gruvbox color scheme                       | Fedora i3 Spin w/ Midnight Haze (alacritty color scheme)                 |
 |:------------------------------------------------------------:|:------------------------------------------------------------------------:|
 | ![Fedora i3 Spin Gruvbox](assets/screenshots/i3-gruvbox.png) | ![Fedora i3 Spin Midnight Haze](assets/screenshots/i3-midnight-haze.png) |
 
+<br>
 
+---
+
+<br>
+
+# Microsoft Windows
+
+## Software
+- [O&O ShutUp10++](https://www.oo-software.com/en/shutup10)
+- [Microsoft PowerToys](https://apps.microsoft.com/detail/xp89dcgq3k6vld?hl=en-US&gl=US)
+- [Windows Terminal](https://apps.microsoft.com/detail/9n0dx20hk701?hl=en-US&gl=US)
