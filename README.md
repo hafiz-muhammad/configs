@@ -341,41 +341,19 @@ If your audio output isn't switching correctly delete `~/.local/state/wireplumbe
 | ![Fedora Sway Spin Nord](assets/screenshots/sway-nord.png)                                                                              |
 
 <div align="center">
-    <h1>No Longer Using</h1>
+    <h1>Old/No Longer Using</h1>
 </div>
 
-### Fedora i3 Spin
-
-<details><summary>List</summary>
-
-- [picom](https://packages.fedoraproject.org/pkgs/picom/picom/) - Lightweight compositor for X11.
-- [polybar](https://packages.fedoraproject.org/pkgs/polybar/polybar/) - A fast and easy-to-use status bar.
-- [i3lock](https://packages.fedoraproject.org/pkgs/i3lock/i3lock/) - i3lock is a simple screen locker like slock.
-- [scrot](https://packages.fedoraproject.org/pkgs/scrot/scrot/) - Command line screen capture utility.
-- [rofi](https://packages.fedoraproject.org/pkgs/rofi/rofi/) - A window switcher, application launcher and dmenu replacement.
-  - [Rofimoji](https://github.com/fdw/rofimoji) - Emoji, unicode and general character picker for rofi and rofi-likes.
-- [Greenclip](https://github.com/erebe/greenclip) - Simple clipboard manager to be integrated with rofi - Static binary available
-- [nm-connection-editor-desktop](https://packages.fedoraproject.org/pkgs/network-manager-applet/nm-connection-editor-desktop/) - The desktop file for nm-connection-editor.
-- [xfce4-power-manager](https://packages.fedoraproject.org/pkgs/xfce4-power-manager/xfce4-power-manager/) - Power management for the Xfce desktop environment.
-- [xbacklight](https://packages.fedoraproject.org/pkgs/xbacklight/xbacklight/) - Adjust backlight brightness using RandR.
-- [flameshot](https://packages.fedoraproject.org/pkgs/flameshot/flameshot/) - Powerful yet simple to use screenshot software.
-- [SimpleScreenRecorder](https://github.com/MaartenBaert/ssr) - SimpleScreenRecorder is a screen recorder for Linux.
-- [ristretto](https://packages.fedoraproject.org/pkgs/ristretto/ristretto/) - Image-viewer for the Xfce desktop environment.
-- [arandr](https://packages.fedoraproject.org/pkgs/arandr/arandr/) - Simple GTK+ XRandR GUI.
-- [ImageMagick](https://packages.fedoraproject.org/pkgs/ImageMagick/ImageMagick/) - An X application for displaying and manipulating images.
-- [lxpolkit](https://packages.fedoraproject.org/pkgs/lxsession/lxpolkit/) - A simple policykit authentication agent for the LXDE desktop.
-- [calcurse](https://packages.fedoraproject.org/pkgs/calcurse/calcurse/) - A text-based calendar and scheduling application. 
-- [lxappearance](https://packages.fedoraproject.org/pkgs/lxappearance/lxappearance/) - LXAppearance is a new GTK+ theme switcher developed for LXDE, the Lightweight X11 Desktop Environment.
-- [feh](https://github.com/derf/feh) - feh is a light-weight, configurable and versatile image viewer.
-- [nitrogen](https://packages.fedoraproject.org/pkgs/nitrogen/nitrogen/) - Background browser and setter for X windows.
-- [Oh My Posh gruvbox theme](https://github.com/JanDeDobbeleer/oh-my-posh/blob/main/themes/gruvbox.omp.json)
-- [gruvbox-plus-icon-pack](https://github.com/SylEleuth/gruvbox-plus-icon-pack) - Gruvbox Plus icon pack for Linux desktops based on Gruvbox color theme.
-- [Gruvbox Plus theme for GTK2 and GTK3](https://github.com/SylEleuth/gruvbox-plus-gtk) - Gruvbox+ dark theme for GTK2 and GTK3.
-</details>
+> [!NOTE]
+> Configurations for things that I am no longer using can be found in the [archived directory](./archived).
 
 | Fedora i3 Spin w/ Gruvbox color scheme                       | Fedora i3 Spin w/ Midnight Haze (alacritty color scheme)                 |
 |:------------------------------------------------------------:|:------------------------------------------------------------------------:|
 | ![Fedora i3 Spin Gruvbox](assets/screenshots/i3-gruvbox.png) | ![Fedora i3 Spin Midnight Haze](assets/screenshots/i3-midnight-haze.png) |
+
+| Neofetch   |
+|:----------:|
+| <img src="assets/screenshots/neofetch.png" alt="Neofetch Screenshot" width="478.5"/> |
 
 <br>
 
