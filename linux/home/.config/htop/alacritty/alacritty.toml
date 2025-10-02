@@ -1,0 +1,44 @@
+[general]
+import = [
+  "~/.config/alacritty/themes/nord.toml",
+  #"~/.config/alacritty/themes/gruvbox_dark.toml",
+  #"~/.config/alacritty/themes/inferno.toml",
+  #"~/.config/alacritty/themes/midnight_haze.toml"
+]
+live_config_reload = true
+
+[cursor.style]
+blinking = "On"
+shape = "Block"
+
+[cursor]
+unfocused_hollow = true
+
+[font]
+size = 10
+
+[font.bold]
+family = "FiraCode Nerd Font"
+style = "Bold"
+
+[font.bold_italic]
+family = "FiraCode Nerd Font"
+style = "BoldItalics"
+
+[font.italic]
+family = "FiraCode Nerd Font"
+style = "MediumItalics"
+
+[font.normal]
+family = "FiraCode Nerd Font"
+style = "Medium"
+
+[scrolling]
+history = 100000
+multiplier = 3
+
+[selection]
+save_to_clipboard = false
+
+[window]
+opacity = 0.85
