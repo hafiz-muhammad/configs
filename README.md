@@ -1,5 +1,3 @@
-
-
 <p align="center">
   <div align=center>
     <img src="assets/Linux.png" width="1000" alt="Linux Banner">
@@ -340,21 +338,6 @@ If your audio output isn't switching correctly delete `~/.local/state/wireplumbe
 |:---------------------------------------------------------------------------------------------------------------------------------------:|
 | ![Fedora Sway Spin Nord](assets/screenshots/sway-nord.png)                                                                              |
 
-<div align="center">
-    <h1>Old/No Longer Using</h1>
-</div>
-
-> [!NOTE]
-> Configurations for things that I am no longer using can be found in the [archived directory](./archived).
-
-| Fedora i3 Spin w/ Gruvbox color scheme                       | Fedora i3 Spin w/ Midnight Haze (alacritty color scheme)                 |
-|:------------------------------------------------------------:|:------------------------------------------------------------------------:|
-| ![Fedora i3 Spin Gruvbox](assets/screenshots/i3-gruvbox.png) | ![Fedora i3 Spin Midnight Haze](assets/screenshots/i3-midnight-haze.png) |
-
-| Neofetch   |
-|:----------:|
-| <img src="assets/screenshots/neofetch.png" alt="Neofetch Screenshot" width="478.5"/> |
-
 <br>
 
 <p align="center">
@@ -367,3 +350,27 @@ If your audio output isn't switching correctly delete `~/.local/state/wireplumbe
 - [O&O ShutUp10++](https://www.oo-software.com/en/shutup10)
 - [Microsoft PowerToys](https://apps.microsoft.com/detail/xp89dcgq3k6vld?hl=en-US&gl=US)
 - [Windows Terminal](https://apps.microsoft.com/detail/9n0dx20hk701?hl=en-US&gl=US)
+
+<br>
+<br>
+
+---
+---
+
+<br>
+<br>
+
+<div align="center">
+    <h1>Old/No Longer Using</h1>
+</div>
+
+> [!NOTE]
+> Configurations for things that I am no longer using can be found in the [archived directory](./archived).
+
+| Fedora i3 Spin w/ Gruvbox color scheme                       | Fedora i3 Spin w/ Midnight Haze (alacritty color scheme)                 |
+|:------------------------------------------------------------:|:------------------------------------------------------------------------:|
+| ![Fedora i3 Spin Gruvbox](assets/screenshots/i3-gruvbox.png) | ![Fedora i3 Spin Midnight Haze](assets/screenshots/i3-midnight-haze.png) |
+
+| Neofetch                                                                             |
+|:------------------------------------------------------------------------------------:|
+| <img src="assets/screenshots/neofetch.png" alt="Neofetch Screenshot" width="478.5"/> |
