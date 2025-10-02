@@ -1,5 +1,8 @@
 # Configuration documentation: https://docs.helix-editor.com/master/configuration.html
 
+# set theme
+#theme = "nord"
+
 [editor]
 scrolloff = 5
 mouse = true
