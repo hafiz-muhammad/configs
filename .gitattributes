@@ -1,26 +1,26 @@
 # JSON
-*.json linguist-detectable=true
-*.json linguist-documentation=false
-*.json linguist-language=JSON
-*.json text eol=lf encoding=utf-8
+#*.json linguist-detectable=true
+#*.json linguist-documentation=false
+#*.json linguist-language=JSON
+#*.json text eol=lf encoding=utf-8
 # JSONC (JSON with Comments) 
-*.jsonc linguist-detectable=true
-*.jsonc linguist-documentation=false
-*.jsonc linguist-language=JSON
-*.jsonc text eol=lf encoding=utf-8
+#*.jsonc linguist-detectable=true
+#*.jsonc linguist-documentation=false
+#*.jsonc linguist-language=JSON
+#*.jsonc text eol=lf encoding=utf-8
 
 # YAML
-*.yml linguist-detectable=true
-*.yml linguist-language=YAML
-*.yml text eol=lf encoding=utf-8
-*.yaml linguist-detectable=true
-*.yaml linguist-language=YAML
-*.yaml text eol=lf encoding=utf-8
+#*.yml linguist-detectable=true
+#*.yml linguist-language=YAML
+#*.yml text eol=lf encoding=utf-8
+#*.yaml linguist-detectable=true
+#*.yaml linguist-language=YAML
+#*.yaml text eol=lf encoding=utf-8
 
 # TOML
-*.toml linguist-detectable=true
-*.toml linguist-language=TOML
-*.toml text eol=lf encoding=utf-8
+#*.toml linguist-detectable=true
+#*.toml linguist-language=TOML
+#*.toml text eol=lf encoding=utf-8
 
 # Documents
 *.md text eol=lf encoding=utf-8
