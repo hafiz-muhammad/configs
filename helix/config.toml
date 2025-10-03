@@ -1,14 +1,13 @@
 # Configuration documentation: https://docs.helix-editor.com/master/configuration.html
 
 # Set theme
-#theme = "nord_transparent"
+theme = "nord_transparent"
 
 [editor]
 scrolloff = 5
 mouse = true
 middle-click-paste = false
 scroll-lines = 3
-shell = ["sh", "-c"]
 line-number = "relative"
 cursorline = true
 cursorcolumn = false
@@ -19,14 +18,15 @@ auto-save = false
 idle-timeout = 400
 completion-trigger-len = 2
 auto-info = true
-true-color = false
-rulers = []
+true-color = true
+rulers = [120]
 bufferline = "never"
 color-modes = false
 auto-pairs = true
+end-of-line-diagnostics = "hint"
 
 [editor.statusline]
-left = ["mode", "spinner"]
+left = ["mode", "spinner", "version-control"]
 center = ["file-name"]
 right  = ["diagnostics", "selections", "position", "file-encoding"]
 separator = "|"
@@ -34,15 +34,19 @@ mode.normal = "NOR"
 mode.insert = "INS"
 mode.select = "SEL"
 
+[editor.inline-diagnostics]
+cursor-line = "error"
+other-lines = "disable"
+
 [editor.lsp]
 display-messages = false
 auto-signature-help = true
 display-signature-help-docs = true
 
 [editor.cursor-shape]
-normal = "block"
+normal = "bar"
 insert = "block"
-select = "block"
+select = "underline"
 
 [editor.file-picker]
 hidden = true
@@ -55,3 +59,7 @@ git-exclude = true
 [editor.search]
 smart-case = true
 wrap-around = true
+
+[editor.indent-guides]
+character = "╎" # Box Drawings Light Double Dash Vertical Symbol (U+254E)
+render = true
