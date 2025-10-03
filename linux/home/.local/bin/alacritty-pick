@@ -1,0 +1,40 @@
+#!/usr/bin/env bash
+
+# Set paths and filenames for Alacritty and themes
+CONFIG_DIR="$HOME/.config/alacritty"
+ALACRITTY_TOML="$CONFIG_DIR/alacritty.toml"
+THEMES_DIR="$CONFIG_DIR/themes"
+THEME_NAME="$1"
+THEME_FILE="$THEMES_DIR/${THEME_NAME}.toml"
+
+# Check if the user gave a theme name and if the theme file exists
+if [[ -z "$THEME_NAME" ]]; then
+  echo "Usage: $0 <theme-name>"
+  exit 1
+fi
+if [[ ! -f "$THEME_FILE" ]]; then
+  echo "Theme file '$THEME_FILE' not found."
+  exit 2
+fi
+
+# Replace import array with selected theme
+awk -v theme="$THEME_FILE" '
+  BEGIN { in_import = 0 }
+  /^\[general\]/ { print; next }
+  /^\s*import\s*= *\[/ {
+    print "import = ["
+    print "  \"" theme "\""
+    in_import = 1
+    next
+  }
+  in_import {
+    if ($0 ~ /\]/) {
+      print "]"
+      in_import = 0
+    }
+    next
+  }
+  { print }
+' "$ALACRITTY_TOML" > "$ALACRITTY_TOML.tmp" && mv "$ALACRITTY_TOML.tmp" "$ALACRITTY_TOML"
+
+echo "Switched Alacritty theme to '$THEME_NAME'"
