@@ -1,0 +1,16 @@
+#!/usr/bin/env bash
+
+CONF_FILE="$HOME/.config/sway/config.d/mouse-and-touchpad.conf"
+
+if ! grep -q "seat \* hide_cursor when-typing" "$CONF_FILE"; then
+    notify-send "Hide Cursor" "No hide_cursor config found in $CONF_FILE"
+    exit 1
+fi
+
+if grep -q "seat \* hide_cursor when-typing enable" "$CONF_FILE"; then
+    sed -i 's/seat \* hide_cursor when-typing enable/seat * hide_cursor when-typing disable/' "$CONF_FILE"
+    notify-send "Hide Cursor" "Disabled 'hide_cursor when-typing'"
+elif grep -q "seat \* hide_cursor when-typing disable" "$CONF_FILE"; then
+    sed -i 's/seat \* hide_cursor when-typing disable/seat * hide_cursor when-typing enable/' "$CONF_FILE"
+    notify-send "Hide Cursor" "Enabled 'hide_cursor when-typing'"
+fi
