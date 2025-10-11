@@ -1,4 +1,4 @@
-name: Update Hosts File
+name: Update Windows Hosts File
 
 on:
   schedule:
