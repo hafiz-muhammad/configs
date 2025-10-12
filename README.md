@@ -71,7 +71,6 @@
 - [helix](https://packages.fedoraproject.org/pkgs/helix/helix/) - A post-modern modal text editor written in Rust.
 - [Text Editor](https://flathub.org/apps/org.gnome.TextEditor) - Text editor for the GNOME desktop environment.
 - [VSCodium](https://vscodium.com/) - A version of Visual Studio Code without telemetry.
-- [Geany](https://flathub.org/apps/org.geany.Geany) - A free and open-source lightweight IDE.
 </details>
 
 <details><summary>Customization</summary>
