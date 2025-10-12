@@ -100,6 +100,7 @@ else, or deserve their own module.
 
 <details><summary>System Monitoring and Information</summary>
 
+- [fastfetch](https://packages.fedoraproject.org/pkgs/fastfetch/fastfetch/) - A neofetch like system information tool.
 - [htop](https://packages.fedoraproject.org/pkgs/htop/htop/) - An interactive process viewer.     
 - [nmon](https://packages.fedoraproject.org/pkgs/nmon/nmon/) - A systems administrator, tuner, benchmark tool, which provides information about CPU, disks, network, etc.
 - [lm_sensors](https://packages.fedoraproject.org/pkgs/lm_sensors/lm_sensors/) - A collection of modules for general SMBus access and hardware monitoring.
