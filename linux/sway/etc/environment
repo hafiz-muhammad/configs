@@ -5,7 +5,3 @@ QT_QPA_PLATFORM=wayland
 
 # Fix Java apps incorrect rendering on Sway
 _JAVA_AWT_WM_NONREPARENTING=1
-
-# Set Helix as editor
-EDITOR=hx
-VISUAL=hx
