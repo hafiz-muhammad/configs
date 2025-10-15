@@ -2,7 +2,7 @@
   "clock": {
     "interval": 60,
     "format": "<span font='16px'></span>\u0020{:%I:%M %p}",
-    "format-alt": "<span font='16px'></span>\u0020{:%b %d, %Y}",
+    "format-alt": "<span font='16px'></span>\u0020{:%m/%d/%Y}",
     "tooltip": true,
     "tooltip-format": "<big>{:%A\n%B %d, %Y\n}</big>\n<tt><small>{calendar}</small></tt>",
     "calendar": {
