@@ -1,15 +1,20 @@
-<p align="center">
-  <div align=center>
-    <img src="assets/Linux.png" width="1000" alt="Linux Banner">
-  </div>
-</p>
+# A centralized repository for my configurations.
 
+> [!NOTE]
+> Configurations for things that I am no longer using can be found in the [archive](https://github.com/hafiz-muhammad/configs/tree/archive) branch.
 
-<h1 align="center">
+<br>
+<br>
+
+<div align="center">
+    <h1>Linux</h1>
+</div>
+
+<h2 align="center">
   <a title="lewing@isc.tamu.edu Larry Ewing and The GIMP, CC0, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Tux.svg"><img height="45" alt="Tux, mascot of Linux" src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Tux.svg/256px-Tux.svg.png?20220320193426"></a>
   My Configuration for <a href="https://fedoraproject.org/spins/sway">Fedora Sway Spin</a>
   <a title="™/®Red Hat, Inc., Public domain, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Fedora_icon_(2021).svg"><img height="45" alt="Fedora icon (2021)" src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Fedora_icon_%282021%29.svg/512px-Fedora_icon_%282021%29.svg.png?20220308003156"></a>
-</h1>
+</h2>
 
 ## Resources 
 
@@ -340,33 +345,11 @@ If your audio output isn't switching correctly delete `~/.local/state/wireplumbe
 
 <br>
 
-<p align="center">
-  <div align=center>
-    <img src="assets/Windows.png" width="1000" alt="Windows Banner">
-  </div>
-</p>
+<div align="center">
+    <h1>Windows</h1>
+</div>
 
 ## Software
 - [O&O ShutUp10++](https://www.oo-software.com/en/shutup10)
 - [Microsoft PowerToys](https://apps.microsoft.com/detail/xp89dcgq3k6vld?hl=en-US&gl=US)
 - [Windows Terminal](https://apps.microsoft.com/detail/9n0dx20hk701?hl=en-US&gl=US)
-
-<br>
-<br>
-
----
----
-
-<br>
-<br>
-
-<div align="center">
-    <h1>Old/No Longer Using</h1>
-</div>
-
-> [!NOTE]
-> Configurations for things that I am no longer using can be found in the [archive](https://github.com/hafiz-muhammad/configs/tree/archive) branch.
-
-| Fedora i3 Spin w/ Gruvbox color scheme                       | Fedora i3 Spin w/ Midnight Haze (alacritty color scheme)                 |
-|:------------------------------------------------------------:|:------------------------------------------------------------------------:|
-| ![Fedora i3 Spin Gruvbox](assets/screenshots/i3-gruvbox.png) | ![Fedora i3 Spin Midnight Haze](assets/screenshots/i3-midnight-haze.png) |
