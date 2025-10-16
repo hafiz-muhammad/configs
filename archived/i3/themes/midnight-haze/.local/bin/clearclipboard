@@ -1,5 +1,0 @@
-#! /bin/sh
-
-# Clear clipboard using Greenclip
-greenclip clear
-notify-send "Clipboard cleared"
