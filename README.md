@@ -1,5 +1,7 @@
-This branch is for configurations that I'm no longer using.\
-Configurations here won't be updated.
+- This branch is for configurations that I'm no longer using.
+- Configurations here won't be updated.
+
+<br>
 
 | Fedora i3 Spin w/ Gruvbox color scheme                       | Fedora i3 Spin w/ Midnight Haze (alacritty color scheme)                 |
 |:------------------------------------------------------------:|:------------------------------------------------------------------------:|
