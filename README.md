@@ -370,7 +370,3 @@ If your audio output isn't switching correctly delete `~/.local/state/wireplumbe
 | Fedora i3 Spin w/ Gruvbox color scheme                       | Fedora i3 Spin w/ Midnight Haze (alacritty color scheme)                 |
 |:------------------------------------------------------------:|:------------------------------------------------------------------------:|
 | ![Fedora i3 Spin Gruvbox](assets/screenshots/i3-gruvbox.png) | ![Fedora i3 Spin Midnight Haze](assets/screenshots/i3-midnight-haze.png) |
-
-| Neofetch                                                                             |
-|:------------------------------------------------------------------------------------:|
-| <img src="assets/screenshots/neofetch.png" alt="Neofetch Screenshot" width="478.5"/> |
