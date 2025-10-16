@@ -365,7 +365,7 @@ If your audio output isn't switching correctly delete `~/.local/state/wireplumbe
 </div>
 
 > [!NOTE]
-> Configurations for things that I am no longer using can be found in the [archived directory](./archived).
+> Configurations for things that I am no longer using can be found in the [archive](https://github.com/hafiz-muhammad/configs/tree/archive) branch.
 
 | Fedora i3 Spin w/ Gruvbox color scheme                       | Fedora i3 Spin w/ Midnight Haze (alacritty color scheme)                 |
 |:------------------------------------------------------------:|:------------------------------------------------------------------------:|
