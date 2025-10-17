@@ -57,6 +57,7 @@
     cl = clone
     pl = pull
     pu = push
+    co = checkout
 [init]
     defaultBranch = main
 #[core]
