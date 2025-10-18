@@ -12,7 +12,7 @@
 
 # Fedora Sway Spin
 
-## Resources 
+### 📚 Resources 
 
 <details><summary>Documentation</summary>
 
@@ -21,7 +21,7 @@
 - [Fedora Documentation](https://docs.fedoraproject.org/en-US/docs/)
 </details>
 
-## Software & Customization
+### 🛠️ Software & Customization
 
 <details><summary>Main/Essential</summary>
 
@@ -345,7 +345,7 @@ If your audio output isn't switching correctly delete `~/.local/state/wireplumbe
     <h1>Windows</h1>
 </div>
 
-## Software
+### 🛠️ Software
 - [O&O ShutUp10++](https://www.oo-software.com/en/shutup10)
 - [Microsoft PowerToys](https://apps.microsoft.com/detail/xp89dcgq3k6vld?hl=en-US&gl=US)
 - [Windows Terminal](https://apps.microsoft.com/detail/9n0dx20hk701?hl=en-US&gl=US)
