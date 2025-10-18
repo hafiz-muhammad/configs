@@ -1,4 +1,6 @@
-# A centralized repository for my configurations.
+<div align="center">
+    <h1>A centralized repository for my configurations</h1>
+</div>
 
 > [!NOTE]
 > Configurations for things that I am no longer using can be found in the [archive](https://github.com/hafiz-muhammad/configs/tree/archive) branch.
@@ -6,11 +8,10 @@
 <br>
 <br>
 
-<div align="center">
-    <h1>Linux</h1>
-</div>
 
-# Fedora Sway Spin
+# Linux
+
+## Fedora Sway Spin
 
 ### 📚 Resources 
 
@@ -341,9 +342,7 @@ If your audio output isn't switching correctly delete `~/.local/state/wireplumbe
 
 <br>
 
-<div align="center">
-    <h1>Windows</h1>
-</div>
+# Windows
 
 ### 🛠️ Software
 - [O&O ShutUp10++](https://www.oo-software.com/en/shutup10)
