@@ -33,6 +33,8 @@
 *.webp binary
 *.ico binary
 *.gif binary
+*.xcf binary
+*.psd binary
 
 # Archive
 *.7z binary
