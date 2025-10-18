@@ -1,3 +1,6 @@
+![GitHub repo size](https://img.shields.io/github/repo-size/hafiz-muhammad/configs)
+![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/hafiz-muhammad/configs)
+
 <div align="center">
     <h1>A centralized repository for my configurations</h1>
 </div>
