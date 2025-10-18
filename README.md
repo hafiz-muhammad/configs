@@ -156,7 +156,7 @@ firewalld.
 - [VLC](https://flathub.org/en/apps/org.videolan.VLC) - A free and open source cross-platform multimedia player.
 </details>
 
-## Instructions & Help
+### 📝 Instructions & Help
 
 <details><summary>Show/Hide</summary>
 
