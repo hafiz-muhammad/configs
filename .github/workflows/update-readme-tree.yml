@@ -5,6 +5,8 @@ on:
     branches: [main]
   workflow_dispatch:
 
+permissions: write-all
+
 jobs:
   update-readme-tree:
     runs-on: ubuntu-latest
