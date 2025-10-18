@@ -8,6 +8,15 @@
 <br>
 <br>
 
+<div align="center">
+    <h2>Showcase</h2>
+</div>
+
+| Fedora Sway Spin w/ Nord color scheme                                                                                                   |
+|:---------------------------------------------------------------------------------------------------------------------------------------:|
+| ![Fedora Sway Spin Nord](assets/screenshots/sway-nord.png)                                                                              |
+
+---
 
 # Linux
 
@@ -333,12 +342,6 @@ systemctl --user status psd
 ### Audio Output Issue Fix
 If your audio output isn't switching correctly delete `~/.local/state/wireplumber` and reboot.
 </details>
-
-## Screenshots
-
-| Fedora Sway Spin w/ Nord color scheme                                                                                                   |
-|:---------------------------------------------------------------------------------------------------------------------------------------:|
-| ![Fedora Sway Spin Nord](assets/screenshots/sway-nord.png)                                                                              |
 
 <br>
 
