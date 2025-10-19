@@ -357,6 +357,7 @@ If your audio output isn't switching correctly delete `~/.local/state/wireplumbe
 
 ---
 
+<!-- Always keep repository tree section at the bottom of the README -->
 <div align="center">
     <h2>🌳 Repository Tree</h2>
 </div>
