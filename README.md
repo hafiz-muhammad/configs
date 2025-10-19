@@ -355,6 +355,15 @@ If your audio output isn't switching correctly delete `~/.local/state/wireplumbe
 - [Microsoft PowerToys](https://apps.microsoft.com/detail/xp89dcgq3k6vld?hl=en-US&gl=US)
 - [Windows Terminal](https://apps.microsoft.com/detail/9n0dx20hk701?hl=en-US&gl=US)
 
+---
+
+<div align="center">
+    <h2>🌳 Repository Tree</h2>
+</div>
+
+> [!NOTE]
+> The tree below shows the current structure of the `main` branch.
+
 <!-- BEGIN REPOSITORY TREE -->
 ```
     ├── .gitattributes
