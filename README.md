@@ -1,9 +1,11 @@
 ![GitHub repo size](https://img.shields.io/github/repo-size/hafiz-muhammad/configs)
 ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/hafiz-muhammad/configs)
 
-<div align="center">
-    <h1>A centralized repository for my configurations</h1>
-</div>
+<h1 align="center">A centralized repository for my configurations</h1>
+
+<h3 align="center">
+    <img align="center" width="85%" src=assets/images/banner.png />
+</h3>
 
 > [!NOTE]
 > Configurations for things that I am no longer using can be found in the [archive](https://github.com/hafiz-muhammad/configs/tree/archive) branch.
@@ -11,9 +13,7 @@
 <br>
 <br>
 
-<div align="center">
-    <h2>Showcase</h2>
-</div>
+<h2 align="center">Showcase</h2>
 
 | Fedora Sway Spin w/ Nord color scheme                                                                                                   |
 |:---------------------------------------------------------------------------------------------------------------------------------------:|
@@ -358,9 +358,7 @@ If your audio output isn't switching correctly delete `~/.local/state/wireplumbe
 ---
 
 <!-- Always keep repository tree section at the bottom of the README -->
-<div align="center">
-    <h2>🌳 Repository Tree</h2>
-</div>
+<h2 align="center">🌳 Repository Tree</h2>
 
 > [!NOTE]
 > The tree below shows the current structure of the `main` branch.
