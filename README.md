@@ -27,7 +27,7 @@
 
 ## Linux
 
-## Fedora Sway Spin
+### Fedora Sway Spin:
 
 ### 📚 Resources 
 
@@ -38,7 +38,7 @@
 - [Fedora Documentation](https://docs.fedoraproject.org/en-US/docs/)
 </details>
 
-### 💾 Software & Customization
+### 💾 Software & 🎨 Customization
 
 <details><summary>Main/Essential</summary>
 
