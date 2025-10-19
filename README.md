@@ -1,11 +1,15 @@
 ![GitHub repo size](https://img.shields.io/github/repo-size/hafiz-muhammad/configs)
 ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/hafiz-muhammad/configs)
 
-<h1 align="center">A centralized repository for my configurations</h1>
-
 <h3 align="center">
     <img align="center" width="85%" src=assets/images/banner.png />
 </h3>
+
+<div align="center">
+  <a href="https://github.com/hafiz-muhammad/configs/wiki"><strong>Wiki</strong></a>
+  &nbsp;&nbsp;
+  <a href="https://github.com/hafiz-muhammad/configs#-repository-tree"><strong>Repo Tree</strong></a>
+</div>
 
 > [!NOTE]
 > Configurations for things that I am no longer using can be found in the [archive](https://github.com/hafiz-muhammad/configs/tree/archive) branch.
