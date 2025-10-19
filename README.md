@@ -378,6 +378,8 @@ If your audio output isn't switching correctly delete `~/.local/state/wireplumbe
     ├── .gitignore
     ├── README.md
     ├── assets
+    │   ├── images
+    │   │   └── banner.png
     │   └── screenshots
     │       └── sway-nord.png
     ├── helix
@@ -555,6 +557,6 @@ If your audio output isn't switching correctly delete `~/.local/state/wireplumbe
                                 └── LocalState
                                     └── settings.json
     
-    54 directories, 134 files
+    55 directories, 135 files
 ```
 <!-- END REPOSITORY TREE -->
