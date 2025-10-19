@@ -17,7 +17,7 @@
 <br>
 <br>
 
-<h2 align="center">Showcase</h2>
+<h2 align="center">📸 Screenshots 📸</h2>
 
 | Fedora Sway Spin w/ Nord color scheme                                                                                                   |
 |:---------------------------------------------------------------------------------------------------------------------------------------:|
@@ -25,7 +25,7 @@
 
 ---
 
-# Linux
+## Linux
 
 ## Fedora Sway Spin
 
@@ -160,7 +160,7 @@ firewalld.
 - [VLC](https://flathub.org/en/apps/org.videolan.VLC) - A free and open source cross-platform multimedia player.
 </details>
 
-# Windows
+## Windows
 
 ### 💾 Software
 
@@ -174,7 +174,7 @@ firewalld.
 ---
 
 <!-- Always keep repository tree section at the bottom of the README -->
-<h2 align="center">🌳 Repository Tree</h2>
+<h2 align="center">🌳 Repository Tree 🌳</h2>
 
 > [!NOTE]
 > The tree below shows the current structure of the `main` branch.
