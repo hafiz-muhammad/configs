@@ -5,10 +5,10 @@
 # Issues: https://github.com/hagezi/dns-blocklists/issues
 # Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 # Expires: 1 day
-# Last modified: 17 Oct 2025 22:54 UTC
-# Version: 2025.1017.2254.40
+# Last modified: 24 Oct 2025 08:54 UTC
+# Version: 2025.1024.0854.37
 # Syntax: Hosts (including possible subdomains)
-# Number of entries: 719
+# Number of entries: 754
 #
 0.0.0.0 c-bingapis-com.dual-a-0034.a-msedge.net
 0.0.0.0 measure.office.com.akamaized.net
@@ -114,6 +114,7 @@
 0.0.0.0 westus3.in.applicationinsights.azure.com
 0.0.0.0 westus3-1.in.applicationinsights.azure.com
 0.0.0.0 live.applicationinsights.azure.com
+0.0.0.0 www.live.applicationinsights.azure.com
 0.0.0.0 inference-app-gateway.eastus2.cloudapp.azure.com
 0.0.0.0 inference-app-gateway.koreacentral.cloudapp.azure.com
 0.0.0.0 inference-app-gateway.northeurope.cloudapp.azure.com
@@ -574,8 +575,42 @@
 0.0.0.0 measure.office.com
 0.0.0.0 measure.office.net
 0.0.0.0 fp.measure.office.com
+0.0.0.0 000bb32ff48c4d67b1f4b0461e82559e.fp.measure.office.com
+0.0.0.0 1255c5905921c14c32eb0708f6e063c8.fp.measure.office.com
+0.0.0.0 12f499ce479b4bab966195ceacdcc69e.fp.measure.office.com
+0.0.0.0 1734a5f5086441b7a267ebb0d3330c0f.fp.measure.office.com
+0.0.0.0 38a2e0944d7f440288e4ab0ed92e5e63.fp.measure.office.com
+0.0.0.0 3fb2c34e1bdd4cbfba4ad179079ea681.fp.measure.office.com
+0.0.0.0 438f7ecf4ef64397a73af3480731097a.fp.measure.office.com
+0.0.0.0 47ed4cc9bbe746bb8162a4dbc676ceb8.fp.measure.office.com
+0.0.0.0 4e210ba81b9e4da68329db9bb53a4d59.fp.measure.office.com
+0.0.0.0 531d1a18fa644a9e9b458b72153260ab.fp.measure.office.com
+0.0.0.0 544c5404b91945289776697b16201f35.fp.measure.office.com
+0.0.0.0 54daba90a06d40feaac78a04e75cff01.fp.measure.office.com
+0.0.0.0 56c24269b83846eda94f668789a757b0.fp.measure.office.com
+0.0.0.0 5ab8bd4fea704982859db3ab99fb8f9d.fp.measure.office.com
 0.0.0.0 5d0edd5e7741c8a3af5375c999da40b7.fp.measure.office.com
+0.0.0.0 653f696431a04d5ac8729b442606a534.fp.measure.office.com
+0.0.0.0 6ea36fffa74847599e5a61ff106b62a3.fp.measure.office.com
+0.0.0.0 8763e9088f06487f93fdf467044c001d.fp.measure.office.com
+0.0.0.0 8ed86effbb12e77226d1a07501aae8c7.fp.measure.office.com
+0.0.0.0 906362b1d149d5f131b27f71bb32fad8.fp.measure.office.com
+0.0.0.0 93fd45f21adabda3bc4bdc5ccc86aeff.fp.measure.office.com
+0.0.0.0 9bf9b89af15c562c86b349eca4f77af2.fp.measure.office.com
+0.0.0.0 9ebbec43d8eb416f8f17d91104f899f7.fp.measure.office.com
+0.0.0.0 b0439479f15743afb52af64075df86c8.fp.measure.office.com
+0.0.0.0 c0cd4499d01c45e796c88a7e9396af20.fp.measure.office.com
+0.0.0.0 c5f8516ef6de40c299e323b05615a638.fp.measure.office.com
 0.0.0.0 config.fp.measure.office.com
+0.0.0.0 d0ac2790e1ac4a6289b9a9829b278b55.fp.measure.office.com
+0.0.0.0 d2b58627e223588c649b19b40474a009.fp.measure.office.com
+0.0.0.0 de0574d6cba179c264d57ac004b4b361.fp.measure.office.com
+0.0.0.0 e5d854e70da241fa8a3f92c8f87dd95e.fp.measure.office.com
+0.0.0.0 e69699c6f73785c1136971eb62cf18a2.fp.measure.office.com
+0.0.0.0 e8d23ce9ea81bf0a0f8bc2117b03fb9a.fp.measure.office.com
+0.0.0.0 f43be430a84e46e2a9380e8c6f56d621.fp.measure.office.com
+0.0.0.0 f46c52fb963cdf0d874b527cfa730af9.fp.measure.office.com
+0.0.0.0 ff0d74cd2eed4ae9a694fda104858a66.fp.measure.office.com
 0.0.0.0 graph-next.fp.measure.office.com
 0.0.0.0 ns1.fp.measure.office.com
 0.0.0.0 ns2.fp.measure.office.com
@@ -648,7 +683,6 @@
 0.0.0.0 adstore.response.gcp.eastus.trafficmanager.net
 0.0.0.0 telemetry.eastus.trafficmanager.net
 0.0.0.0 eventservice.trafficmanager.net
-0.0.0.0 fsad.trafficmanager.net
 0.0.0.0 ghochv3eng.trafficmanager.net
 0.0.0.0 glance-analytics.trafficmanager.net
 0.0.0.0 hk-tracker.trafficmanager.net
@@ -725,6 +759,7 @@
 0.0.0.0 rawtelemetry-east.servicebus.windows.net
 0.0.0.0 rawtelemetry-west.servicebus.windows.net
 0.0.0.0 ss-telemetry.servicebus.windows.net
+0.0.0.0 swiftanalyticsprod.servicebus.windows.net
 0.0.0.0 wayfinderanalytics.servicebus.windows.net
 0.0.0.0 c.xbox.com
 0.0.0.0 o.xbox.com
