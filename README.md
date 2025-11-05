@@ -104,10 +104,7 @@
 - [Oh My Posh](https://ohmyposh.dev/) - A prompt theme engine for any shell.
 - [Oh My Posh nordtron theme](https://github.com/JanDeDobbeleer/oh-my-posh/blob/main/themes/nordtron.omp.json)
 - [adwaita-icon-theme](https://github.com/GNOME/adwaita-icon-theme) - Icon set for GNOME core apps.
-
-Optional GTK themes:
-- [Nordic](https://github.com/EliverLara/Nordic) - Dark Gtk3.20+ theme created using the awesome Nord color pallete.
-- [Adwaita-dark](https://packages.fedoraproject.org/pkgs/gnome-themes-extra/gnome-themes-extra/) - This module houses themes and theme-y tidbits that don’t really fit in anywhere
+- [gnome-themes-extra](https://packages.fedoraproject.org/pkgs/gnome-themes-extra/gnome-themes-extra/) - This module houses themes and theme-y tidbits that don’t really fit in anywhere
 else, or deserve their own module.
 </details>
 
