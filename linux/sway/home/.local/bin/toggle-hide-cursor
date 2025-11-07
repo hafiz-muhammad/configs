@@ -10,7 +10,9 @@ fi
 if grep -q "seat \* hide_cursor when-typing enable" "$CONF_FILE"; then
     sed -i 's/seat \* hide_cursor when-typing enable/seat * hide_cursor when-typing disable/' "$CONF_FILE"
     notify-send "Hide Cursor" "Disabled 'hide_cursor when-typing'"
+    swaymsg reload
 elif grep -q "seat \* hide_cursor when-typing disable" "$CONF_FILE"; then
     sed -i 's/seat \* hide_cursor when-typing disable/seat * hide_cursor when-typing enable/' "$CONF_FILE"
     notify-send "Hide Cursor" "Enabled 'hide_cursor when-typing'"
+    swaymsg reload
 fi
