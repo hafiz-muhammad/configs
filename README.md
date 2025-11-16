@@ -238,118 +238,119 @@ firewalld.
     │   │   │       └── alacritty-pick
     │   │   └── .npmrc
     │   └── sway
-    │       ├── etc
-    │       │   └── environment
-    │       └── home
-    │           ├── .bash_profile
-    │           ├── .bashrc
-    │           ├── .config
-    │           │   ├── fuzzel
-    │           │   │   └── fuzzel.ini
-    │           │   ├── gtk-3.0
-    │           │   │   └── gtk.css
-    │           │   ├── gtk-4.0
-    │           │   │   └── gtk.css
-    │           │   ├── sway
-    │           │   │   ├── config
-    │           │   │   ├── config.d
-    │           │   │   │   ├── appearance.conf
-    │           │   │   │   ├── autostart.conf
-    │           │   │   │   ├── display.conf
-    │           │   │   │   ├── gaps.conf
-    │           │   │   │   ├── layout.conf
-    │           │   │   │   ├── menu.conf
-    │           │   │   │   ├── misc.conf
-    │           │   │   │   ├── mouse-and-touchpad.conf
-    │           │   │   │   ├── multimedia.conf
-    │           │   │   │   ├── power.conf
-    │           │   │   │   ├── screen-capture.conf
-    │           │   │   │   ├── session.conf
-    │           │   │   │   ├── terminal.conf
-    │           │   │   │   ├── windows-and-containers.conf
-    │           │   │   │   └── workspace.conf
-    │           │   │   └── scripts
-    │           │   │       └── laptop-lid.sh
-    │           │   ├── swaylock
-    │           │   │   └── config
-    │           │   ├── swaync
-    │           │   │   ├── config.json
-    │           │   │   ├── style.css
-    │           │   │   └── styling
-    │           │   │       ├── _color-scheme.scss
-    │           │   │       ├── _control-center.scss
-    │           │   │       ├── _notification.scss
-    │           │   │       ├── _widget-dnd.scss
-    │           │   │       ├── _widget-menubar.scss
-    │           │   │       └── _widget-title.scss
-    │           │   ├── waybar
-    │           │   │   ├── bar-config.jsonc
-    │           │   │   ├── config.jsonc
-    │           │   │   ├── modules
-    │           │   │   │   ├── backlight.jsonc
-    │           │   │   │   ├── battery.jsonc
-    │           │   │   │   ├── bluetooth.jsonc
-    │           │   │   │   ├── clock.jsonc
-    │           │   │   │   ├── cpu.jsonc
-    │           │   │   │   ├── custom.jsonc
-    │           │   │   │   ├── disk.jsonc
-    │           │   │   │   ├── idle-inhibitor.jsonc
-    │           │   │   │   ├── memory.jsonc
-    │           │   │   │   ├── mpris.jsonc
-    │           │   │   │   ├── network.jsonc
-    │           │   │   │   ├── privacy.jsonc
-    │           │   │   │   ├── pulseaudio.jsonc
-    │           │   │   │   ├── sway.jsonc
-    │           │   │   │   └── temperature.jsonc
-    │           │   │   ├── style.css
-    │           │   │   └── styling
-    │           │   │       ├── _backlight.scss
-    │           │   │       ├── _battery.scss
-    │           │   │       ├── _bluetooth.scss
-    │           │   │       ├── _clock.scss
-    │           │   │       ├── _color-scheme.scss
-    │           │   │       ├── _cpu.scss
-    │           │   │       ├── _disk.scss
-    │           │   │       ├── _global.scss
-    │           │   │       ├── _idle-inhibitor.scss
-    │           │   │       ├── _memory.scss
-    │           │   │       ├── _modules.scss
-    │           │   │       ├── _mpris.scss
-    │           │   │       ├── _network.scss
-    │           │   │       ├── _notifications.scss
-    │           │   │       ├── _privacy.scss
-    │           │   │       ├── _pulseaudio.scss
-    │           │   │       ├── _scratchpad.scss
-    │           │   │       ├── _temperature.scss
-    │           │   │       ├── _tooltip.scss
-    │           │   │       ├── _window.scss
-    │           │   │       └── _workspaces.scss
-    │           │   └── wlogout
-    │           │       ├── layout
-    │           │       ├── style.css
-    │           │       └── styling
-    │           │           ├── _button.scss
-    │           │           ├── _colors-scheme.scss
-    │           │           ├── _global.scss
-    │           │           ├── _hibernate.scss
-    │           │           ├── _lock.scss
-    │           │           ├── _logout.scss
-    │           │           ├── _reboot.scss
-    │           │           ├── _shutdown.scss
-    │           │           ├── _suspend.scss
-    │           │           ├── _window.scss
-    │           │           └── icons
-    │           │               └── nord
-    │           │                   ├── INFO.md
-    │           │                   ├── hibernate.png
-    │           │                   ├── lock.png
-    │           │                   ├── logout.png
-    │           │                   ├── reboot.png
-    │           │                   ├── shutdown.png
-    │           │                   └── suspend.png
-    │           └── .local
-    │               └── bin
-    │                   └── toggle-hide-cursor
+    │       ├── home
+    │       │   ├── .bash_profile
+    │       │   ├── .bashrc
+    │       │   ├── .config
+    │       │   │   ├── fuzzel
+    │       │   │   │   └── fuzzel.ini
+    │       │   │   ├── gtk-3.0
+    │       │   │   │   └── gtk.css
+    │       │   │   ├── gtk-4.0
+    │       │   │   │   └── gtk.css
+    │       │   │   ├── sway
+    │       │   │   │   ├── config
+    │       │   │   │   ├── config.d
+    │       │   │   │   │   ├── appearance.conf
+    │       │   │   │   │   ├── autostart.conf
+    │       │   │   │   │   ├── display.conf
+    │       │   │   │   │   ├── gaps.conf
+    │       │   │   │   │   ├── layout.conf
+    │       │   │   │   │   ├── menu.conf
+    │       │   │   │   │   ├── misc.conf
+    │       │   │   │   │   ├── mouse-and-touchpad.conf
+    │       │   │   │   │   ├── multimedia.conf
+    │       │   │   │   │   ├── power.conf
+    │       │   │   │   │   ├── screen-capture.conf
+    │       │   │   │   │   ├── session.conf
+    │       │   │   │   │   ├── terminal.conf
+    │       │   │   │   │   ├── windows-and-containers.conf
+    │       │   │   │   │   └── workspace.conf
+    │       │   │   │   └── scripts
+    │       │   │   │       └── laptop-lid.sh
+    │       │   │   ├── swaylock
+    │       │   │   │   └── config
+    │       │   │   ├── swaync
+    │       │   │   │   ├── config.json
+    │       │   │   │   ├── style.css
+    │       │   │   │   └── styling
+    │       │   │   │       ├── _color-scheme.scss
+    │       │   │   │       ├── _control-center.scss
+    │       │   │   │       ├── _notification.scss
+    │       │   │   │       ├── _widget-dnd.scss
+    │       │   │   │       ├── _widget-menubar.scss
+    │       │   │   │       └── _widget-title.scss
+    │       │   │   ├── waybar
+    │       │   │   │   ├── bar-config.jsonc
+    │       │   │   │   ├── config.jsonc
+    │       │   │   │   ├── modules
+    │       │   │   │   │   ├── backlight.jsonc
+    │       │   │   │   │   ├── battery.jsonc
+    │       │   │   │   │   ├── bluetooth.jsonc
+    │       │   │   │   │   ├── clock.jsonc
+    │       │   │   │   │   ├── cpu.jsonc
+    │       │   │   │   │   ├── custom.jsonc
+    │       │   │   │   │   ├── disk.jsonc
+    │       │   │   │   │   ├── idle-inhibitor.jsonc
+    │       │   │   │   │   ├── memory.jsonc
+    │       │   │   │   │   ├── mpris.jsonc
+    │       │   │   │   │   ├── network.jsonc
+    │       │   │   │   │   ├── privacy.jsonc
+    │       │   │   │   │   ├── pulseaudio.jsonc
+    │       │   │   │   │   ├── sway.jsonc
+    │       │   │   │   │   └── temperature.jsonc
+    │       │   │   │   ├── style.css
+    │       │   │   │   └── styling
+    │       │   │   │       ├── _backlight.scss
+    │       │   │   │       ├── _battery.scss
+    │       │   │   │       ├── _bluetooth.scss
+    │       │   │   │       ├── _clock.scss
+    │       │   │   │       ├── _color-scheme.scss
+    │       │   │   │       ├── _cpu.scss
+    │       │   │   │       ├── _disk.scss
+    │       │   │   │       ├── _global.scss
+    │       │   │   │       ├── _idle-inhibitor.scss
+    │       │   │   │       ├── _memory.scss
+    │       │   │   │       ├── _modules.scss
+    │       │   │   │       ├── _mpris.scss
+    │       │   │   │       ├── _network.scss
+    │       │   │   │       ├── _notifications.scss
+    │       │   │   │       ├── _privacy.scss
+    │       │   │   │       ├── _pulseaudio.scss
+    │       │   │   │       ├── _scratchpad.scss
+    │       │   │   │       ├── _temperature.scss
+    │       │   │   │       ├── _tooltip.scss
+    │       │   │   │       ├── _window.scss
+    │       │   │   │       └── _workspaces.scss
+    │       │   │   └── wlogout
+    │       │   │       ├── layout
+    │       │   │       ├── style.css
+    │       │   │       └── styling
+    │       │   │           ├── _button.scss
+    │       │   │           ├── _colors-scheme.scss
+    │       │   │           ├── _global.scss
+    │       │   │           ├── _hibernate.scss
+    │       │   │           ├── _lock.scss
+    │       │   │           ├── _logout.scss
+    │       │   │           ├── _reboot.scss
+    │       │   │           ├── _shutdown.scss
+    │       │   │           ├── _suspend.scss
+    │       │   │           ├── _window.scss
+    │       │   │           └── icons
+    │       │   │               └── nord
+    │       │   │                   ├── INFO.md
+    │       │   │                   ├── hibernate.png
+    │       │   │                   ├── lock.png
+    │       │   │                   ├── logout.png
+    │       │   │                   ├── reboot.png
+    │       │   │                   ├── shutdown.png
+    │       │   │                   └── suspend.png
+    │       │   └── .local
+    │       │       └── bin
+    │       │           └── toggle-hide-cursor
+    │       └── rootfs
+    │           └── etc
+    │               └── environment
     └── windows
         ├── Documents
         │   ├── PowerToys
@@ -369,6 +370,6 @@ firewalld.
                                 └── LocalState
                                     └── settings.json
     
-    55 directories, 136 files
+    56 directories, 136 files
 ```
 <!-- END REPOSITORY TREE -->
