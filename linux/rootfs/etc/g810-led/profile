@@ -1,0 +1,5 @@
+# g810-led repository: https://github.com/MatMoul/g810-led
+
+fx hwave all 5 # Horizontal wave, speed 5
+
+c # Commit changes
