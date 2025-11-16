@@ -237,6 +237,10 @@ firewalld.
     │   │   │   └── bin
     │   │   │       └── alacritty-pick
     │   │   └── .npmrc
+    │   ├── rootfs
+    │   │   └── etc
+    │   │       └── g810-led
+    │   │           └── profile
     │   └── sway
     │       ├── home
     │       │   ├── .bash_profile
@@ -370,6 +374,6 @@ firewalld.
                                 └── LocalState
                                     └── settings.json
     
-    56 directories, 136 files
+    59 directories, 137 files
 ```
 <!-- END REPOSITORY TREE -->
