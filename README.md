@@ -233,9 +233,10 @@ firewalld.
     │   │   │   │   └── config.jsonc
     │   │   │   └── htop
     │   │   │       └── htoprc
-    │   │   └── .local
-    │   │       └── bin
-    │   │           └── alacritty-pick
+    │   │   ├── .local
+    │   │   │   └── bin
+    │   │   │       └── alacritty-pick
+    │   │   └── .npmrc
     │   └── sway
     │       ├── etc
     │       │   └── environment
@@ -368,6 +369,6 @@ firewalld.
                                 └── LocalState
                                     └── settings.json
     
-    55 directories, 135 files
+    55 directories, 136 files
 ```
 <!-- END REPOSITORY TREE -->
