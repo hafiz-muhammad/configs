@@ -239,6 +239,8 @@ firewalld.
     │   │   └── .npmrc
     │   ├── rootfs
     │   │   └── etc
+    │   │       ├── dnf
+    │   │       │   └── dnf.conf
     │   │       └── g810-led
     │   │           └── profile
     │   └── sway
@@ -374,6 +376,6 @@ firewalld.
                                 └── LocalState
                                     └── settings.json
     
-    59 directories, 137 files
+    60 directories, 138 files
 ```
 <!-- END REPOSITORY TREE -->
