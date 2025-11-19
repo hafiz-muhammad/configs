@@ -213,7 +213,6 @@ firewalld.
     │   │   │   ├── functions.bashrc
     │   │   │   ├── general-aliases.bashrc
     │   │   │   ├── git-aliases.bashrc
-    │   │   │   ├── go.bashrc
     │   │   │   ├── grub-aliases.bashrc
     │   │   │   ├── history.bashrc
     │   │   │   ├── networking-aliases.bashrc
@@ -376,6 +375,6 @@ firewalld.
                                 └── LocalState
                                     └── settings.json
     
-    60 directories, 138 files
+    60 directories, 137 files
 ```
 <!-- END REPOSITORY TREE -->
