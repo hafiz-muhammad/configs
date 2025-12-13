@@ -5,10 +5,10 @@
 # Issues: https://github.com/hagezi/dns-blocklists/issues
 # Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 # Expires: 1 day
-# Last modified: 11 Dec 2025 08:26 UTC
-# Version: 2025.1211.0826.43
+# Last modified: 12 Dec 2025 18:06 UTC
+# Version: 2025.1212.1806.45
 # Syntax: Hosts (including possible subdomains)
-# Number of entries: 2273
+# Number of entries: 2281
 #
 0.0.0.0 c-bingapis-com.dual-a-0034.a-msedge.net
 0.0.0.0 measure.office.com.akamaized.net
@@ -698,6 +698,7 @@
 0.0.0.0 12525629b92643f9a4b45f7f5e8f7fd1.fp.measure.office.com
 0.0.0.0 1255c5905921c14c32eb0708f6e063c8.fp.measure.office.com
 0.0.0.0 12f499ce479b4bab966195ceacdcc69e.fp.measure.office.com
+0.0.0.0 131375eb3f2f42e5aea087b0370aa2dd.fp.measure.office.com
 0.0.0.0 13264aa2751e4ca6a4073a1d755a8b3b.fp.measure.office.com
 0.0.0.0 13315e7b9a854de0ac5427155f1ad563.fp.measure.office.com
 0.0.0.0 13544e780cf7455c905fe1d846b1107f.fp.measure.office.com
@@ -803,6 +804,7 @@
 0.0.0.0 2410a6f9a4f04a51aad053c7e39f69ac.fp.measure.office.com
 0.0.0.0 2426b9e2c8734b749005e5f15ae308ae.fp.measure.office.com
 0.0.0.0 243fe65e4dea60f1f2041725b1a45b8e.fp.measure.office.com
+0.0.0.0 24f203bd4ee647a595c4dfc5983a99bb.fp.measure.office.com
 0.0.0.0 251f3d084173d3fe3841d1d887321aef.fp.measure.office.com
 0.0.0.0 25290f0463194259b11063e649e345f6.fp.measure.office.com
 0.0.0.0 2539750afc9a4035832653327b36fe6a.fp.measure.office.com
@@ -1037,6 +1039,7 @@
 0.0.0.0 49cee159c3e242298acbd849c09cba41.fp.measure.office.com
 0.0.0.0 49f6adb8d48e4dc2a6eecdcd5329ffd7.fp.measure.office.com
 0.0.0.0 49f7d01bc63d4aa29b2bf009e8cca10f.fp.measure.office.com
+0.0.0.0 4a11a86975914536a3715b2b4dbb14a0.fp.measure.office.com
 0.0.0.0 4a1cb66e79694796b84f83ece887e225.fp.measure.office.com
 0.0.0.0 4a5033e3fa6c4c7ba3ecb84affb47d85.fp.measure.office.com
 0.0.0.0 4a5746c982a74604bdc7f3e44971dfae.fp.measure.office.com
@@ -1384,6 +1387,7 @@
 0.0.0.0 801b8dbd19d249fdbb299e1979b4491f.fp.measure.office.com
 0.0.0.0 802e9761b56145f78d0d4901d4172699.fp.measure.office.com
 0.0.0.0 80ef25fd94c241ddbb6204134fb771bd.fp.measure.office.com
+0.0.0.0 8156fca1895467e8c00a7c79136d0288.fp.measure.office.com
 0.0.0.0 815c348aca95410b91de354d8b93a1a8.fp.measure.office.com
 0.0.0.0 815c3b9fb2e04413a20f013959479f77.fp.measure.office.com
 0.0.0.0 8170f19f46fb45ca86749535b663e85d.fp.measure.office.com
@@ -1409,6 +1413,7 @@
 0.0.0.0 849ff926da574e63b51ba6be1c8c458e.fp.measure.office.com
 0.0.0.0 84a082d505d0427fa4485a90cf732d98.fp.measure.office.com
 0.0.0.0 84f5a3513c6b49c2b5b6abaa8207e596.fp.measure.office.com
+0.0.0.0 84f900f3d6904a54b2d28722f4f7285c.fp.measure.office.com
 0.0.0.0 85083fa0fcdd440c80cae3e3cfb0786f.fp.measure.office.com
 0.0.0.0 851228f414de4f00b1fda6daddb41201.fp.measure.office.com
 0.0.0.0 859c9cb30b86497a9603f18e8ee37ebc.fp.measure.office.com
@@ -1660,6 +1665,7 @@
 0.0.0.0 aca115b409713a98ff595587de7a5d65.fp.measure.office.com
 0.0.0.0 acbaf84c519d482f8977ffb63c14c6c4.fp.measure.office.com
 0.0.0.0 acfd14be5011491586db2f84c0a6b1b2.fp.measure.office.com
+0.0.0.0 ad08c21f49f544dfac54da45a1beb66f.fp.measure.office.com
 0.0.0.0 ad39a19228bb48f4ba7c25bde4576936.fp.measure.office.com
 0.0.0.0 ad43873f3757403fb1d38a0b2dadc6a8.fp.measure.office.com
 0.0.0.0 ad85b73f6af44e46bd721304b44a75ec.fp.measure.office.com
@@ -1779,6 +1785,7 @@
 0.0.0.0 c4a4be6dd83441b19d36e2f53218b578.fp.measure.office.com
 0.0.0.0 c4eb1658a3484f399ddb3ea4e3469a34.fp.measure.office.com
 0.0.0.0 c52be6c453e24d7182022ee86169d862.fp.measure.office.com
+0.0.0.0 c550bbb80f2c49f59e5e9c1263f2799b.fp.measure.office.com
 0.0.0.0 c552b69eb6204039b57418b9c3c73b0f.fp.measure.office.com
 0.0.0.0 c59e797017b24b7cbe3c12bbbf894566.fp.measure.office.com
 0.0.0.0 c5f8516ef6de40c299e323b05615a638.fp.measure.office.com
@@ -1986,6 +1993,7 @@
 0.0.0.0 e7cad3177d474b42af6f729068e04172.fp.measure.office.com
 0.0.0.0 e7fb2628a6fa267f4544c806aeed0f79.fp.measure.office.com
 0.0.0.0 e814a3dd50d840a981631474e9315d0e.fp.measure.office.com
+0.0.0.0 e8253d36ab4b41ebae57e33581512e5b.fp.measure.office.com
 0.0.0.0 e8361498ef4240c1b2c86ca4ae3ad9b5.fp.measure.office.com
 0.0.0.0 e83c9a0f7e284b71ad8aee449994e29e.fp.measure.office.com
 0.0.0.0 e84e2d1c114a46f1a108ba996e2601a1.fp.measure.office.com
