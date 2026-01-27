@@ -1,26 +1,85 @@
 {
   "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json",
-  "modules": [
-    "os",
-    "host",
-    "kernel",
-    "uptime",
-    "shell",
-    "display",
-    "de",
-    "wm",
-    "terminal",
-    "terminalfont",
-    "cpu",
-    "gpu",
-    "memory",
-    "swap",
-    "disk",
-    "poweradapter",
-    "break",
-    "colors",
-  ],
   "logo": {
     "type": "small"
+  },
+  "modules": [
+    {
+      "type": "custom",
+      "format": "━━━━━━━━━━━━━━━━━━━━━━━ {#white;1}Software{#} ━━━━━━━━━━━━━━━━━━━━━━━"
     },
-  }
+    "break",
+    {
+      "type": "os",
+      "key": "{#white}•{#} {#light_blue;1}OS{#}"
+    },
+    {
+      "type": "kernel",
+      "key": "{#white}•{#} {#light_blue;1}Kernel{#}"
+    },
+    {
+      "type": "uptime",
+      "key": "{#white}•{#} {#light_blue;1}Uptime{#}"
+    },
+    {
+      "type": "shell",
+      "key": "{#white}•{#} {#light_blue;1}Shell{#}"
+    },
+    {
+      "type": "de",
+      "key": "{#white}•{#} {#light_blue;1}DE{#}"
+    },
+    {
+      "type": "wm",
+      "key": "{#white}•{#} {#light_blue;1}WM{#}"
+    },
+        {
+      "type": "editor",
+      "key": "{#white}•{#} {#light_blue;1}Editor{#}"
+    },
+    {
+      "type": "terminal",
+      "key": "{#white}•{#} {#light_blue;1}Terminal{#}"
+    },
+    {
+      "type": "terminalfont",
+      "key": "{#white}•{#} {#light_blue;1}Terminal Font{#}"
+    },
+    "break",
+    {
+      "type": "custom",
+      "format": "━━━━━━━━━━━━━━━━━━━━━━━ {#white;1}Hardware{#} ━━━━━━━━━━━━━━━━━━━━━━━"
+    },
+    "break",
+    {
+      "type": "host",
+      "key": "{#white}•{#} {#light_blue;1}Host{#}",
+      "format": "{vendor} {name}"
+    },
+    {
+      "type": "cpu",
+      "key": "{#white}•{#} {#light_blue;1}CPU{#}",
+      "format": "{name} ({cores-physical}c/{cores-logical}t) @ {freq-max}"
+    },
+    {
+      "type": "gpu",
+      "key": "{#white}•{#} {#light_blue;1}GPU{#}",
+      "format": "{vendor} {name} [{type}]"
+    },
+    {
+      "type": "memory",
+      "key": "{#white}•{#} {#light_blue;1}Memory{#}"
+    },
+    {
+      "type": "disk",
+      "key": "{#white}•{#} {#light_blue;1}Disk{#}"
+    },
+    {
+      "type": "display",
+      "key": "{#white}•{#} {#light_blue;1}Display ({name}){#}",
+      "format": "{width}x{height} {inch}\" {refresh-rate}Hz [{type}]"
+    },
+    "break",
+    "colors"
+  ]
+}
