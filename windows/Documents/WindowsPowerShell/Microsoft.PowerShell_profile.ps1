@@ -15,14 +15,14 @@ function mkcd {
     Set-Location $Path
 }
 
-# Create one or more PowerShell script files in the current working directory
-function new-ps1 {
+# Create one or more new PowerShell script files in the current working directory
+function nps1 {
     param(
         [Parameter(ValueFromRemainingArguments = $true)]
         [string[]]$names
     )
     if (-not $names) {
-        Write-Host "Usage: new-ps1 name1 [name2 ...]"
+        Write-Host "Usage: nps1 name1 [name2 ...]"
         return
     }
     foreach ($name in $names) {
@@ -37,7 +37,7 @@ function new-ps1 {
     }
 }
 
-# Create a Windows 'God Mode' folder on your desktop
+# Create Windows 'God Mode' folder on your desktop
 function godmode {
     $folder = Join-Path ([Environment]::GetFolderPath('Desktop')) 'GodMode.{ED7BA470-8E54-465E-825C-99712043E01C}'
     if (-not (Test-Path $folder)) {
@@ -56,6 +56,45 @@ function ungodmode {
         Write-Host "God Mode folder removed from your desktop."
     } else {
         Write-Host "God Mode folder does not exist on your desktop."
+    }
+}
+
+# ----------------------------
+# Process Management
+# ----------------------------
+
+# List the top 5 processes that consume the most CPU
+function cpuhogs { Get-Process | Sort-Object CPU -Descending | Select-Object -First 5 }
+
+# List the top 5 processes that consume the most memory
+function ramhogs ([int]$Count = 5) {
+    Get-Process | Sort-Object WorkingSet64 -Descending | Select-Object -First $Count Name, 
+        @{n="RAM(GB)"; e={"{0:N2}" -f ($_.WorkingSet64 / 1GB)}},
+        @{n="RAM(MB)"; e={"{0:N2}" -f ($_.WorkingSet64 / 1MB)}} | 
+    Format-Table -AutoSize
+}
+
+# Get the start time and uptime of a selected process
+function since ($Name) {
+    # Check if Name was provided; if not, show usage and exit
+    if (-not $Name) {
+        Write-Host "Usage: since <ProcessName>"
+        return
+    }
+
+    # Sort by StartTime to find the root process in multi-process apps
+    $proc = Get-Process $Name -ErrorAction SilentlyContinue | Sort-Object StartTime | Select-Object -First 1
+    
+    if ($proc) {
+        $proc | Select-Object Name, 
+            @{n="Started"; e={$_.StartTime.ToString("MM/dd/yy")}},
+            @{n="Uptime";  e={
+                $age = (Get-Date) - $_.StartTime
+                # Format using TotalHours to support processes running greater than 24 hours
+                "{0:00}:{1:00}:{2:00}" -f [int]$age.TotalHours, $age.Minutes, $age.Seconds
+            }} | Format-Table -AutoSize
+    } else {
+        Write-Warning "Process '$Name' not found. Make sure the app is running."
     }
 }
 
@@ -108,7 +147,7 @@ function update-hosts {
 }
 
 # Get local listening ports with process name and details
-function get-listeningports {
+function listeningports {
     netstat -ano | Select-String "LISTENING" | ForEach-Object {
         $line = $_.ToString() -replace '\s+', ' '
         $tokens = $line.Trim().Split(' ')
@@ -141,6 +180,11 @@ function get-listeningports {
 
 # Set Oh My Posh theme
 oh-my-posh init pwsh --config "$Env:LOCALAPPDATA\Programs\oh-my-posh\themes\kushal.omp.json" | Invoke-Expression
+
+# Update Oh My Posh
+function ompup {
+    oh-my-posh upgrade
+}
 
 # Launch Chris Titus Tech Windows Utility (Stable Branch)
 function cttwin { irm "https://christitus.com/win" | iex }
