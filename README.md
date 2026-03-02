@@ -7,6 +7,7 @@
 
 <div align="center">
   <a href="https://github.com/hafiz-muhammad/configs/wiki"><strong>Wiki</strong></a>
+  <a href="https://hafiz-muhammad.github.io/configs/"><strong>Repo Tree</strong></a>
 </div>
 
 > [!NOTE]
