@@ -83,7 +83,7 @@ li {
 }
 
 .folder-name {
-    color: var(--folder);
+    color: inherit;
     font-weight: 500;
 }
 
@@ -103,4 +103,5 @@ li {
 
 .collapsed {
     display: none;
+
 }
