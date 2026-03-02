@@ -1,0 +1,106 @@
+/* Theme colors */
+:root {
+    --bg: #ffffff;
+    --text: #24292e;
+    --border: #e1e4e8;
+    --hover-bg: rgba(84, 174, 255, 0.1);
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --bg: #0d1117;
+        --text: #c9d1d9;
+        --border: #30363d;
+        --hover-bg: rgba(88, 166, 255, 0.15);
+    }
+}
+
+/* Base */
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+    background-color: var(--bg);
+    color: var(--text);
+    margin: 0;
+    padding: 2rem;
+    line-height: 1.5;
+}
+
+h1 {
+    font-size: 1.25rem;
+    border-bottom: 1px solid var(--border);
+    padding-bottom: 0.5rem;
+}
+
+#loading {
+    font-style: italic;
+    color: var(--text);
+    opacity: 0.6;
+}
+
+/* Layout */
+.tree-container {
+    margin-top: 1rem;
+}
+
+ul {
+    list-style: none;
+    padding-left: 1.5rem;
+    border-left: 1px solid var(--border);
+}
+
+li {
+    margin: 0.4rem 0;
+    position: relative;
+}
+
+/* Item styles */
+.file,
+.folder-header {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.icon {
+    margin-right: 4px;
+    font-weight: bold;
+    display: inline-block;
+    width: 1.2em;
+    text-align: center;
+    user-select: none;
+}
+
+.file a,
+.folder-name {
+    color: inherit;
+    text-decoration: none;
+    padding: 2px 8px;
+    border-radius: 4px;
+    transition:
+        background-color 0.2s ease,
+        color 0.2s ease;
+    cursor: pointer;
+}
+
+.folder-name {
+    color: var(--folder);
+    font-weight: 500;
+}
+
+.file a:hover,
+.folder-name:hover {
+    background-color: var(--hover-bg);
+}
+
+.folder-toggle:hover {
+    opacity: 0.7;
+}
+
+/* States */
+.nested {
+    display: block;
+}
+
+.collapsed {
+    display: none;
+}
