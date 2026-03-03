@@ -21,7 +21,7 @@ jobs:
       
     - name: Download hosts file
       run: |
-        wget -O windows/System32/drivers/etc/hosts \
+        wget -nv -O windows/System32/drivers/etc/hosts \
         https://raw.githubusercontent.com/hagezi/dns-blocklists/refs/heads/main/hosts/native.winoffice.txt
 
     - name: Commit and push changes
