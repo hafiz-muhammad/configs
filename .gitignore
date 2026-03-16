@@ -21,6 +21,10 @@
 *.AppImage
 *.flatpakref
 
+# Ulauncher
+.config/ulauncher/ext_preferences/
+.config/ulauncher/user-themes/
+
 ####################
 # Windows
 ####################
