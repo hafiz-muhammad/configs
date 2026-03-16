@@ -1,0 +1,30 @@
+{
+    "com.github.ulauncher.ulauncher-emoji": {
+        "id": "com.github.ulauncher.ulauncher-emoji",
+        "url": "https://github.com/Ulauncher/ulauncher-emoji",
+        "updated_at": "2026-03-16T08:47:10.353963",
+        "last_commit": "195d167ea0cfdbb2169906b5acaac8097db84767",
+        "last_commit_time": "2025-10-05T04:07:23"
+    },
+    "com.github.iboyperson.ulauncher-system": {
+        "id": "com.github.iboyperson.ulauncher-system",
+        "url": "https://github.com/iboyperson/ulauncher-system",
+        "updated_at": "2026-03-16T08:48:18.318934",
+        "last_commit": "7dedd992709fa2297735cddf852404144d4da47c",
+        "last_commit_time": "2023-11-14T16:53:20"
+    },
+    "com.github.zensoup.ulauncher-unicode": {
+        "id": "com.github.zensoup.ulauncher-unicode",
+        "url": "https://github.com/zensoup/ulauncher-unicode",
+        "updated_at": "2026-03-16T08:49:42.794093",
+        "last_commit": "0ad36c00a888e687b4bfbf76f266f1000040b337",
+        "last_commit_time": "2019-07-11T06:53:31"
+    },
+    "com.github.kuenzelit.ulauncher-firefox-bookmarks": {
+        "id": "com.github.kuenzelit.ulauncher-firefox-bookmarks",
+        "url": "https://github.com/KuenzelIT/ulauncher-firefox-bookmarks",
+        "updated_at": "2026-03-16T08:51:32.856882",
+        "last_commit": "6ad3d3164304faba358d9dfc89a6b664f6b0f747",
+        "last_commit_time": "2025-02-12T17:18:37"
+    }
+}
