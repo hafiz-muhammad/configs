@@ -16,7 +16,7 @@ function mkcd {
 }
 
 # Create one or more new PowerShell script files in the current working directory
-function nps1 {
+function newps1 {
     param(
         [Parameter(ValueFromRemainingArguments = $true)]
         [string[]]$names
@@ -103,7 +103,7 @@ function since ($Name) {
 # ----------------------------
 
 # Get all PowerShell profile paths
-function pprof {
+function profilepaths {
 	$PROFILE | Select-Object *
 }
 
@@ -118,7 +118,7 @@ function reload { . $PROFILE }
 function flushdns { Clear-DnsClientCache; Write-Host "DNS cache flushed." }
 
 # Auto update Windows hosts file from hafiz-muhammad/configs GitHub repository
-function update-hosts {
+function updatehosts {
     # Check if PowerShell running as admin
     $isAdmin = ([Security.Principal.WindowsPrincipal] [Security.Principal.WindowsIdentity]::GetCurrent()).IsInRole([Security.Principal.WindowsBuiltInRole]::Administrator)
     if (-not $isAdmin) {
@@ -147,7 +147,7 @@ function update-hosts {
 }
 
 # Get local listening ports with process name and details
-function listeningports {
+function listenports {
     netstat -ano | Select-String "LISTENING" | ForEach-Object {
         $line = $_.ToString() -replace '\s+', ' '
         $tokens = $line.Trim().Split(' ')
@@ -179,10 +179,24 @@ function listeningports {
 # ----------------------------
 
 # Set Oh My Posh theme
-oh-my-posh init pwsh --config "$Env:LOCALAPPDATA\Programs\oh-my-posh\themes\kushal.omp.json" | Invoke-Expression
+function Start-PoshPrompt {
+    $localTheme = "$Env:LOCALAPPDATA\Programs\oh-my-posh\themes\kushal.omp.json"
+    $remoteTheme = 'https://raw.githubusercontent.com/JanDeDobbeleer/oh-my-posh/refs/heads/main/themes/kushal.omp.json'
+
+    if (Test-Path $localTheme) {
+        # Use the local file if it exists
+        oh-my-posh init pwsh --config $localTheme | Invoke-Expression
+    }
+    else {
+        # Fallback to the GitHub URL
+        oh-my-posh init pwsh --config $remoteTheme | Invoke-Expression
+    }
+}
+
+Start-PoshPrompt
 
 # Update Oh My Posh
-function ompup {
+function poshupgrade {
     oh-my-posh upgrade
 }
 
