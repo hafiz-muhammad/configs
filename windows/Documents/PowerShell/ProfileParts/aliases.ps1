@@ -128,7 +128,7 @@ function Update-HostsFile {
     $isAdmin = ([Security.Principal.WindowsPrincipal] [Security.Principal.WindowsIdentity]::GetCurrent()).IsInRole([Security.Principal.WindowsBuiltInRole]::Administrator)
     if (-not $isAdmin) {
         Write-Warning "This function must be run as Administrator!"
-        Write-Host "Please restart PowerShell as Administrator, then run 'update-hosts' again."
+        Write-Host "Please restart PowerShell as Administrator, then run 'updatehosts' again."
         return
     }
 
