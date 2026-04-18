@@ -145,7 +145,6 @@ firewalld.
 - [mediawriter](https://packages.fedoraproject.org/pkgs/mediawriter/mediawriter/) - A tool to write images of Fedora media to portable drives.
 - [gparted](https://packages.fedoraproject.org/pkgs/gparted/gparted/) - A graphical partition manager.
 - [Warehouse](https://flathub.org/apps/io.github.flattool.Warehouse) - A UI to manage Flatpaks.
-- [AppImageLauncher](https://github.com/TheAssassin/AppImageLauncher) - Linux helper application for running and integrating AppImages.
 - [Gear Lever](https://flathub.org/apps/it.mijorus.gearlever) - A utility to manage AppImages.
 - [KeePassXC](https://flathub.org/apps/org.keepassxc.KeePassXC) - A secure free and open source cross-platform password manager.
 - [Syncthing](https://packages.fedoraproject.org/pkgs/syncthing/syncthing/) - Free and open source peer-to-peer file synchronization application.
