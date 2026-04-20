@@ -19,7 +19,7 @@
 <br>
 <br>
 
-<h2 align="center">📸 Screenshots 📸</h2>
+<h2 align="center">Screenshots</h2>
 
 | Fedora Sway Spin w/ Nord color scheme             | Fastfetch                                       |
 |:-------------------------------------------------:|:-----------------------------------------------:|
