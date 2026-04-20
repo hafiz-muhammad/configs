@@ -108,7 +108,6 @@ firewalld.
 - [Authenticator](https://flathub.org/apps/details/com.belmoussaoui.Authenticator) - Am application for generating Two-Factor Authentication Codes.
 - [gnome-keyring](https://packages.fedoraproject.org/pkgs/gnome-keyring/gnome-keyring/) - A daemon for managings passwords and other types of secrets for the user, storing them encrypted with a main password. Applications can use the gnome-keyring library to integrate with the keyring.
 - [Thunderbird](https://flathub.org/apps/org.mozilla.Thunderbird) - Free and open source email client.
-- [file-roller](https://packages.fedoraproject.org/pkgs/file-roller/file-roller/) - An application for creating and viewing archives files.
 - [LibreOffice](https://flathub.org/apps/org.libreoffice.LibreOffice) - Free and Open Source office suite.
 - [VLC](https://flathub.org/en/apps/org.videolan.VLC) - A free and open source cross-platform multimedia player.
 </details>
