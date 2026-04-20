@@ -27,12 +27,7 @@
 
 ---
 
-## Linux
-
-### Fedora Sway Spin:
-
-### 📚 Resources 
-
+# Fedora
 <details><summary>Documentation</summary>
 
 - [Sway Wiki](https://github.com/swaywm/sway/wiki)
@@ -40,16 +35,92 @@
 - [Fedora Documentation](https://docs.fedoraproject.org/en-US/docs/)
 </details>
 
-### 💾 Software & 🎨 Customization
+### Cross-device
 
-<details><summary>Main/Essential</summary>
+<details><summary>Essential</summary>
+
+- [git](https://packages.fedoraproject.org/pkgs/git/git/) - Distributed revision control system.
+- [nodejs](https://packages.fedoraproject.org/pkgs/nodejs22/nodejs/) - JavaScript runtime.
+- [python3-pip](https://packages.fedoraproject.org/pkgs/python-pip/python3-pip/) - A tool for installing and managing Python3 packages.
+</details>
+
+<details><summary>Web Browsers</summary>
+
+- [firefox](https://packages.fedoraproject.org/pkgs/firefox/firefox/) - A free and open source web browser by Mozilla.
+- [Brave](https://brave.com/) - A free and open source Chromium web browser by Brave Software. 
+</details>
+
+<details><summary>Customization</summary>
+
+- [Nerd Fonts](https://www.nerdfonts.com/) - Iconic font aggregator, collection, and patcher.
+  - Nerd Font used: FiraCode Nerd Font
+- [Embellish](https://flathub.org/en/apps/io.github.getnf.embellish) - An application for managing Nerd Fonts.
+- [Oh My Posh](https://ohmyposh.dev/) - A prompt theme engine for any shell.
+</details>
+
+<details><summary>Text Editors & IDEs</summary>
+
+- [helix](https://packages.fedoraproject.org/pkgs/helix/helix/) - A post-modern modal text editor written in Rust.
+- [Text Editor](https://flathub.org/apps/org.gnome.TextEditor) - Text editor for the GNOME desktop environment.
+- [VSCode](https://code.visualstudio.com/) - An integrated development environment developed by Microsoft.
+</details>
+
+<details><summary>System Monitoring and Information</summary>
+
+- [fastfetch](https://packages.fedoraproject.org/pkgs/fastfetch/fastfetch/) - A neofetch like system information tool.
+- [htop](https://packages.fedoraproject.org/pkgs/htop/htop/) - An interactive process viewer.     
+- [nmon](https://packages.fedoraproject.org/pkgs/nmon/nmon/) - A systems administrator, tuner, benchmark tool, which provides information about CPU, disks, network, etc.
+- [lm_sensors](https://packages.fedoraproject.org/pkgs/lm_sensors/lm_sensors/) - A collection of modules for general SMBus access and hardware monitoring.
+- [collectl](https://packages.fedoraproject.org/pkgs/collectl/collectl/) - A utility to collect Linux performance data.
+- [smartmontools](https://packages.fedoraproject.org/pkgs/smartmontools/smartmontools/) - a set of utility programs to control and monitor computer storage systems using the Self-Monitoring, Analysis and Reporting Technology system built into most modernATA, Serial ATA, SCSI/SAS and NVMe hard drives.
+- [nvme-cli](https://packages.fedoraproject.org/pkgs/nvme-cli/nvme-cli/) - Provides NVM-Express user space tooling for Linux.
+- [macchanger](https://packages.fedoraproject.org/pkgs/macchanger/macchanger/) - A utility to viewing & manipulating the MAC address of network interfaces.
+</details>
+
+<details><summary>Optimization</summary>
+
+- [profile-sync-daemon](https://packages.fedoraproject.org/pkgs/profile-sync-daemon/profile-sync-daemon/) - Symlinks and syncs browser profile dirs to RAM thus reducing HDD/SDD calls and speeding-up browsers.
+</details>
+
+<details><summary>Security</summary>
+
+- [firewalld](https://packages.fedoraproject.org/pkgs/firewalld/firewalld/) - A firewall service daemon that provides a dynamic customizable firewall with a D-Bus interface.
+- [firewall-config](https://packages.fedoraproject.org/pkgs/firewalld/firewall-config/) - Firewall configuration application provides an configuration interface for
+firewalld.
+- [clamav](https://packages.fedoraproject.org/pkgs/clamav/clamav/) - An open source antivirus engine for detecting trojans, viruses, malware & other malicious threats.
+- [chkrootkit](https://packages.fedoraproject.org/pkgs/chkrootkit/chkrootkit/) - A tool to locally check for signs of a rootkit.
+- [lynis](https://packages.fedoraproject.org/pkgs/lynis/lynis/) - An auditing and hardening tool for Unix/Linux. Performs many individual security control checks. Detects security issues and provides suggestions to improve the security defense of the system.
+- [rkhunter](https://packages.fedoraproject.org/pkgs/rkhunter/rkhunter/) - Rootkit Hunter, security monitoring and analyzing tool.
+- [fail2ban](https://packages.fedoraproject.org/pkgs/fail2ban/fail2ban/) - Scans log files and bans IP addresses that makes too many password failures. It updates firewall rules to reject the IP address. These rules can be defined by the user.
+- [firejail](https://packages.fedoraproject.org/pkgs/firejail/firejail/) - A SUID sandbox program that reduces the risk of security breaches by restricting the running environment of untrusted applications using Linux namespaces.
+</details>
+
+<details><summary>Other</summary>
+
+- [Logseq](https://flathub.org/en/apps/com.logseq.Logseq) - A free and open-source, personal knowledge base and note-taking application
+- [mediawriter](https://packages.fedoraproject.org/pkgs/mediawriter/mediawriter/) - A tool to write images of Fedora media to portable drives.
+- [gparted](https://packages.fedoraproject.org/pkgs/gparted/gparted/) - A graphical partition manager.
+- [Warehouse](https://flathub.org/apps/io.github.flattool.Warehouse) - A UI to manage Flatpaks.
+- [Gear Lever](https://flathub.org/apps/it.mijorus.gearlever) - A utility to manage AppImages.
+- [KeePassXC](https://flathub.org/apps/org.keepassxc.KeePassXC) - A secure free and open source cross-platform password manager.
+- [Syncthing](https://packages.fedoraproject.org/pkgs/syncthing/syncthing/) - Free and open source peer-to-peer file synchronization application.
+- [Seahorse/Passwords and Keys](https://flathub.org/apps/org.gnome.seahorse.Application) - Manage encryption keys. A keyring manager.
+- [Authenticator](https://flathub.org/apps/details/com.belmoussaoui.Authenticator) - Am application for generating Two-Factor Authentication Codes.
+- [gnome-keyring](https://packages.fedoraproject.org/pkgs/gnome-keyring/gnome-keyring/) - A daemon for managings passwords and other types of secrets for the user, storing them encrypted with a main password. Applications can use the gnome-keyring library to integrate with the keyring.
+- [Thunderbird](https://flathub.org/apps/org.mozilla.Thunderbird) - Free and open source email client.
+- [file-roller](https://packages.fedoraproject.org/pkgs/file-roller/file-roller/) - An application for creating and viewing archives files.
+- [LibreOffice](https://flathub.org/apps/org.libreoffice.LibreOffice) - Free and Open Source office suite.
+- [VLC](https://flathub.org/en/apps/org.videolan.VLC) - A free and open source cross-platform multimedia player.
+</details>
+
+### Sway Spin
+
+<details><summary>Essential</summary>
 
 - [alacritty](https://github.com/alacritty/alacritty) - Terminal emulator.
 - [thunar](https://packages.fedoraproject.org/pkgs/Thunar/Thunar/) - File manager.
 - [blueman](https://packages.fedoraproject.org/pkgs/blueman/blueman/) - A tool to use Bluetooth devices. 
 - [cups](https://packages.fedoraproject.org/pkgs/cups/cups/) - Print manager for Linux.
-- [git](https://packages.fedoraproject.org/pkgs/git/git/) - Distributed revision control system.
-- [python3-pip](https://packages.fedoraproject.org/pkgs/python-pip/python3-pip/) - A tool for installing and managing Python3 packages.
 - [imv](https://packages.fedoraproject.org/pkgs/imv/imv/) - Image viewer for X11 and Wayland.
 - [autotiling](https://github.com/nwg-piotr/autotiling) - Script for sway and i3 to automatically switch the horizontal & vertical window split orientation.
 - [NetworkManager](https://packages.fedoraproject.org/pkgs/NetworkManager/NetworkManager/) - NetworkManager is a system service that manages network interfaces and connections.
@@ -58,7 +129,6 @@
 - [pipewire](https://packages.fedoraproject.org/pkgs/pipewire/pipewire/) - A multimedia server for Linux and other Unix like operating systems.
 - [pipewire-alsa](https://packages.fedoraproject.org/pkgs/pipewire/pipewire-alsa/) - An ALSA plugin for the PipeWire media server.
 - [ffmpeg-free](https://packages.fedoraproject.org/pkgs/ffmpeg/ffmpeg-free/) - A multimedia framework to record, convert and stream audio and video.
-- [nodejs](https://packages.fedoraproject.org/pkgs/nodejs22/nodejs/) - JavaScript runtime.
 - [waybar](https://packages.fedoraproject.org/pkgs/waybar/waybar/) -  Status bar for Sway and Wlroots based compositors.
 - [swaylock](https://packages.fedoraproject.org/pkgs/swaylock/swaylock/) - Lockscreen for Wayland compositors.
 - [swaybg](https://packages.fedoraproject.org/pkgs/swaybg/swaybg/) - Wallpaper tool for Wayland compositors.
@@ -80,19 +150,6 @@
 - [tuned-ppd](https://packages.fedoraproject.org/pkgs/tuned/tuned-ppd/) - power-profiles-daemon compatibility daemon.
 </details>
 
-<details><summary>Web Browsers</summary>
-
-- [firefox](https://packages.fedoraproject.org/pkgs/firefox/firefox/) - A free and open source web browser by Mozilla.
-- [Brave](https://brave.com/) - A free and open source Chromium web browser by Brave Software. 
-</details>
-
-<details><summary>Text Editors & IDEs</summary>
-
-- [helix](https://packages.fedoraproject.org/pkgs/helix/helix/) - A post-modern modal text editor written in Rust.
-- [Text Editor](https://flathub.org/apps/org.gnome.TextEditor) - Text editor for the GNOME desktop environment.
-- [VSCodium](https://vscodium.com/) - A version of Visual Studio Code without telemetry.
-</details>
-
 <details><summary>Customization</summary>
 
 - [Nerd Fonts](https://www.nerdfonts.com/) - Iconic font aggregator, collection, and patcher.
@@ -102,67 +159,14 @@
   <strong>Note:</strong> Nerd Font icons are used.
 </blockquote>
 
-- [Embellish](https://flathub.org/en/apps/io.github.getnf.embellish) - An application for managing Nerd Fonts.
-- [Oh My Posh](https://ohmyposh.dev/) - A prompt theme engine for any shell.
 - [Oh My Posh nordtron theme](https://github.com/JanDeDobbeleer/oh-my-posh/blob/main/themes/nordtron.omp.json)
 - [adwaita-icon-theme](https://github.com/GNOME/adwaita-icon-theme) - Icon set for GNOME core apps.
 - [gnome-themes-extra](https://packages.fedoraproject.org/pkgs/gnome-themes-extra/gnome-themes-extra/) - This module houses themes and theme-y tidbits that don’t really fit in anywhere
 else, or deserve their own module.
 </details>
 
-<details><summary>Optimization</summary>
-
-- [profile-sync-daemon](https://packages.fedoraproject.org/pkgs/profile-sync-daemon/profile-sync-daemon/) - Symlinks and syncs browser profile dirs to RAM thus reducing HDD/SDD calls and speeding-up browsers.
-</details>
-
-<details><summary>System Monitoring and Information</summary>
-
-- [fastfetch](https://packages.fedoraproject.org/pkgs/fastfetch/fastfetch/) - A neofetch like system information tool.
-- [htop](https://packages.fedoraproject.org/pkgs/htop/htop/) - An interactive process viewer.     
-- [nmon](https://packages.fedoraproject.org/pkgs/nmon/nmon/) - A systems administrator, tuner, benchmark tool, which provides information about CPU, disks, network, etc.
-- [lm_sensors](https://packages.fedoraproject.org/pkgs/lm_sensors/lm_sensors/) - A collection of modules for general SMBus access and hardware monitoring.
-- [collectl](https://packages.fedoraproject.org/pkgs/collectl/collectl/) - A utility to collect Linux performance data.
-- [smartmontools](https://packages.fedoraproject.org/pkgs/smartmontools/smartmontools/) - a set of utility programs to control and monitor computer storage systems using the Self-Monitoring, Analysis and Reporting Technology system built into most modernATA, Serial ATA, SCSI/SAS and NVMe hard drives.
-- [nvme-cli](https://packages.fedoraproject.org/pkgs/nvme-cli/nvme-cli/) - Provides NVM-Express user space tooling for Linux.
-- [macchanger](https://packages.fedoraproject.org/pkgs/macchanger/macchanger/) - A utility to viewing & manipulating the MAC address of network interfaces.
-</details>
-
-<details><summary>Security</summary>
-
-- [firewalld](https://packages.fedoraproject.org/pkgs/firewalld/firewalld/) - A firewall service daemon that provides a dynamic customizable firewall with a D-Bus interface.
-- [firewall-config](https://packages.fedoraproject.org/pkgs/firewalld/firewall-config/) - Firewall configuration application provides an configuration interface for
-firewalld.
-- [clamav](https://packages.fedoraproject.org/pkgs/clamav/clamav/) - An open source antivirus engine for detecting trojans, viruses, malware & other malicious threats.
-- [chkrootkit](https://packages.fedoraproject.org/pkgs/chkrootkit/chkrootkit/) - A tool to locally check for signs of a rootkit.
-- [lynis](https://packages.fedoraproject.org/pkgs/lynis/lynis/) - An auditing and hardening tool for Unix/Linux. Performs many individual security control checks. Detects security issues and provides suggestions to improve the security defense of the system.
-- [rkhunter](https://packages.fedoraproject.org/pkgs/rkhunter/rkhunter/) - Rootkit Hunter, security monitoring and analyzing tool.
-- [fail2ban](https://packages.fedoraproject.org/pkgs/fail2ban/fail2ban/) - Scans log files and bans IP addresses that makes too many password failures. It updates firewall rules to reject the IP address. These rules can be defined by the user.
-- [firejail](https://packages.fedoraproject.org/pkgs/firejail/firejail/) - A SUID sandbox program that reduces the risk of security breaches by restricting the running environment of untrusted applications using Linux namespaces.
-</details>
-
-<details><summary>Other</summary>
-
-- [mediawriter](https://packages.fedoraproject.org/pkgs/mediawriter/mediawriter/) - A tool to write images of Fedora media to portable drives.
-- [gparted](https://packages.fedoraproject.org/pkgs/gparted/gparted/) - A graphical partition manager.
-- [Warehouse](https://flathub.org/apps/io.github.flattool.Warehouse) - A UI to manage Flatpaks.
-- [Gear Lever](https://flathub.org/apps/it.mijorus.gearlever) - A utility to manage AppImages.
-- [KeePassXC](https://flathub.org/apps/org.keepassxc.KeePassXC) - A secure free and open source cross-platform password manager.
-- [Syncthing](https://packages.fedoraproject.org/pkgs/syncthing/syncthing/) - Free and open source peer-to-peer file synchronization application.
-- [Seahorse/Passwords and Keys](https://flathub.org/apps/org.gnome.seahorse.Application) - Manage encryption keys. A keyring manager.
-- [Authenticator](https://flathub.org/apps/details/com.belmoussaoui.Authenticator) - Am application for generating Two-Factor Authentication Codes.
-- [gnome-keyring](https://packages.fedoraproject.org/pkgs/gnome-keyring/gnome-keyring/) - A daemon for managings passwords and other types of secrets for the user, storing them encrypted with a main password. Applications can use the gnome-keyring library to integrate with the keyring.
-- [Thunderbird](https://flathub.org/apps/org.mozilla.Thunderbird) - Free and open source email client.
-- [BleachBit](https://flathub.org/apps/org.bleachbit.BleachBit) - Cleans files to free disk space and to maintain privacy.
-- [file-roller](https://packages.fedoraproject.org/pkgs/file-roller/file-roller/) - An application for creating and viewing archives files.
-- [LibreOffice](https://flathub.org/apps/org.libreoffice.LibreOffice) - Free and Open Source office suite.
-- [VLC](https://flathub.org/en/apps/org.videolan.VLC) - A free and open source cross-platform multimedia player.
-</details>
-
-## Windows
-
-### 💾 Software
-
-<details><summary>Applications Used</summary>
+# Windows
+<details><summary>Applications</summary>
     
 - [O&O ShutUp10++](https://www.oo-software.com/en/shutup10)
 - [Microsoft PowerToys](https://apps.microsoft.com/detail/xp89dcgq3k6vld?hl=en-US&gl=US)
