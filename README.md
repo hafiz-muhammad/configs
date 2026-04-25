@@ -7,8 +7,6 @@
 
 <div align="center">
   <h3>
-    <a href="https://github.com/hafiz-muhammad/configs/wiki" style="text-decoration:none;">Wiki</a>
-    &nbsp;&nbsp;•&nbsp;&nbsp;
     <a href="https://hafiz-muhammad.github.io/configs/" style="text-decoration:none;">Repo Tree</a>
   </h3>
 </div>
