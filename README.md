@@ -18,8 +18,7 @@
 <br>
 <br>
 
-<h2 align="center">Screenshots</h2>
-
+## Showcase
 | Fedora Sway Spin w/ Nord color scheme             | Fastfetch                                       |
 |:-------------------------------------------------:|:-----------------------------------------------:|
 | ![Sway Nord](assets/screenshots/sway-nord.png)    | ![Fastfetch](assets/screenshots/fastfetch.png)  |
