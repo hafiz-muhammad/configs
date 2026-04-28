@@ -1,9 +1,10 @@
 ![GitHub repo size](https://img.shields.io/github/repo-size/hafiz-muhammad/configs)
 ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/hafiz-muhammad/configs)
 
-<h3 align="center">
-    <img align="center" width="85%" src=assets/images/banner.png />
-</h3>
+<div align="center">
+  <h1>My Personal Configs</h1>
+  <h3>Dotfiles, documentation, and various system configurations...</h3>
+</div>
 
 <div align="center">
   <h3>
