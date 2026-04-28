@@ -40,6 +40,7 @@
 - [git](https://packages.fedoraproject.org/pkgs/git/git/) - Distributed revision control system.
 - [nodejs](https://packages.fedoraproject.org/pkgs/nodejs22/nodejs/) - JavaScript runtime.
 - [python3-pip](https://packages.fedoraproject.org/pkgs/python-pip/python3-pip/) - A tool for installing and managing Python3 packages.
+- [remove-retired-packages](https://packages.fedoraproject.org/pkgs/fedora-upgrade/remove-retired-packages/) - Remove retired distribution's packages.
 </details>
 
 <details><summary>Web Browsers</summary>
