@@ -1,15 +1,10 @@
 ![GitHub repo size](https://img.shields.io/github/repo-size/hafiz-muhammad/configs)
 ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/hafiz-muhammad/configs)
+[![Repo Tree](https://img.shields.io/badge/view-Repo_Tree-blue)](https://hafiz-muhammad.github.io/configs/)
 
 <div align="center">
   <h1>My Personal Configs</h1>
   <h3>Dotfiles, documentation, and various other configurations...</h3>
-</div>
-
-<div align="center">
-  <h3>
-    <a href="https://hafiz-muhammad.github.io/configs/" style="text-decoration:none;">Repo Tree</a>
-  </h3>
 </div>
 
 > [!NOTE]
