@@ -26,7 +26,7 @@
 
 ---
 
-# Fedora
+## Fedora
 <details><summary>Documentation</summary>
 
 - [Sway Wiki](https://github.com/swaywm/sway/wiki)
@@ -164,7 +164,7 @@ firewalld.
 else, or deserve their own module.
 </details>
 
-# Windows
+## Windows
 <details><summary>Applications</summary>
     
 - [O&O ShutUp10++](https://www.oo-software.com/en/shutup10)
