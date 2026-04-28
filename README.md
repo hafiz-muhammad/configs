@@ -3,7 +3,7 @@
 
 <div align="center">
   <h1>My Personal Configs</h1>
-  <h3>Dotfiles, documentation, and various system configurations...</h3>
+  <h3>Dotfiles, documentation, and various other configurations...</h3>
 </div>
 
 <div align="center">
