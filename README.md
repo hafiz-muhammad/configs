@@ -154,8 +154,14 @@ firewalld.
 
 - [Oh My Posh nordtron theme](https://github.com/JanDeDobbeleer/oh-my-posh/blob/main/themes/nordtron.omp.json)
 - [adwaita-icon-theme](https://github.com/GNOME/adwaita-icon-theme) - Icon set for GNOME core apps.
-- [gnome-themes-extra](https://packages.fedoraproject.org/pkgs/gnome-themes-extra/gnome-themes-extra/) - This module houses themes and theme-y tidbits that don’t really fit in anywhere
-else, or deserve their own module.
+- [adw-gtk3-theme](https://packages.fedoraproject.org/pkgs/adw-gtk3-theme/adw-gtk3-theme/) - The theme from libadwaita ported to GTK-3. \
+  [adw-gtk3 repository](https://github.com/lassekongo83/adw-gtk3)
+  - **Install adw-gtk3 from Flatpak** \
+    Stylize Flatpak applications *(Doesn't work with non-libadwaita GTK4 apps)*:
+    ```console
+    flatpak install org.gtk.Gtk3theme.adw-gtk3 org.gtk.Gtk3theme.adw-gtk3-dark
+    ```
+
 </details>
 
 ## Windows
