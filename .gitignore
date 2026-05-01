@@ -73,15 +73,6 @@ ehthumbs_vista.db
 *.log
 
 ####################
-# Synced Files
-####################
-
-# Syncthing
-[Ss]ync/
-.stfolder/
-.stversions/
-
-####################
 # Development
 ####################
 
@@ -96,7 +87,7 @@ venv/
 ####################
 
 # KeePass database
-*.kdbx
+*.kdbx*
 
 # Identity & Contacts
 *.vcard
@@ -111,3 +102,15 @@ bookmarks*
 *.gpg
 *.asc
 *.age
+*.2fas
+*.aegis
+
+# Syncthing
+[Ss]ync/
+.stfolder/
+.stversions/
+
+# Cryptomator
+*[Cc]ryptomator*
+*.c9r
+*.c9s
