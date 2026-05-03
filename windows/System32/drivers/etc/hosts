@@ -5,10 +5,10 @@
 # Issues: https://github.com/hagezi/dns-blocklists/issues
 # Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 # Expires: 1 day
-# Last modified: 01 May 2026 17:06 UTC
-# Version: 2026.0501.1706.06
+# Last modified: 02 May 2026 17:07 UTC
+# Version: 2026.0502.1707.16
 # Syntax: Hosts (including possible subdomains)
-# Number of entries: 13854
+# Number of entries: 13918
 #
 0.0.0.0 c-bingapis-com.dual-a-0034.a-msedge.net
 0.0.0.0 measure.office.com.akamaized.net
@@ -1082,6 +1082,7 @@
 0.0.0.0 0988cd41d5ec459b9972d42fa552d19f.fp.measure.office.com
 0.0.0.0 098cf238294c4a12ba673e867686ce56.fp.measure.office.com
 0.0.0.0 09913887d538acbeda67ff5a7b0f1d00.fp.measure.office.com
+0.0.0.0 0997da495d1294e59f38468b5e74b3df.fp.measure.office.com
 0.0.0.0 09a679721ffc6e3670f86a17755fc25f.fp.measure.office.com
 0.0.0.0 09a7271841c24bc39bf9268df47b8442.fp.measure.office.com
 0.0.0.0 09a934b87e4f4af1996129be0e27502b.fp.measure.office.com
@@ -1342,6 +1343,7 @@
 0.0.0.0 0e631a00134c900e53a53d15b1b47390.fp.measure.office.com
 0.0.0.0 0e640f58a3bb4da681587e7329d4e954.fp.measure.office.com
 0.0.0.0 0e65fbffc24641478cd0b0c22ab2ccaf.fp.measure.office.com
+0.0.0.0 0e661ac8e11d4e53823257c1187bbfd5.fp.measure.office.com
 0.0.0.0 0e6c97ca9c1bd73fc441ef630a01e2c3.fp.measure.office.com
 0.0.0.0 0e6c9cf0fef2cc813814aeac4725131c.fp.measure.office.com
 0.0.0.0 0e6e464ca29f4bf768e36df2778763c4.fp.measure.office.com
@@ -1521,6 +1523,7 @@
 0.0.0.0 11a039b618c284003d333ab882ec8f1d.fp.measure.office.com
 0.0.0.0 11a1680eeda72770770847848a7970a8.fp.measure.office.com
 0.0.0.0 11b6b535ea036e4f901d6721f49246f0.fp.measure.office.com
+0.0.0.0 11bc6f0ae33c7bee7ca8e078a678f578.fp.measure.office.com
 0.0.0.0 11c66ded33be4f509e297782a8ee74f9.fp.measure.office.com
 0.0.0.0 11cf6ff1bc27b904706aebab7ac07461.fp.measure.office.com
 0.0.0.0 11d2fdbbda3743c09d9db598414e44d5.fp.measure.office.com
@@ -1541,6 +1544,7 @@
 0.0.0.0 121434e44af343299b48a1722f8c12c2.fp.measure.office.com
 0.0.0.0 121a20a9946749d0ab2933e4931f3510.fp.measure.office.com
 0.0.0.0 121d854307fb4c3facf01a3b8fbbb233.fp.measure.office.com
+0.0.0.0 1220c64db87dee9e7132463ac51e5548.fp.measure.office.com
 0.0.0.0 122484fa7df1444f819414603500cff0.fp.measure.office.com
 0.0.0.0 12249ad45bc14957805906f03a11bc7a.fp.measure.office.com
 0.0.0.0 122645a42ad3413a81ca0ab2c3a748c8.fp.measure.office.com
@@ -1793,6 +1797,7 @@
 0.0.0.0 17d08464a9b75a8501bf33b35eb23d7a.fp.measure.office.com
 0.0.0.0 17db84f47802b3eca051da5e23bd2862.fp.measure.office.com
 0.0.0.0 17df73298ed3dee83b3eaead7cea352a.fp.measure.office.com
+0.0.0.0 17e0150960a7444db81e997f63a73366.fp.measure.office.com
 0.0.0.0 17e31df9254344c1a69a807909b5f077.fp.measure.office.com
 0.0.0.0 17e5dbb82b1a4de3b4321d54457b2197.fp.measure.office.com
 0.0.0.0 17fce0987d9046c0b55b6ad0838ca6be.fp.measure.office.com
@@ -2413,6 +2418,7 @@
 0.0.0.0 2425440a264a7d49acb1aa4956d36ed4.fp.measure.office.com
 0.0.0.0 2426b9e2c8734b749005e5f15ae308ae.fp.measure.office.com
 0.0.0.0 2428b859e59efaed99fa77902c0596db.fp.measure.office.com
+0.0.0.0 242c3cd0245140e3a6ec13712ff6005e.fp.measure.office.com
 0.0.0.0 243fe65e4dea60f1f2041725b1a45b8e.fp.measure.office.com
 0.0.0.0 2440ab4ed91c4c66926ad5454cb2f468.fp.measure.office.com
 0.0.0.0 24424ecc4301125dc3607a22874b381d.fp.measure.office.com
@@ -2551,6 +2557,7 @@
 0.0.0.0 270aad85aea536e5da059e913358ab22.fp.measure.office.com
 0.0.0.0 270b710d4c294979b77ed7fe1acbeb0e.fp.measure.office.com
 0.0.0.0 27109c0d88f9470e8105ca1efd9a2778.fp.measure.office.com
+0.0.0.0 2710cff652fa192997ad358b1aca6bb0.fp.measure.office.com
 0.0.0.0 27199313e5374b7ca608112fd6fa03c7.fp.measure.office.com
 0.0.0.0 27207d6b1a1f4c2abe6c73da5c8400c4.fp.measure.office.com
 0.0.0.0 2720b170f9c3430bb23fbc94870b2159.fp.measure.office.com
@@ -2732,6 +2739,7 @@
 0.0.0.0 2a54232da44241efa154233a6aee322a.fp.measure.office.com
 0.0.0.0 2a5779fe30a64e9cb5c6ad145f9d4107.fp.measure.office.com
 0.0.0.0 2a590c6749ab419fba104b26f7a9d93a.fp.measure.office.com
+0.0.0.0 2a5a382db0e144a8b9f547a6e717a0bb.fp.measure.office.com
 0.0.0.0 2a65e18b64ac472b8f77e527d0e096d8.fp.measure.office.com
 0.0.0.0 2a69660808e445e4ae3efc97a05959db.fp.measure.office.com
 0.0.0.0 2a70b18740e44f07bdd38f550bdfefe5.fp.measure.office.com
@@ -2807,6 +2815,7 @@
 0.0.0.0 2bc09bb832385450aad8d70ab4ac26f1.fp.measure.office.com
 0.0.0.0 2bc371d8e91a2a695ddc99b19acef7c0.fp.measure.office.com
 0.0.0.0 2bc937717d92436586d0607261641853.fp.measure.office.com
+0.0.0.0 2bcc3fd9034644f19871f0782e75bfbe.fp.measure.office.com
 0.0.0.0 2bd6f5a92c504d418398791a229695fb.fp.measure.office.com
 0.0.0.0 2bdd5cfa2ee24a7494e814b984578a4e.fp.measure.office.com
 0.0.0.0 2bdded8de2f9495a908148b96d0e5e3a.fp.measure.office.com
@@ -2848,6 +2857,7 @@
 0.0.0.0 2cae04d1c57c64bc5fe61aaef9e7c20f.fp.measure.office.com
 0.0.0.0 2cb95da5208548ab91c0963e0adad473.fp.measure.office.com
 0.0.0.0 2cbd1e5889fc44189177b0ce3ad99cf7.fp.measure.office.com
+0.0.0.0 2cbeec0735af46ea81ce6006baef4cfd.fp.measure.office.com
 0.0.0.0 2cc62a1d44cf6b030aa32b487be893ce.fp.measure.office.com
 0.0.0.0 2cc89798eb0345af9ee0e5b8b447bfb0.fp.measure.office.com
 0.0.0.0 2ccf44c576b50708d3b879121b628b60.fp.measure.office.com
@@ -3191,6 +3201,7 @@
 0.0.0.0 335e0c69b3be441a950425cea42286ce.fp.measure.office.com
 0.0.0.0 33636f4d133a4810a692ff1eaf086fd0.fp.measure.office.com
 0.0.0.0 3366b16fbcd94663b09b1c5826237fde.fp.measure.office.com
+0.0.0.0 3366d6af74ee41fba3dbce51b362e322.fp.measure.office.com
 0.0.0.0 336db55a1f174ff2a045284c135808b5.fp.measure.office.com
 0.0.0.0 33887a84aa30ff3be237472bbc7a5be2.fp.measure.office.com
 0.0.0.0 3389b4d42f86416f99e5b5bdba3242af.fp.measure.office.com
@@ -3250,6 +3261,7 @@
 0.0.0.0 348e07b9619f43bb90b9feeba30a6421.fp.measure.office.com
 0.0.0.0 348ef38b10794d1cbfca4332c45954f5.fp.measure.office.com
 0.0.0.0 348f623b0a0849dc98199cbbb29eb151.fp.measure.office.com
+0.0.0.0 3495346a90224bd983b233af543d9262.fp.measure.office.com
 0.0.0.0 34a8407df2f34da5a026ea050eed3582.fp.measure.office.com
 0.0.0.0 34a896649f65484999bb82a6008e3424.fp.measure.office.com
 0.0.0.0 34a99839fb1ca0bd8ebba0bd0288d232.fp.measure.office.com
@@ -3274,7 +3286,9 @@
 0.0.0.0 35065eadbafa4ac2a1ac1f5779ed3ef6.fp.measure.office.com
 0.0.0.0 351c8bfe69e87e09089b1285c68468e7.fp.measure.office.com
 0.0.0.0 35216a5e1f334aa0964d60f45119fb22.fp.measure.office.com
+0.0.0.0 3523c1c4f746c967f93a77355c6d7038.fp.measure.office.com
 0.0.0.0 3525f7fdd97c46958e4083d47b9727b4.fp.measure.office.com
+0.0.0.0 3536c301cd9882719b36675aaf15dfc1.fp.measure.office.com
 0.0.0.0 353ddebc6adc49ada97e7c03335fa5c2.fp.measure.office.com
 0.0.0.0 353fdbbb97ebe56b97dafedd3892735b.fp.measure.office.com
 0.0.0.0 3546871f1c3e4911a7e2f2aa1235c238.fp.measure.office.com
@@ -3419,6 +3433,7 @@
 0.0.0.0 3801db5c54aa4d639b744ebd950dece2.fp.measure.office.com
 0.0.0.0 380cbfba9b3a456a9fd7e8d480887441.fp.measure.office.com
 0.0.0.0 381858f1b71244e493dd4aebe12d0440.fp.measure.office.com
+0.0.0.0 382299c32e804396bd18926adb449e34.fp.measure.office.com
 0.0.0.0 3839a1ccffe74dcb16aa2cf947437000.fp.measure.office.com
 0.0.0.0 383b7b8c15bb4b86a14a9567ca5a5172.fp.measure.office.com
 0.0.0.0 383de824fc900af826b3fc93360371cf.fp.measure.office.com
@@ -4100,6 +4115,7 @@
 0.0.0.0 45a4625ff32e4adabc10ac2abe721b08.fp.measure.office.com
 0.0.0.0 45af9dad26cfca53957e56eb85451350.fp.measure.office.com
 0.0.0.0 45b2a4e86ca649e1a28ca91ff09adefd.fp.measure.office.com
+0.0.0.0 45b60c7b4526fbe59db500b19d8a6436.fp.measure.office.com
 0.0.0.0 45b8aab8eb39d199d88a82d8d3d316cd.fp.measure.office.com
 0.0.0.0 45bac71b858f4b1e283e595c5add7b27.fp.measure.office.com
 0.0.0.0 45be0878285443a2b549f806b91a2770.fp.measure.office.com
@@ -4171,6 +4187,7 @@
 0.0.0.0 4706ddf47167408ec8691baf8b888b66.fp.measure.office.com
 0.0.0.0 470f2562603947c7950bea69cbb09b16.fp.measure.office.com
 0.0.0.0 47110d31fafa4d649c051aca3e0b8d4a.fp.measure.office.com
+0.0.0.0 47125be928944d648b6af5476f79da62.fp.measure.office.com
 0.0.0.0 47138ed90e9448bdb305109487607932.fp.measure.office.com
 0.0.0.0 4713c88b04fe4d079c687afbdd6d6cd3.fp.measure.office.com
 0.0.0.0 47195eb0d7f6ccc7409a6ae9760d7d80.fp.measure.office.com
@@ -4190,6 +4207,7 @@
 0.0.0.0 474603fd2c46498c814e82f0341bb595.fp.measure.office.com
 0.0.0.0 474dcb69e916f97fa12fd422d9d604be.fp.measure.office.com
 0.0.0.0 474fd89ca5db4fb9a10c1243d377ddd6.fp.measure.office.com
+0.0.0.0 475969dadb034af09bef3d9cbe65162f.fp.measure.office.com
 0.0.0.0 475a4bd2d59e449f8db95e78b171dad1.fp.measure.office.com
 0.0.0.0 475d50c9029843b9a87d094bf26124f9.fp.measure.office.com
 0.0.0.0 476286d5df52385c2d129be307932f99.fp.measure.office.com
@@ -4309,6 +4327,7 @@
 0.0.0.0 4975d7d3f7304fee9d08ec364c1dd595.fp.measure.office.com
 0.0.0.0 4979ebec93b144ef8ededfe1ae00caca.fp.measure.office.com
 0.0.0.0 497c6fb91b8b420ba4460fc8468090b8.fp.measure.office.com
+0.0.0.0 497f1a7175fb4a41af76474fdbe299b6.fp.measure.office.com
 0.0.0.0 498a2f876ec749a58dc75c6acf200cc9.fp.measure.office.com
 0.0.0.0 498a529012ed40c284a9db318b04b5eb.fp.measure.office.com
 0.0.0.0 498c8c610a0fd8bb75631dbb63dc4770.fp.measure.office.com
@@ -4482,6 +4501,7 @@
 0.0.0.0 4cc75e867ed24bb183d257397401ac1c.fp.measure.office.com
 0.0.0.0 4cc76478f4b67fc6f53ccaafa398526a.fp.measure.office.com
 0.0.0.0 4cd09c26d934f546f46635143dedf80c.fp.measure.office.com
+0.0.0.0 4cd3449db6cb913de024d567dfd9b4b4.fp.measure.office.com
 0.0.0.0 4cd3a8ce6f6a4c8e9d540bc49378ff97.fp.measure.office.com
 0.0.0.0 4cd4bcdf879ac72e012c441bb40a6112.fp.measure.office.com
 0.0.0.0 4cd6b9cc6f0d992c61f85c0a3603030a.fp.measure.office.com
@@ -4752,6 +4772,7 @@
 0.0.0.0 524e8266327c49ebb3734ada0f2ae20f.fp.measure.office.com
 0.0.0.0 52511ff75eab49ea926619f1326cac04.fp.measure.office.com
 0.0.0.0 525523170d364e2cb0d4f8c5c3a87885.fp.measure.office.com
+0.0.0.0 525b6b4cc8024057e60b97a2c836ad38.fp.measure.office.com
 0.0.0.0 525e0e4571924c6499700e9714fe58e9.fp.measure.office.com
 0.0.0.0 5264d1100dc34fc292cfd3f0d2f4fcb9.fp.measure.office.com
 0.0.0.0 52684bbf1db742058a1727f0c3192ed4.fp.measure.office.com
@@ -4883,6 +4904,7 @@
 0.0.0.0 54ac27b5f1a226b11ea79df31b01890c.fp.measure.office.com
 0.0.0.0 54b4cf8e2dbd4971afcfbdab643d82b3.fp.measure.office.com
 0.0.0.0 54c486f1c6944799992c57e5ae438936.fp.measure.office.com
+0.0.0.0 54d44332678caf96ff19c299ae4af087.fp.measure.office.com
 0.0.0.0 54d7feb8fbe480dbce255718bba8ee25.fp.measure.office.com
 0.0.0.0 54daba90a06d40feaac78a04e75cff01.fp.measure.office.com
 0.0.0.0 54dde0aaa3e0bbb9f4aa40b9245eae1f.fp.measure.office.com
@@ -5240,6 +5262,7 @@
 0.0.0.0 5b749e436a4348c599bb23504a39b105.fp.measure.office.com
 0.0.0.0 5b75a7ae4d7f63b205bed32b0e47dcea.fp.measure.office.com
 0.0.0.0 5b798886c56dc489c7bae86906d176c2.fp.measure.office.com
+0.0.0.0 5b7c1dc37150d27ae613d1d23fb60ccf.fp.measure.office.com
 0.0.0.0 5b8de4b8e25448f7a49c1420a992914a.fp.measure.office.com
 0.0.0.0 5b931b3508649724e73c018df5ae2e90.fp.measure.office.com
 0.0.0.0 5b9dd086f6344833923dee94c5773a8b.fp.measure.office.com
@@ -5270,6 +5293,7 @@
 0.0.0.0 5c288f2373104d0d87baa875af7187f1.fp.measure.office.com
 0.0.0.0 5c2d8a78aaed46aeb2478a36bee205ec.fp.measure.office.com
 0.0.0.0 5c2fd9ffb7ee419081ad36553a6bb92d.fp.measure.office.com
+0.0.0.0 5c37837bc36d4465a5ecfa38ad8677fc.fp.measure.office.com
 0.0.0.0 5c42bcc0eaf01aecaacb54a73d0853a8.fp.measure.office.com
 0.0.0.0 5c44c0441d264ee99a4f28ceef15b7dd.fp.measure.office.com
 0.0.0.0 5c586040cfe8e2d080a48c2e98419db5.fp.measure.office.com
@@ -6179,6 +6203,7 @@
 0.0.0.0 6d5f5176a3ad477980b50480ce51656b.fp.measure.office.com
 0.0.0.0 6d6c9b184aeb1caa62020fa8741b9469.fp.measure.office.com
 0.0.0.0 6d723ff1eb6e41298f4ffd112f39c026.fp.measure.office.com
+0.0.0.0 6d7dbb8e908e4c63bd64dadae25303fc.fp.measure.office.com
 0.0.0.0 6d8678d13b7b46e18fae1910fd1e1e60.fp.measure.office.com
 0.0.0.0 6d871b438a4655e0225edafa442423b3.fp.measure.office.com
 0.0.0.0 6d90dbb8d5234660a181c62fdb9c8b35.fp.measure.office.com
@@ -6221,6 +6246,7 @@
 0.0.0.0 6e2b5dc2232be56cca4707599525a0a1.fp.measure.office.com
 0.0.0.0 6e2d704d15970ec9e3d714317a3806d6.fp.measure.office.com
 0.0.0.0 6e38a5464010fcf7c168417205656e69.fp.measure.office.com
+0.0.0.0 6e3c9cc4d49e465a87695bad087e7bd6.fp.measure.office.com
 0.0.0.0 6e45c9995b2447cea3aa63c31aae50be.fp.measure.office.com
 0.0.0.0 6e4c6008fe4f43d08faeab2f2c51e4c5.fp.measure.office.com
 0.0.0.0 6e599533b3da9c9b8e7b0fdb2ad0fc4f.fp.measure.office.com
@@ -6425,6 +6451,7 @@
 0.0.0.0 72252d481aab4a7f90e6566c766cecec.fp.measure.office.com
 0.0.0.0 72259ee607a7472595a098c09009e034.fp.measure.office.com
 0.0.0.0 722bce620c9e431c96291899687799bf.fp.measure.office.com
+0.0.0.0 722edd899a0546389058148b4be269e6.fp.measure.office.com
 0.0.0.0 722f21d65ea541968a36f52d1b94108f.fp.measure.office.com
 0.0.0.0 722fb372a7404235b15bce8ff204c7a9.fp.measure.office.com
 0.0.0.0 72314f0b1a6b47b2b9d6f9648e9a47e0.fp.measure.office.com
@@ -6485,6 +6512,7 @@
 0.0.0.0 7345324f5bf8486c88f503aefd4c6f68.fp.measure.office.com
 0.0.0.0 734981bc764a4c3c80c356639c693bf7.fp.measure.office.com
 0.0.0.0 7350a8a7db6b4c758693fcb4aecf6066.fp.measure.office.com
+0.0.0.0 73511e677e614d5b9bf2241bfb40f346.fp.measure.office.com
 0.0.0.0 73521a4635cd65d2bdb877ecc0af896b.fp.measure.office.com
 0.0.0.0 7354061cda884d30a19874a3d8c06df3.fp.measure.office.com
 0.0.0.0 735615da0f830595054828bf77e83ac9.fp.measure.office.com
@@ -6504,6 +6532,7 @@
 0.0.0.0 7399eab2bac84420b18737930fce138c.fp.measure.office.com
 0.0.0.0 739ba9eae89d468ab4bd7680a381c6c7.fp.measure.office.com
 0.0.0.0 739d913bc0829f1c3436417ea341cb21.fp.measure.office.com
+0.0.0.0 73b17ee8ddbf4e13aa64b591ba47125a.fp.measure.office.com
 0.0.0.0 73b46fe83d4f4ed99b33b4393512aff4.fp.measure.office.com
 0.0.0.0 73b4706648084858b08d35a6d8c199ee.fp.measure.office.com
 0.0.0.0 73b6207f6f6b4f28a69a9bbbf61f5c6a.fp.measure.office.com
@@ -7069,6 +7098,7 @@
 0.0.0.0 7e0eec80ad0a492aa1a7e4df2e60315a.fp.measure.office.com
 0.0.0.0 7e1ccb31f2a6609c4dace564e95198d6.fp.measure.office.com
 0.0.0.0 7e1eb6b8928c82e4b2df2aee30bf9dd3.fp.measure.office.com
+0.0.0.0 7e25a54fa50d4105894f5e8ad5c7b400.fp.measure.office.com
 0.0.0.0 7e2cf4e6b1692681662b2f876804f01c.fp.measure.office.com
 0.0.0.0 7e2f5848c6a54fc6befe0c08dedb8e54.fp.measure.office.com
 0.0.0.0 7e418dc398f24738abd8c9727d78aa0f.fp.measure.office.com
@@ -7371,6 +7401,7 @@
 0.0.0.0 841113a2822d44059ef1c64d9ff307bb.fp.measure.office.com
 0.0.0.0 84136adf2693d7ca1ecdf60d0cfcc2c7.fp.measure.office.com
 0.0.0.0 84174f0be8ea4519bbbbdaa91ca20498.fp.measure.office.com
+0.0.0.0 841c5624e4e54a78bf7df59899f0b2ac.fp.measure.office.com
 0.0.0.0 841ff2aec76e43ca94a305733adbed31.fp.measure.office.com
 0.0.0.0 842097d6893348d2a068f0cc740a87f3.fp.measure.office.com
 0.0.0.0 8422d3a047bb46aabb89c99f99953ba2.fp.measure.office.com
@@ -8126,6 +8157,7 @@
 0.0.0.0 92a989c963df4635ad9ac2c1e0651cf8.fp.measure.office.com
 0.0.0.0 92bcb12e6530446b8a6507e3df45027b.fp.measure.office.com
 0.0.0.0 92bdab3a0ad816c7b882d101d0f6f6d9.fp.measure.office.com
+0.0.0.0 92be857cbb6a74addecc69814dc3deee.fp.measure.office.com
 0.0.0.0 92bf1ca265a74e15a9a3f41995615540.fp.measure.office.com
 0.0.0.0 92bfe085773cf60fe5c5c8cf62946693.fp.measure.office.com
 0.0.0.0 92cb4ccb97afec883ceebcd8ae62d787.fp.measure.office.com
@@ -8353,6 +8385,7 @@
 0.0.0.0 96f02d22083f9bb4f69497cd52b28a22.fp.measure.office.com
 0.0.0.0 96f51a8947f6d571c46f9bb303b95345.fp.measure.office.com
 0.0.0.0 96ffc0b5ed6f342322a1a109187c78d1.fp.measure.office.com
+0.0.0.0 970ae2d3b4f847b6922acae5378e852b.fp.measure.office.com
 0.0.0.0 970d3a6bf26f4c339ee4ac039afb8f9d.fp.measure.office.com
 0.0.0.0 97137619e5cd4e16aba72504cd85bb8d.fp.measure.office.com
 0.0.0.0 971459cd54694dbdbf653a603015141e.fp.measure.office.com
@@ -8475,6 +8508,7 @@
 0.0.0.0 9923d1d080784c799ceefc4457555f87.fp.measure.office.com
 0.0.0.0 9926474a16f54cb58c0c5906efba709e.fp.measure.office.com
 0.0.0.0 992ef9e2b5bd446e80ced9785797a8c5.fp.measure.office.com
+0.0.0.0 992f2cb3f9f36ad43f478d3138852293.fp.measure.office.com
 0.0.0.0 993e117b001f459d9d1c6cd8fdebcdfa.fp.measure.office.com
 0.0.0.0 9944368b1696445bbba10e7ae038c88b.fp.measure.office.com
 0.0.0.0 994962869b1b48cbaf3f90dfbdb1d3f9.fp.measure.office.com
@@ -8701,6 +8735,7 @@
 0.0.0.0 9dd0e86d27874084860c34ea9e084911.fp.measure.office.com
 0.0.0.0 9dd5ec5110fa483eba816f18bf543aa0.fp.measure.office.com
 0.0.0.0 9dd6cdf4a61d41aaa267138d6aa380e1.fp.measure.office.com
+0.0.0.0 9ddab631b75847b3ab6157fe5c959400.fp.measure.office.com
 0.0.0.0 9ddd6e2acecf4595adbea17ff6f9216e.fp.measure.office.com
 0.0.0.0 9de3ba51843b4f08b36e0fd2c92e4c23.fp.measure.office.com
 0.0.0.0 9de57571d9224e11b53292cd427f211b.fp.measure.office.com
@@ -8973,6 +9008,7 @@
 0.0.0.0 a2860007598e4210915daacdbe2f74a6.fp.measure.office.com
 0.0.0.0 a287ddcac7d04228ac67d31919b08d0d.fp.measure.office.com
 0.0.0.0 a289f409346a41d2999e419b08429529.fp.measure.office.com
+0.0.0.0 a28b35f1fa5d4601adcae804c258c6eb.fp.measure.office.com
 0.0.0.0 a292a642e8864e24b08c91e4f738fd3e.fp.measure.office.com
 0.0.0.0 a29426dd061643689dc1a8aaef246088.fp.measure.office.com
 0.0.0.0 a29db0a8687344c1c49ed30bae1c026c.fp.measure.office.com
@@ -9280,6 +9316,7 @@
 0.0.0.0 a81db64e995c4c15a6e92650c3ac723a.fp.measure.office.com
 0.0.0.0 a81fc95582f36f9a060aeceff9c7172b.fp.measure.office.com
 0.0.0.0 a820256e63fd7795442eed449e9ec2fe.fp.measure.office.com
+0.0.0.0 a8268cf883fc44ea9cafa5b9bbbb428e.fp.measure.office.com
 0.0.0.0 a827ed2a6c446c675f640081da089831.fp.measure.office.com
 0.0.0.0 a82dc156886243729889043fb2541e92.fp.measure.office.com
 0.0.0.0 a82ffcff4fd94d94ac97eaad186a3706.fp.measure.office.com
@@ -9512,6 +9549,7 @@
 0.0.0.0 ac776acb7da146e3a989d2e6e99808b5.fp.measure.office.com
 0.0.0.0 ac7849e103b747a19892cfe900ad1d26.fp.measure.office.com
 0.0.0.0 ac7d93d55eee4a6abef0a0eb0b23457e.fp.measure.office.com
+0.0.0.0 ac81fbe407273bbf2cf470dc7bbd2e80.fp.measure.office.com
 0.0.0.0 ac87eb72d31d4c728e6ffec9468b0d15.fp.measure.office.com
 0.0.0.0 ac8ee7a523234433ac1d4262587db164.fp.measure.office.com
 0.0.0.0 ac8f5fa25d9a2fc090085b8d35404f26.fp.measure.office.com
@@ -9522,6 +9560,7 @@
 0.0.0.0 aca4dce5f6314c47823d6621432b8202.fp.measure.office.com
 0.0.0.0 aca827dc8d6943388c9f7800af1f17cb.fp.measure.office.com
 0.0.0.0 acab84e135114878882adf96bfe7aa42.fp.measure.office.com
+0.0.0.0 acabdbf762f022e689e4cc0b8e65cb5a.fp.measure.office.com
 0.0.0.0 acaefb8749a7123e5c102d62042a6b01.fp.measure.office.com
 0.0.0.0 acb46e7394d14aa38ae77cdf0d6d084e.fp.measure.office.com
 0.0.0.0 acb79d0cc4d9423b97704cfb24f3290a.fp.measure.office.com
@@ -9538,6 +9577,7 @@
 0.0.0.0 acf240b0226e28565220eae1965ab7eb.fp.measure.office.com
 0.0.0.0 acf37cbab851443fb5efa18efb9fc494.fp.measure.office.com
 0.0.0.0 acf72125c08cf68d9d60161a64dfabbc.fp.measure.office.com
+0.0.0.0 acfa038af2d4477dbca2f41df1dcf99f.fp.measure.office.com
 0.0.0.0 acfd14be5011491586db2f84c0a6b1b2.fp.measure.office.com
 0.0.0.0 acffe1d2112b44099971d794fc213dff.fp.measure.office.com
 0.0.0.0 ad04b143ef6531ee80b618c85dadd0de.fp.measure.office.com
@@ -9545,6 +9585,7 @@
 0.0.0.0 ad08c21f49f544dfac54da45a1beb66f.fp.measure.office.com
 0.0.0.0 ad1dfa46ee485e233967172df75ac00b.fp.measure.office.com
 0.0.0.0 ad1eca1369386bf9bad45a554ad936fd.fp.measure.office.com
+0.0.0.0 ad202b5e8c2b44b9b93f3dd85dc38a0e.fp.measure.office.com
 0.0.0.0 ad208970a8c1436cbd8a984740f3406e.fp.measure.office.com
 0.0.0.0 ad215f0c7d11c65e3da5757c65785bf6.fp.measure.office.com
 0.0.0.0 ad39a19228bb48f4ba7c25bde4576936.fp.measure.office.com
@@ -9775,6 +9816,7 @@
 0.0.0.0 b1bb268c81981a31d9491070b2a91458.fp.measure.office.com
 0.0.0.0 b1bd96398be940e640d3d93b66e6e66f.fp.measure.office.com
 0.0.0.0 b1c5505889f04295b237bdfab8e7464f.fp.measure.office.com
+0.0.0.0 b1d70f7adb0b435d8b4537f7478451c9.fp.measure.office.com
 0.0.0.0 b1d7863c9f9141168a72427adbcff06f.fp.measure.office.com
 0.0.0.0 b1d78bda47194a7883dcd95c66d77bd8.fp.measure.office.com
 0.0.0.0 b1ea56111cca4dfe8d8586a83efd7107.fp.measure.office.com
@@ -9864,6 +9906,7 @@
 0.0.0.0 b378135e8a73b8dbde939bbcdf3f5558.fp.measure.office.com
 0.0.0.0 b378e74e34da4cbc9a9c88c6565bb9ca.fp.measure.office.com
 0.0.0.0 b37c752f7ad541ebbb4c94e69d0297b7.fp.measure.office.com
+0.0.0.0 b3889d952232e8b8432813bbff126e1e.fp.measure.office.com
 0.0.0.0 b394717160154a6aad5fd96476d441e4.fp.measure.office.com
 0.0.0.0 b3a76203a00c4d19bf0bac8351babe5b.fp.measure.office.com
 0.0.0.0 b3a878fd678e4d8699279246a1cf1dad.fp.measure.office.com
@@ -10078,6 +10121,7 @@
 0.0.0.0 b81b41848ffb489eac4c3028f2920317.fp.measure.office.com
 0.0.0.0 b81e50da88604e26903d55eff42d91d0.fp.measure.office.com
 0.0.0.0 b820b3f8bd8242b2879bf6e379437615.fp.measure.office.com
+0.0.0.0 b822dac9fdda4456bdb9d9d1d4140300.fp.measure.office.com
 0.0.0.0 b82a940a1a92407984eb7f8323b52de0.fp.measure.office.com
 0.0.0.0 b82b6ddb5219441988a711759028c6d3.fp.measure.office.com
 0.0.0.0 b82be3379c7a4f198f0d5d0af8450b97.fp.measure.office.com
@@ -10154,6 +10198,7 @@
 0.0.0.0 b9bff6bb9769b23548f19a18336b83dc.fp.measure.office.com
 0.0.0.0 b9c4ddb8ba1bcd2d02e5ef53678c316a.fp.measure.office.com
 0.0.0.0 b9c69c233b1f4c67999aeb1dd6babeb2.fp.measure.office.com
+0.0.0.0 b9cb9e0d8cf945e4a7e693fc88fd1a26.fp.measure.office.com
 0.0.0.0 b9cd4908f80a4678bce944d98af687d6.fp.measure.office.com
 0.0.0.0 b9da8ae1f109c8bdc47225d3d0f7bcc4.fp.measure.office.com
 0.0.0.0 b9edc5222c9743449fa574d26c86ef3c.fp.measure.office.com
@@ -10386,6 +10431,7 @@
 0.0.0.0 be843d9f96554b20b73fbd8bed634c6e.fp.measure.office.com
 0.0.0.0 be8be7e80d504d5f80ff1e748b75169b.fp.measure.office.com
 0.0.0.0 be8c5dbcb9bd4380905355e0fd3d3b6c.fp.measure.office.com
+0.0.0.0 be915994d38348d4a76a4ad98f2eb0ad.fp.measure.office.com
 0.0.0.0 be9161e85e7b42a9993f227cf71431d9.fp.measure.office.com
 0.0.0.0 be925082a33d76a7da3f1908de9cadb8.fp.measure.office.com
 0.0.0.0 be927accb8b71a364c5c22beabbc35c1.fp.measure.office.com
@@ -10647,6 +10693,7 @@
 0.0.0.0 c3ea7f6965745b9b2ee6f41df67446b7.fp.measure.office.com
 0.0.0.0 c3ee9ff5072e6c58971df757d279e50d.fp.measure.office.com
 0.0.0.0 c3f2d63f1607451581c8deb057af197c.fp.measure.office.com
+0.0.0.0 c3f53aaba74c487a8809b519b64d5746.fp.measure.office.com
 0.0.0.0 c3f8bf5654d443afae6c81675919ecb8.fp.measure.office.com
 0.0.0.0 c40af7c92ca449b1837fce671b7d70da.fp.measure.office.com
 0.0.0.0 c412c8c3fa954d45a8f265c40bc27e2a.fp.measure.office.com
@@ -10694,6 +10741,7 @@
 0.0.0.0 c4ef031e6d0e48bb85b955eb5e5ebedc.fp.measure.office.com
 0.0.0.0 c4ef45ac9eaf420a9eebe9a0fdebba1a.fp.measure.office.com
 0.0.0.0 c4f11af03c555d14168c69ea1242e6d6.fp.measure.office.com
+0.0.0.0 c4f1308a2cb0c7a6d79dd6963a5c8395.fp.measure.office.com
 0.0.0.0 c4f778a01e9f47bdb4a326445be95f7c.fp.measure.office.com
 0.0.0.0 c4fc7a2679614b06b33afdcc04608fee.fp.measure.office.com
 0.0.0.0 c4fe83c054aea2bb23a3a598b60224ca.fp.measure.office.com
@@ -10915,6 +10963,7 @@
 0.0.0.0 c91e697f62a84effa72ee081fbe0a546.fp.measure.office.com
 0.0.0.0 c91fa32fa8054d8f8249691976410705.fp.measure.office.com
 0.0.0.0 c9272e19633b4e27bfa7319ec2a0d7c1.fp.measure.office.com
+0.0.0.0 c92d8236b3c444b1b7410054985a877c.fp.measure.office.com
 0.0.0.0 c92e0dbe6ded48bab1308d7379b4905e.fp.measure.office.com
 0.0.0.0 c92f52881e16430fbadcac376d0e031e.fp.measure.office.com
 0.0.0.0 c9484225f1b943fb90e50791ea299ffa.fp.measure.office.com
@@ -10924,6 +10973,7 @@
 0.0.0.0 c957719a35f24bb1866112a7f2a7b9d5.fp.measure.office.com
 0.0.0.0 c9582700a3664d6ca87e21838b83afc3.fp.measure.office.com
 0.0.0.0 c95a6c60027680dafc0a0920e53613ed.fp.measure.office.com
+0.0.0.0 c974e431f862dbdf477a668a884568fb.fp.measure.office.com
 0.0.0.0 c97668c4f09ad19c2ce613649570182a.fp.measure.office.com
 0.0.0.0 c985323c340b45f3b348d51f14985659.fp.measure.office.com
 0.0.0.0 c98b963f602445b0a76fea64d0b1f2d9.fp.measure.office.com
@@ -10954,6 +11004,7 @@
 0.0.0.0 c9edafd3634b4f288255e02282144d72.fp.measure.office.com
 0.0.0.0 c9edfaa85988ec36a19e325c537863e1.fp.measure.office.com
 0.0.0.0 c9ee772c89064fe9a091efc2258de582.fp.measure.office.com
+0.0.0.0 c9f10235e09c4d76705d44e41de8d0a4.fp.measure.office.com
 0.0.0.0 c9fabfd308b34c8a946df84f63572396.fp.measure.office.com
 0.0.0.0 c9fdbb98243b40648b9e04565ce28867.fp.measure.office.com
 0.0.0.0 c9fddbe4740641539d26a47f3d52ad57.fp.measure.office.com
@@ -11264,6 +11315,7 @@
 0.0.0.0 d025a55137024ab6a04fb5e2f08e0718.fp.measure.office.com
 0.0.0.0 d02e567e3b6d265c6d0a3eadd03fe589.fp.measure.office.com
 0.0.0.0 d03116ed5df54394bfb04c24c3f16c20.fp.measure.office.com
+0.0.0.0 d039a8ae62e348eb83b68cfd79d22959.fp.measure.office.com
 0.0.0.0 d040888b690c838df4929f0fc6dec492.fp.measure.office.com
 0.0.0.0 d04560509c8a4d7abae0c14357a131ea.fp.measure.office.com
 0.0.0.0 d0475e1c7aba458ba0f21d3f35b89640.fp.measure.office.com
@@ -11454,6 +11506,7 @@
 0.0.0.0 d3af3e8b063ce6545359f37230f0984a.fp.measure.office.com
 0.0.0.0 d3bb194621923c990d7aa1cd9050b8d3.fp.measure.office.com
 0.0.0.0 d3c1929be67f477081f74071dd18e76a.fp.measure.office.com
+0.0.0.0 d3c2171bcb05408284d40c2a904235e4.fp.measure.office.com
 0.0.0.0 d3c5b1c8657e7eca7d5c7d6df2559f8e.fp.measure.office.com
 0.0.0.0 d3c9a800514c415ea97e34621e19031b.fp.measure.office.com
 0.0.0.0 d3da636428e84217861b842a2694cde8.fp.measure.office.com
@@ -11752,6 +11805,7 @@
 0.0.0.0 d9cfd4527d31f86ce5907f050348ba46.fp.measure.office.com
 0.0.0.0 d9cfe7686848f1eb4877338afaa63f98.fp.measure.office.com
 0.0.0.0 d9e00f1a3b7f5935f9ef560fa83d8ee8.fp.measure.office.com
+0.0.0.0 d9e45b01b290bd54d8312995b0e18758.fp.measure.office.com
 0.0.0.0 d9e468f690695e2cb35ba1a40e30c78c.fp.measure.office.com
 0.0.0.0 d9e73fb0ce534e27910285ca27bdd09a.fp.measure.office.com
 0.0.0.0 d9eb25101eaf6bc9bb5554db945ffe60.fp.measure.office.com
@@ -11816,6 +11870,7 @@
 0.0.0.0 db5bd7eddf06e02aa25015fa61dd49ac.fp.measure.office.com
 0.0.0.0 db614319d0ba4a389eb2387aab3a4604.fp.measure.office.com
 0.0.0.0 db6dbaaea27417e84dc72fe43cc3fb7a.fp.measure.office.com
+0.0.0.0 db75acf59c086f4bc2129ed8619080d3.fp.measure.office.com
 0.0.0.0 db7cb2da040a44599ed33a64542308bc.fp.measure.office.com
 0.0.0.0 db9291b1e44343c284a5872fa919c150.fp.measure.office.com
 0.0.0.0 db963c67c0294c563d56ab54a7ca09ba.fp.measure.office.com
@@ -11917,6 +11972,7 @@
 0.0.0.0 dd2024851b574a3b97a5599c7a86e110.fp.measure.office.com
 0.0.0.0 dd320eb2792588e2c2ecc1423640994d.fp.measure.office.com
 0.0.0.0 dd3a6f7e268e45d8ec2a81e835acf81c.fp.measure.office.com
+0.0.0.0 dd3ca247e49a40e49bd6c729e85db444.fp.measure.office.com
 0.0.0.0 dd3ca68fed43444e9ab1ce8c9a06cfa0.fp.measure.office.com
 0.0.0.0 dd456d8a3cce41219f8c4bf11f6245f7.fp.measure.office.com
 0.0.0.0 dd4b1cdcf744467b876abd892f31e0c3.fp.measure.office.com
@@ -12162,6 +12218,7 @@
 0.0.0.0 e239decf67eb78a798fe4db3fb325fb9.fp.measure.office.com
 0.0.0.0 e23bdf3b57d1bdaa626e149d3c8e8689.fp.measure.office.com
 0.0.0.0 e23ccbe994e24ec3a7b43cada9133d11.fp.measure.office.com
+0.0.0.0 e243a9c58fc74935bbd50520ec293392.fp.measure.office.com
 0.0.0.0 e251a73d7f989daa94acb24667bede27.fp.measure.office.com
 0.0.0.0 e252730bcffa4da8899b585d95394b1e.fp.measure.office.com
 0.0.0.0 e258787b9cd74398a2a386a2475843f6.fp.measure.office.com
@@ -12225,6 +12282,7 @@
 0.0.0.0 e331e401be1a437b945aedfcb9aebe0b.fp.measure.office.com
 0.0.0.0 e333466c9d4947c9ba2481e5640fc018.fp.measure.office.com
 0.0.0.0 e3412201aec14f0497168c6ba148f0c4.fp.measure.office.com
+0.0.0.0 e342a0c8c11f4d9191482e1e159e5afb.fp.measure.office.com
 0.0.0.0 e34a97973605b27e7c030d107a8ed995.fp.measure.office.com
 0.0.0.0 e34e4dcebcefb820742a7b6b83f5b97e.fp.measure.office.com
 0.0.0.0 e35a82cff854f630e74169d36cd9a484.fp.measure.office.com
@@ -12768,6 +12826,7 @@
 0.0.0.0 ed88e476ef5345b3afd2cce9b8d33987.fp.measure.office.com
 0.0.0.0 ed8986c56c70441a92beb2dd135c9f52.fp.measure.office.com
 0.0.0.0 ed899cef045e42d2b1969b8f906a4d2f.fp.measure.office.com
+0.0.0.0 ed8caadf9e3c4c3f98fbb148bcb75768.fp.measure.office.com
 0.0.0.0 ed917b82dd474aff8f15a656c7689fcc.fp.measure.office.com
 0.0.0.0 ed95efbc08a942cfb9ae748bf8c14359.fp.measure.office.com
 0.0.0.0 ed9b6b739f00481f98c5464bdccad887.fp.measure.office.com
@@ -13256,6 +13315,7 @@
 0.0.0.0 f71e9b8799707ced54bf86b5fc4ec16a.fp.measure.office.com
 0.0.0.0 f71ed0a741bb4ad4908b49f6fd536a1c.fp.measure.office.com
 0.0.0.0 f71f8cab682088dfacc9b5e40195bc11.fp.measure.office.com
+0.0.0.0 f7260f152ad84d839302fea0e2d96800.fp.measure.office.com
 0.0.0.0 f7267e0a048a4de4822cc004d17b2107.fp.measure.office.com
 0.0.0.0 f729d7fb076c438c8cd80c3393672d98.fp.measure.office.com
 0.0.0.0 f7300ae475aa22eda5e9e3b384facc8d.fp.measure.office.com
@@ -13285,6 +13345,7 @@
 0.0.0.0 f77773d48830437e8bbc0a294fe67b76.fp.measure.office.com
 0.0.0.0 f781f93f1e1641768bbeea67a171c384.fp.measure.office.com
 0.0.0.0 f7824c5ace9ae790ee08458d603f1780.fp.measure.office.com
+0.0.0.0 f7898c5acc85f55971260ca06dd5aad9.fp.measure.office.com
 0.0.0.0 f79c35f199354a899fd12f667f356fc5.fp.measure.office.com
 0.0.0.0 f7a180f3651bd6116ebe7d80be9b7279.fp.measure.office.com
 0.0.0.0 f7a36844411614d5f260df4130057a67.fp.measure.office.com
@@ -13379,6 +13440,7 @@
 0.0.0.0 f97352f7aca449afa8073ce391dce3bb.fp.measure.office.com
 0.0.0.0 f973d2ad83114af68f6b25187710eb83.fp.measure.office.com
 0.0.0.0 f987a09af320655b1738fed3021a8138.fp.measure.office.com
+0.0.0.0 f9893373e4ae08e05e6fa351159ad5b0.fp.measure.office.com
 0.0.0.0 f98f9b2551c84422b511fbf974f6150a.fp.measure.office.com
 0.0.0.0 f994f8f44e724e8fa899743025a3b8d8.fp.measure.office.com
 0.0.0.0 f99aa61abd0f4946b56e34a5c0a58285.fp.measure.office.com
@@ -13426,6 +13488,7 @@
 0.0.0.0 faa4809052cb49eab445a639ab8517c6.fp.measure.office.com
 0.0.0.0 faa60854146a623194d735ee3f6d67c0.fp.measure.office.com
 0.0.0.0 fabaa3c841ec4ca5bda119ccaa8c6fa3.fp.measure.office.com
+0.0.0.0 fabb6f82ec0944288ed3c25c18209c75.fp.measure.office.com
 0.0.0.0 fac0fad231394055d214796c5440482b.fp.measure.office.com
 0.0.0.0 fac207e4e5014bb1ba7427d02abda517.fp.measure.office.com
 0.0.0.0 fac8f232e1dd48e09708f200cf51539a.fp.measure.office.com
@@ -13634,6 +13697,7 @@
 0.0.0.0 feb744465eea4ca3a64b43b192d11377.fp.measure.office.com
 0.0.0.0 feba5074c5835e6d5ea4cfe6f633eaa4.fp.measure.office.com
 0.0.0.0 fec272ee5dd14682a79611c1bdc18e04.fp.measure.office.com
+0.0.0.0 fec49f23842022dca90ad0a1ae8d8b7e.fp.measure.office.com
 0.0.0.0 fec9adf6b6b649d496268c64a50e7a7b.fp.measure.office.com
 0.0.0.0 fed7d4c422c74517bc9dc1b91767f419.fp.measure.office.com
 0.0.0.0 fed84400d6744eefa34bc758b8eb147b.fp.measure.office.com
