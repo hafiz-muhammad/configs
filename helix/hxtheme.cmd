@@ -1,3 +1,6 @@
+:; # Author: Abdul Hafiz Muhammad
+:; # GitHub: https://github.com/hafiz-muhammad
+
 :; # Linux/Bash section
 :; # Define paths
 :; HELIX_DIR="$HOME/.config/helix"
