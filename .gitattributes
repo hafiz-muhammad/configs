@@ -54,3 +54,5 @@
 *.ps1       text eol=crlf
 *.psm1      text eol=crlf
 *.psd1      text eol=crlf
+# Set LF line endings for Helix theme script
+helix/hxtheme.cmd text eol=lf
