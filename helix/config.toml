@@ -1,5 +1,3 @@
-# Configuration documentation: https://docs.helix-editor.com/master/configuration.html
-
 # Set theme
 theme = "nord_transparent"
 
