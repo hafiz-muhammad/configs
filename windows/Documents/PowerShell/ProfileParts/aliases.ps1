@@ -124,28 +124,56 @@ Set-Alias -Name flushdns -Value Clear-DnsCache
 
 # Auto update Windows hosts file from hafiz-muhammad/configs GitHub repository
 function Update-HostsFile {
-    # Check if PowerShell running as admin
-    $isAdmin = ([Security.Principal.WindowsPrincipal] [Security.Principal.WindowsIdentity]::GetCurrent()).IsInRole([Security.Principal.WindowsBuiltInRole]::Administrator)
-    if (-not $isAdmin) {
-        Write-Warning "This function must be run as Administrator!"
-        Write-Host "Please restart PowerShell as Administrator, then run 'updatehosts' again."
-        return
-    }
-
     $githubUrl = "https://raw.githubusercontent.com/hafiz-muhammad/configs/refs/heads/main/windows/System32/drivers/etc/hosts"
     $hostsPath = "$env:SystemRoot\System32\drivers\etc\hosts"
 
-    # Download hosts file to a temp location
+    # Check for Admin rights; relaunch elevated if necessary
+    $currentPrincipal = New-Object Security.Principal.WindowsPrincipal([Security.Principal.WindowsIdentity]::GetCurrent())
+
+    if (-not $currentPrincipal.IsInRole([Security.Principal.WindowsBuiltInRole]::Administrator)) {
+        Write-Host "Administrator rights required." -ForegroundColor Yellow
+
+        # Script block to execute in the new elevated session
+        $fullScript = @"
+`$ProgressPreference = 'SilentlyContinue'
+`$githubUrl = '$githubUrl'
+`$hostsPath = '$hostsPath'
+`$tempHosts = "`$env:TEMP\hosts_from_github"
+
+Invoke-WebRequest -Uri `$githubUrl -OutFile `$tempHosts
+
+`$backupPath = "`$hostsPath.bak"
+Copy-Item `$hostsPath `$backupPath -Force
+Copy-Item `$tempHosts `$hostsPath -Force
+Remove-Item `$tempHosts -Force
+
+Write-Host "Hosts file updated. Backup at `$backupPath" -ForegroundColor Green
+"@
+
+        $bytes = [System.Text.Encoding]::Unicode.GetBytes($fullScript)
+        $encodedCommand = [Convert]::ToBase64String($bytes)
+
+        try {
+            Start-Process wt.exe -Verb RunAs -ArgumentList @(
+                "new-tab",
+                "pwsh",
+                "-NoExit",
+                "-EncodedCommand", $encodedCommand
+            )
+        }
+        catch {
+            Write-Host "User Account Control (UAC) prompt declined." -ForegroundColor Red
+        }
+        return
+    }
+
+    # Direct execution if already Administrator
     $tempHosts = "$env:TEMP\hosts_from_github"
     Invoke-WebRequest -Uri $githubUrl -OutFile $tempHosts
 
-    # Backup existing hosts file
     $backupPath = "$hostsPath.bak"
     Copy-Item $hostsPath $backupPath -Force
-
-    # Replace hosts file
     Copy-Item $tempHosts $hostsPath -Force
-
     Remove-Item $tempHosts -Force
 
     Write-Host "Hosts file updated. Backup at $backupPath"
