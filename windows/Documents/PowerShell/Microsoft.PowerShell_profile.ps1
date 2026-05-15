@@ -4,7 +4,7 @@ Import-Module PSReadLine -ErrorAction SilentlyContinue
 $ScriptPath = "$HOME\Documents\PowerShell\ProfileParts"
 
 if (Test-Path $ScriptPath) {
-    . (Join-Path $ScriptPath "setup.ps1")
+    . (Join-Path $ScriptPath "00-setup\setup.ps1")
 
     $Files = Get-ChildItem -Path $ScriptPath -Filter *.ps1 -File -Recurse -Depth 1 | 
          Where-Object { $_.Name -ne "setup.ps1" }
