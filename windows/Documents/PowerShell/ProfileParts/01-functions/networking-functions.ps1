@@ -86,3 +86,174 @@ function Get-ListeningPorts {
         }
     } | Sort-Object LocalAddress | Format-Table -AutoSize
 }
+
+# Set predefined DNS servers
+function Set-DNS {
+    param (
+        [string]$Provider
+    )
+
+    # Relaunch elevated if not running as Administrator
+    $currentPrincipal = New-Object Security.Principal.WindowsPrincipal([Security.Principal.WindowsIdentity]::GetCurrent())
+
+    if (-not $currentPrincipal.IsInRole([Security.Principal.WindowsBuiltInRole]::Administrator)) {
+        Write-Host "Administrator rights required." -ForegroundColor Yellow
+
+        $fullScript = @"
+`$ProgressPreference = 'SilentlyContinue'
+Set-DNS '$Provider'
+"@
+
+        $bytes = [System.Text.Encoding]::Unicode.GetBytes($fullScript)
+        $encodedCommand = [Convert]::ToBase64String($bytes)
+
+        try {
+            Start-Process wt.exe -Verb RunAs -ArgumentList @(
+                "new-tab",
+                "pwsh",
+                "-NoExit",
+                "-EncodedCommand", $encodedCommand
+            )
+        }
+        catch {
+            Write-Host "User Account Control (UAC) prompt declined." -ForegroundColor Red
+        }
+        return
+    }
+
+    # DNS server definitions
+    $DNSData = @{
+        # Quad9 recommended for malware blocking, DNSSEC Validation; anonymized logging
+        'quad9' = @('9.9.9.9', '149.112.112.112', '2620:fe::fe', '2620:fe::9')
+
+        # Cloudflare DNS servers with focus on speed and privacy; anonymized logging
+        'cloudflare' = @('1.1.1.1', '1.0.0.1', '2606:4700:4700::1111', '2606:4700:4700::1001')
+
+        # AdGuard default servers with ad and tracker blocking; anonymized logging
+        'adguard' = @('94.140.14.14', '94.140.15.15', '2a10:50c0::ad1:ff', '2a10:50c0::ad2:ff')
+
+        # Mullvad encrypted DNS; no logging
+        'mullvad' = @('194.242.2.2', '2a07:e340::2')
+
+        # Reset to network defaults
+        'dhcp' = $null  
+    }
+
+    # Mullvad DoH (DNS over HTTPS) isolation block
+    [Diagnostics.CodeAnalysis.SuppressMessageAttribute("PSPossibleIncorrectUsageOfAssignment", "")]
+    $EnableMullvadSecureDoh = {
+        param($Adapter, $CurrentProvider)
+        if ($CurrentProvider -ne 'mullvad') { return }
+
+        $v4Server = '194.242.2.2'
+        $v6Server = '2a07:e340::2'
+        $Template = 'https://dns.mullvad.net/dns-query'
+
+        # Register global system DoH templates
+        if (-not (Get-DnsClientDohServerAddress -ServerAddress $v4Server -ErrorAction SilentlyContinue)) {
+            Add-DnsClientDohServerAddress -ServerAddress $v4Server -DohTemplate $Template -AllowFallbackToUdp $False -AutoUpgrade $True
+        }
+        if (-not (Get-DnsClientDohServerAddress -ServerAddress $v6Server -ErrorAction SilentlyContinue)) {
+            Add-DnsClientDohServerAddress -ServerAddress $v6Server -DohTemplate $Template -AllowFallbackToUdp $False -AutoUpgrade $True
+        }
+
+        # Enforce adapter level encrypted only DoH via registry
+        if ($Adapter) {
+            $BasePath = "HKLM:\SYSTEM\CurrentControlSet\Services\Dnscache\InterfaceSpecificParameters\$($Adapter.InterfaceGuid)\DohInterfaceSettings"
+            
+            # Configure IPv4 encrypted only mode
+            $v4Path = "$BasePath\Doh\$v4Server"
+            if (-not (Test-Path $v4Path)) { New-Item -Path $v4Path -Force | Out-Null }
+            New-ItemProperty -Path $v4Path -Name "DohFlags" -Value 1 -PropertyType QWORD -Force | Out-Null
+
+            # Configure IPv6 encrypted only mode (using semicolon path format)
+            $v6Encoded = $v6Server -replace ':', ';'
+            $v6Path = "$BasePath\Doh6\$v6Encoded"
+            if (-not (Test-Path $v6Path)) { New-Item -Path $v6Path -Force | Out-Null }
+            New-ItemProperty -Path $v6Path -Name "DohFlags" -Value 1 -PropertyType QWORD -Force | Out-Null
+        }
+    }
+
+    $ValidProviders = $DNSData.Keys | Sort-Object
+
+    # Interactive loop
+    do {
+        if ([string]::IsNullOrWhiteSpace($Provider)) {
+            # Display current live DNS configurations
+            Write-Host "`nCurrent DNS Settings:" -ForegroundColor Cyan
+            $ActiveAdapters = Get-NetAdapter | Where-Object { $_.Status -eq 'Up' }
+            foreach ($Interface in $ActiveAdapters) {
+                $DnsAddresses = (Get-DnsClientServerAddress -InterfaceIndex $Interface.InterfaceIndex).ServerAddresses
+                if ($DnsAddresses) {
+                    $AddressesString = $DnsAddresses -join ', '
+                    Write-Host "  $($Interface.Name): " -NoNewline -ForegroundColor DarkGray
+                    Write-Host $AddressesString -ForegroundColor Gray
+                }
+            }
+
+            Write-Host "`nAvailable DNS Providers:" -ForegroundColor Yellow
+            Write-Host "  0) exit"
+
+            for ($i = 0; $i -lt $ValidProviders.Count; $i++) {
+                Write-Host "  $($i + 1)) $($ValidProviders[$i])"
+            }
+            Write-Host ""
+            
+            $Selection = Read-Host "Select a provider (type name or number)"
+
+            if ($Selection -eq '0' -or $Selection -eq 'exit') {
+                $CurrentProvider = 'exit'
+            }
+            elseif ($Selection -match '^\d+$' -and $Selection -le $ValidProviders.Count -and $Selection -gt 0) {
+                $CurrentProvider = $ValidProviders[$Selection - 1]
+            } else {
+                $CurrentProvider = $Selection
+            }
+        } else {
+            $CurrentProvider = $Provider
+            $Provider = $null
+        }
+
+        if ($CurrentProvider -eq 'exit') {
+            Write-Host "Exiting..." -ForegroundColor Yellow
+            break
+        }
+
+        # Input validation
+        if ([string]::IsNullOrWhiteSpace($CurrentProvider) -or $CurrentProvider -notin $ValidProviders) {
+            Write-Host "`n[ERROR] '$CurrentProvider' is not a valid option." -ForegroundColor Red
+            Write-Host "Please choose a number from the menu or type: $($ValidProviders -join ', ')" -ForegroundColor DarkGray
+            
+            Start-Sleep -Seconds 2
+            continue
+        }
+
+        # Apply settings to active network interfaces
+        $DnsServers = $DNSData[$CurrentProvider.ToLower()]
+        $ActiveInterfaces = Get-NetAdapter | Where-Object { $_.Status -eq 'Up' }
+
+        foreach ($Adapter in $ActiveInterfaces) {
+            if ($CurrentProvider -eq 'dhcp') {
+                Write-Host "Resetting DNS to DHCP for adapter: $($Adapter.Name)..." -ForegroundColor Cyan
+                Set-DnsClientServerAddress -InterfaceIndex $Adapter.InterfaceIndex -ResetServerAddresses
+            } else {
+                Write-Host "Setting DNS to $CurrentProvider for adapter: $($Adapter.Name)..." -ForegroundColor Green
+                Set-DnsClientServerAddress -InterfaceIndex $Adapter.InterfaceIndex -ServerAddresses $DnsServers
+
+                # Apply Mullvad specific DoH settings
+                & $EnableMullvadSecureDoh -Adapter $Adapter -CurrentProvider $CurrentProvider
+            }
+        }
+        
+        Clear-DnsClientCache
+        
+    } while ($true)
+}
+
+# Parameter tab-completion
+Register-ArgumentCompleter -CommandName 'Set-DNS' -ParameterName 'Provider' -ScriptBlock {
+    param($commandName, $parameterName, $wordToComplete, $commandAst, $fakeBoundParameters)
+    
+    $Targets = @('quad9', 'cloudflare', 'adguard', 'dhcp', 'mullvad', 'exit') 
+    $Targets | Where-Object { $_ -like "$wordToComplete*" }
+}
