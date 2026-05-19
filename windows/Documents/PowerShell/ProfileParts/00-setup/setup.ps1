@@ -23,6 +23,26 @@ function Install-PSReadLine {
     }
 }
 
+# Install Git via WinGet if missing
+function Install-Git {
+    if (-not (Get-Command "git" -ErrorAction SilentlyContinue)) {
+        Write-Host "Git not found. Installing via WinGet..." -ForegroundColor Cyan
+        
+        # Run the installer
+        winget install --id Git.Git --source winget --accept-package-agreements --accept-source-agreements > $null
+        
+        # Check if git exists before claiming success
+        if (Get-Command "git" -ErrorAction SilentlyContinue) {
+            # Force the current session to refresh its environment paths
+            $env:Path = [System.Environment]::GetEnvironmentVariable("Path", "Machine") + ";" + [System.Environment]::GetEnvironmentVariable("Path", "User")
+            return "Git"
+        } else {
+            Write-Host "Git installation was cancelled or failed." -ForegroundColor Red
+            return $null
+        }
+    }
+}
+
 # Install FiraCode Nerd Font if missing
 function Install-NerdFonts {
     $userFontReg = "HKCU:\Software\Microsoft\Windows NT\CurrentVersion\Fonts"
@@ -67,6 +87,7 @@ function Initialize-Setup {
         Set-ExecutionPolicyState
         Set-PSGalleryTrust
         Install-PSReadLine
+        Install-Git
         Install-NerdFonts
         Install-OhMyPosh
         Install-TerminalIcons
