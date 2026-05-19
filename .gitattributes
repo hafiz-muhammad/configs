@@ -44,15 +44,14 @@
 *.zip binary
 
 # Scripts
-*.bash      text eol=lf
-*.fish      text eol=lf
-*.sh        text eol=lf
-*.zsh       text eol=lf
-# These are windows-only files and should use crlf
-*.bat       text eol=crlf
-*.cmd       text eol=crlf
-*.ps1       text eol=crlf
-*.psm1      text eol=crlf
-*.psd1      text eol=crlf
+*.bash      text=auto
+*.fish      text=auto
+*.sh        text=auto
+*.zsh       text=auto
+*.bat       text=auto
+*.cmd       text=auto
+*.ps1       text=auto
+*.psm1      text=auto
+*.psd1      text=auto
 # Set LF line endings for Helix theme script
 helix/hxtheme.cmd text eol=lf
