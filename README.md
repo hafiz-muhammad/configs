@@ -7,9 +7,6 @@
   <h3>Dotfiles, documentation, and various other configurations...</h3>
 </div>
 
-> [!NOTE]
-> Configurations for things that I am no longer using can be found in the [archive](https://github.com/hafiz-muhammad/configs/tree/archive) branch.
-
 <br>
 <br>
 
