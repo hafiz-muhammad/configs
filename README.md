@@ -11,9 +11,15 @@
 <br>
 
 ## Showcase
-| Fedora Sway Spin w/ Nord color scheme             | Fastfetch                                       |
-|:-------------------------------------------------:|:-----------------------------------------------:|
-| ![Sway Nord](assets/screenshots/sway-nord.png)    | ![Fastfetch](assets/screenshots/fastfetch.png)  |
+| Fedora Sway Spin (Nord)                           | Fastfetch                                                       |
+|:-------------------------------------------------:|:---------------------------------------------------------------:|
+| ![Sway Nord](assets/screenshots/sway-nord.png)    | ![Fastfetch](assets/screenshots/fastfetch.png)                  |
+
+#### Old
+| Fedora i3 Spin (Gruvbox)                          | Fedora i3 Spin (Midnight Haze)                                  |
+|:-------------------------------------------------:|:---------------------------------------------------------------:|
+| ![i3 Gruvbox](assets/screenshots/i3-gruvbox.png)  | ![i3 Midnight Haze](assets/screenshots/i3-midnight-haze.png)    |
+
 
 ---
 
