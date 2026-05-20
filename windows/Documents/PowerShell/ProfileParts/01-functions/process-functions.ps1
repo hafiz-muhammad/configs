@@ -34,3 +34,20 @@ function Get-ProcessUptime ($Name) {
         Write-Warning "Process '$Name' not found. Make sure the app is running."
     }
 }
+
+# Terminates all running instances of a specific process by name
+function Stop-TargetProcess ($Name) {
+    # Exit if no process name is provided
+    if (-not $Name) { Write-Warning "Provide a process name to terminate."; return }
+    
+    # Check if the process is currently running
+    $Procs = Get-Process $Name -ErrorAction SilentlyContinue
+    
+    # Terminate the process if found, otherwise show a warning
+    if ($Procs) {
+        $Procs | Stop-Process -Force
+        Write-Host "Successfully terminated all instances of '$Name'." -ForegroundColor Green
+    } else {
+        Write-Warning "No active processes found matching '$Name'."
+    }
+}
