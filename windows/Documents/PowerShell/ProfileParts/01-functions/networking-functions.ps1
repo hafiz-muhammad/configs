@@ -58,6 +58,52 @@ Write-Host "Hosts file updated. Backup at `$backupPath" -ForegroundColor Green
     Write-Host "Hosts file updated. Backup at $backupPath"
 }
 
+# Get hosts file update status
+function Get-HostsFileStatus {
+    $GitHubUser = "hafiz-muhammad"
+    $RepoName = "configs"
+    $RepoHostsPath = "windows/System32/drivers/etc/hosts" 
+    $LocalHostsPath = "$env:SystemRoot\System32\drivers\etc\hosts"
+    Write-Host "Checking for hosts file updates..." -ForegroundColor Cyan
+
+    # Get local file info
+    if (Test-Path $LocalHostsPath) {
+        $LocalLastWrite = (Get-Item $LocalHostsPath).LastWriteTime
+        $LocalLastWriteFormatted = $LocalLastWrite.ToString("MM/dd/yyyy hh:mm:ss tt")
+        Write-Host "Last local hosts file update:  $LocalLastWriteFormatted" -ForegroundColor Yellow
+    } else {
+        $LocalLastWrite = [DateTime]::MinValue
+        Write-Host "Local hosts file not found!" -ForegroundColor Red
+    }
+
+    # Get remote file info via GitHub API
+    $ApiUrl = "https://api.github.com/repos/$GitHubUser/$RepoName/commits?path=$RepoHostsPath&page=1&per_page=1"
+
+    try {
+        # Headers for GitHub API compliance and clean JSON formatting
+        $Headers = @{"Accept" = "application/vnd.github.v3+json"; "User-Agent" = "PowerShell-Update-Checker"}
+        $CommitInfo = Invoke-RestMethod -Uri $ApiUrl -Headers $Headers -Method Get
+        
+        if ($null -ne $CommitInfo -and $CommitInfo.Count -gt 0) {
+            $RemoteCommitDate = [DateTime]::Parse($CommitInfo[0].commit.committer.date).ToLocalTime()
+            $RemoteCommitDateFormatted = $RemoteCommitDate.ToString("MM/dd/yyyy hh:mm:ss tt")
+            
+            Write-Host "Last remote hosts file update: $RemoteCommitDateFormatted" -ForegroundColor Cyan
+            
+            # Compare dates
+            if ($RemoteCommitDate -gt $LocalLastWrite) {
+                Write-Host "Hosts file update is available!" -ForegroundColor Magenta
+            } else {
+                Write-Host "Your hosts file is up to date." -ForegroundColor Green
+            }
+        } else {
+            Write-Host "No commit history found for this file on GitHub." -ForegroundColor Yellow
+        }
+    } catch {
+        Write-Host "Could not connect to GitHub to check for updates: $_" -ForegroundColor Red
+    }
+}
+
 # Get local listening ports with process name and details
 function Get-ListeningPorts {
     netstat -ano | Select-String "LISTENING" | ForEach-Object {
