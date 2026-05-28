@@ -35,6 +35,7 @@
 *.gif binary
 *.xcf binary
 *.psd binary
+*.jxl binary
 
 # Archive
 *.7z binary
