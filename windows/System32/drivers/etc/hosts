@@ -5,10 +5,10 @@
 # Issues: https://github.com/hagezi/dns-blocklists/issues
 # Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 # Expires: 1 day
-# Last modified: 07 Jun 2026 19:23 UTC
-# Version: 2026.0607.1923.08
+# Last modified: 11 Jun 2026 14:41 UTC
+# Version: 2026.0611.1441.13
 # Syntax: Hosts (including possible subdomains)
-# Number of entries: 740
+# Number of entries: 748
 #
 0.0.0.0 c-bingapis-com.dual-a-0034.a-msedge.net
 0.0.0.0 measure.office.com.akamaized.net
@@ -52,6 +52,7 @@
 0.0.0.0 centralus-2.in.applicationinsights.azure.com
 0.0.0.0 centralus-3.in.applicationinsights.azure.com
 0.0.0.0 chinaeast2-0.in.applicationinsights.azure.cn
+0.0.0.0 chinaeast3-global.in.applicationinsights.azure.cn
 0.0.0.0 chinanorth3-0.in.applicationinsights.azure.cn
 0.0.0.0 eastasia-0.in.applicationinsights.azure.com
 0.0.0.0 eastus-0.in.applicationinsights.azure.com
@@ -95,12 +96,14 @@
 0.0.0.0 spaincentral-0.in.applicationinsights.azure.com
 0.0.0.0 swedencentral-0.in.applicationinsights.azure.com
 0.0.0.0 switzerlandnorth-0.in.applicationinsights.azure.com
+0.0.0.0 uaenorth-0.in.applicationinsights.azure.com
 0.0.0.0 uksouth-0.in.applicationinsights.azure.com
 0.0.0.0 uksouth-1.in.applicationinsights.azure.com
 0.0.0.0 ukwest-0.in.applicationinsights.azure.com
 0.0.0.0 usgovarizona-0.in.applicationinsights.azure.us
 0.0.0.0 usgovvirginia-0.in.applicationinsights.azure.us
 0.0.0.0 usgovvirginia-1.in.applicationinsights.azure.us
+0.0.0.0 usgovvirginia-global.in.applicationinsights.azure.us
 0.0.0.0 westeurope.in.applicationinsights.azure.com
 0.0.0.0 westeurope-0.in.applicationinsights.azure.com
 0.0.0.0 westeurope-1.in.applicationinsights.azure.com
@@ -180,6 +183,7 @@
 0.0.0.0 excel-telemetry.officeapps.live.com
 0.0.0.0 ffc-excel-telemetry.officeapps.live.com
 0.0.0.0 ffc-word-telemetry.officeapps.live.com
+0.0.0.0 fgteu1-word-telemetry-vip.officeapps.live.com
 0.0.0.0 frc-visio-telemetry.officeapps.live.com
 0.0.0.0 inc-visio-telemetry.officeapps.live.com
 0.0.0.0 nexus.officeapps.live.com
@@ -303,7 +307,6 @@
 0.0.0.0 tb.pipe.aria.microsoft.com
 0.0.0.0 us.pipe.aria.microsoft.com
 0.0.0.0 collector.azure.microsoft.cloud
-0.0.0.0 collector.azure.microsoft.scloud
 0.0.0.0 azurewatson.microsoft.com
 0.0.0.0 azurewatsontest.microsoft.com
 0.0.0.0 bingads.microsoft.com
@@ -617,6 +620,7 @@
 0.0.0.0 powerpointonline.nelsdf.measure.office.net
 0.0.0.0 sdwan.measure.office.com
 0.0.0.0 prod.editor.ads.trafficmanager.net
+0.0.0.0 ads-msn-com-profile.trafficmanager.net
 0.0.0.0 adsdk.trafficmanager.net
 0.0.0.0 agps-location-livenet.trafficmanager.net
 0.0.0.0 analytics.trafficmanager.net
@@ -624,9 +628,12 @@
 0.0.0.0 geo.hub.analytics.trafficmanager.net
 0.0.0.0 analytics-listener.trafficmanager.net
 0.0.0.0 beacons.trafficmanager.net
+0.0.0.0 bingads.trafficmanager.net
+0.0.0.0 azure.bingads.trafficmanager.net
 0.0.0.0 azure.bcp.bingads.trafficmanager.net
 0.0.0.0 azure.tip.bingads.trafficmanager.net
 0.0.0.0 ch-asimov-leafs-events-data.trafficmanager.net
+0.0.0.0 collection-location-livenet.trafficmanager.net
 0.0.0.0 collector-main.trafficmanager.net
 0.0.0.0 tracker.flightview.com.trafficmanager.net
 0.0.0.0 events.data.trafficmanager.net
@@ -690,6 +697,7 @@
 0.0.0.0 euc-excel-telemetry.wac.trafficmanager.net
 0.0.0.0 euc-powerpoint-telemetry.wac.trafficmanager.net
 0.0.0.0 euc-word-telemetry.wac.trafficmanager.net
+0.0.0.0 eurffc-word-telemetry.wac.trafficmanager.net
 0.0.0.0 excel-telemetry.wac.trafficmanager.net
 0.0.0.0 powerpoint-telemetry.wac.trafficmanager.net
 0.0.0.0 ppc-excel-telemetry.wac.trafficmanager.net
