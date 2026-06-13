@@ -5,10 +5,10 @@
 # Issues: https://github.com/hagezi/dns-blocklists/issues
 # Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 # Expires: 1 day
-# Last modified: 11 Jun 2026 14:41 UTC
-# Version: 2026.0611.1441.13
+# Last modified: 12 Jun 2026 19:14 UTC
+# Version: 2026.0612.1914.17
 # Syntax: Hosts (including possible subdomains)
-# Number of entries: 748
+# Number of entries: 746
 #
 0.0.0.0 c-bingapis-com.dual-a-0034.a-msedge.net
 0.0.0.0 measure.office.com.akamaized.net
@@ -146,7 +146,6 @@
 0.0.0.0 r.g.bing.com
 0.0.0.0 raka.bing.com
 0.0.0.0 c.bingapis.com
-0.0.0.0 upload.fp.measure.office.com.corp.mmco.int.cardano.com
 0.0.0.0 exo.nel.measure.office.net.cardano.com
 0.0.0.0 identity.nel.measure.office.net.cardano.com
 0.0.0.0 m365cdn.nel.measure.office.net.cardano.com
@@ -704,7 +703,6 @@
 0.0.0.0 ppc-powerpoint-telemetry.wac.trafficmanager.net
 0.0.0.0 ppc-word-telemetry.wac.trafficmanager.net
 0.0.0.0 word-telemetry.wac.trafficmanager.net
-0.0.0.0 we-events-prod-1.trafficmanager.net
 0.0.0.0 win-global-asimov-leafs-events-data.trafficmanager.net
 0.0.0.0 dc.services.visualstudio.com
 0.0.0.0 h4g3z1-native.winoffice.web.app
