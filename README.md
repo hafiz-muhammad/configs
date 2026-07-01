@@ -9,29 +9,16 @@
 
 <br>
 
-## Showcase
+<!-- ## Showcase
 
 <table width="100%">
   <tr>
-    <th align="center" width="50%">Fedora Sway Spin (Nord)</th>
     <th align="center" width="50%">Fastfetch</th>
   </tr>
   <tr>
-    <td align="center"><img src="assets/screenshots/sway-nord.png" alt="Sway Nord"></td>
     <td align="center"><img src="assets/screenshots/fastfetch.png" alt="Fastfetch"></td>
   </tr>
-  <tr>
-    <td colspan="2" align="center" style="background-color: #161b22; padding: 10px 0;"><strong>👇 Archived 👇</strong></td>
-  </tr>
-  <tr>
-    <th align="center">Fedora i3 Spin (Gruvbox)</th>
-    <th align="center">Fedora i3 Spin (Midnight Haze)</th>
-  </tr>
-  <tr>
-    <td align="center"><img src="assets/screenshots/i3-gruvbox.png" alt="i3 Gruvbox"></td>
-    <td align="center"><img src="assets/screenshots/i3-midnight-haze.png" alt="i3 Midnight Haze"></td>
-  </tr>
-</table>
+</table> -->
 
 ## Fedora
 <details><summary>Documentation</summary>
