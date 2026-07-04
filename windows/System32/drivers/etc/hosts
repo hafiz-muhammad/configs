@@ -5,10 +5,10 @@
 # Issues: https://github.com/hagezi/dns-blocklists/issues
 # Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 # Expires: 1 day
-# Last modified: 26 Jun 2026 18:52 UTC
-# Version: 2026.0626.1852.33
+# Last modified: 03 Jul 2026 18:46 UTC
+# Version: 2026.0703.1846.02
 # Syntax: Hosts (including possible subdomains)
-# Number of entries: 742
+# Number of entries: 744
 #
 0.0.0.0 c-bingapis-com.dual-a-0034.a-msedge.net
 0.0.0.0 measure.office.com.akamaized.net
@@ -96,6 +96,7 @@
 0.0.0.0 spaincentral-0.in.applicationinsights.azure.com
 0.0.0.0 swedencentral-0.in.applicationinsights.azure.com
 0.0.0.0 switzerlandnorth-0.in.applicationinsights.azure.com
+0.0.0.0 uaenorth-0.in.applicationinsights.azure.com
 0.0.0.0 uksouth-0.in.applicationinsights.azure.com
 0.0.0.0 uksouth-1.in.applicationinsights.azure.com
 0.0.0.0 ukwest-0.in.applicationinsights.azure.com
@@ -738,6 +739,7 @@
 0.0.0.0 ffg-analyticsk3nvxfne4dp4s.servicebus.windows.net
 0.0.0.0 hme-live-loganalytics-namespace.servicebus.windows.net
 0.0.0.0 hme-uat-loganalytics-namespace.servicebus.windows.net
+0.0.0.0 kg-legacy-analytics.servicebus.windows.net
 0.0.0.0 licensingtelemetry-prod.servicebus.windows.net
 0.0.0.0 nexxtv-events.servicebus.windows.net
 0.0.0.0 ppm-licensingtelemetry.servicebus.windows.net
