@@ -62,7 +62,7 @@
     {
         "defaults": 
         {
-            "colorScheme": "Slate",
+            "colorScheme": "Midnight Haze",
             "font": 
             {
                 "face": "FiraCode Nerd Font"
@@ -123,6 +123,52 @@
     },
     "schemes": 
     [
+        {
+            "background": "#270D06",
+            "black": "#330000",
+            "blue": "#FFCC00",
+            "brightBlack": "#663300",
+            "brightBlue": "#FFCC33",
+            "brightCyan": "#FFCC99",
+            "brightGreen": "#FF9966",
+            "brightPurple": "#FF9966",
+            "brightRed": "#FF6633",
+            "brightWhite": "#D9D9D9",
+            "brightYellow": "#FFCC99",
+            "cursorColor": "#D9D9D9",
+            "cyan": "#FF9900",
+            "foreground": "#D9D9D9",
+            "green": "#FF6600",
+            "name": "Inferno",
+            "purple": "#FF6600",
+            "red": "#FF3300",
+            "selectionBackground": "#D9D9D9",
+            "white": "#D9D9D9",
+            "yellow": "#FF9900"
+        },
+        {
+            "background": "#0C0C16",
+            "black": "#2C2C3D",
+            "blue": "#70A7D4",
+            "brightBlack": "#414166",
+            "brightBlue": "#9BB3D3",
+            "brightCyan": "#9CD8D8",
+            "brightGreen": "#B3D987",
+            "brightPurple": "#FFA1FF",
+            "brightRed": "#FF8D8D",
+            "brightWhite": "#FFFFFF",
+            "brightYellow": "#FFC57F",
+            "cursorColor": "#D8DEE9",
+            "cyan": "#96E0E0",
+            "foreground": "#D8DEE9",
+            "green": "#9EC875",
+            "name": "Midnight Haze",
+            "purple": "#D291E0",
+            "red": "#FF6E6E",
+            "selectionBackground": "#D8DEE9",
+            "white": "#D8DEE9",
+            "yellow": "#FFA759"
+        },
         {
             "background": "#111E2A",
             "black": "#000000",
