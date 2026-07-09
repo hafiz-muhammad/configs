@@ -5,10 +5,10 @@
 # Issues: https://github.com/hagezi/dns-blocklists/issues
 # Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 # Expires: 1 day
-# Last modified: 03 Jul 2026 18:46 UTC
-# Version: 2026.0703.1846.02
+# Last modified: 08 Jul 2026 17:50 UTC
+# Version: 2026.0708.1750.11
 # Syntax: Hosts (including possible subdomains)
-# Number of entries: 744
+# Number of entries: 746
 #
 0.0.0.0 c-bingapis-com.dual-a-0034.a-msedge.net
 0.0.0.0 measure.office.com.akamaized.net
@@ -118,6 +118,7 @@
 0.0.0.0 westus2-4.in.applicationinsights.azure.com
 0.0.0.0 westus2-5.in.applicationinsights.azure.com
 0.0.0.0 westus2-global.in.applicationinsights.azure.com
+0.0.0.0 westus3.in.applicationinsights.azure.com
 0.0.0.0 westus3-1.in.applicationinsights.azure.com
 0.0.0.0 live.applicationinsights.azure.com
 0.0.0.0 inference-app-gateway.eastus2.cloudapp.azure.com
@@ -168,6 +169,7 @@
 0.0.0.0 auc-visio-telemetry.officeapps.live.com
 0.0.0.0 brc-visio-telemetry.officeapps.live.com
 0.0.0.0 cac-visio-telemetry.officeapps.live.com
+0.0.0.0 chc-visio-telemetry.officeapps.live.com
 0.0.0.0 dec-visio-telemetry.officeapps.live.com
 0.0.0.0 euc-excel-telemetry.officeapps.live.com
 0.0.0.0 euc-onenote-telemetry.officeapps.live.com
