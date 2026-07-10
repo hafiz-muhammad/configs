@@ -5,8 +5,8 @@
 # Issues: https://github.com/hagezi/dns-blocklists/issues
 # Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 # Expires: 1 day
-# Last modified: 08 Jul 2026 17:50 UTC
-# Version: 2026.0708.1750.11
+# Last modified: 09 Jul 2026 18:16 UTC
+# Version: 2026.0709.1816.14
 # Syntax: Hosts (including possible subdomains)
 # Number of entries: 746
 #
@@ -103,6 +103,7 @@
 0.0.0.0 usgovarizona-0.in.applicationinsights.azure.us
 0.0.0.0 usgovvirginia-0.in.applicationinsights.azure.us
 0.0.0.0 usgovvirginia-1.in.applicationinsights.azure.us
+0.0.0.0 usgovvirginia-global.in.applicationinsights.azure.us
 0.0.0.0 westeurope.in.applicationinsights.azure.com
 0.0.0.0 westeurope-0.in.applicationinsights.azure.com
 0.0.0.0 westeurope-1.in.applicationinsights.azure.com
@@ -687,7 +688,6 @@
 0.0.0.0 stats-partner.trafficmanager.net
 0.0.0.0 teams-events-data.trafficmanager.net
 0.0.0.0 telemetry-lcp.trafficmanager.net
-0.0.0.0 tenmax-ads.trafficmanager.net
 0.0.0.0 tm-analytics-pr.trafficmanager.net
 0.0.0.0 tm-enrollment-telemetry-datacore.trafficmanager.net
 0.0.0.0 us-mesh-events-data-leafs.trafficmanager.net
