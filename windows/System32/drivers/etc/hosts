@@ -5,10 +5,10 @@
 # Issues: https://github.com/hagezi/dns-blocklists/issues
 # Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 # Expires: 1 day
-# Last modified: 09 Jul 2026 18:16 UTC
-# Version: 2026.0709.1816.14
+# Last modified: 10 Jul 2026 18:07 UTC
+# Version: 2026.0710.1807.47
 # Syntax: Hosts (including possible subdomains)
-# Number of entries: 746
+# Number of entries: 745
 #
 0.0.0.0 c-bingapis-com.dual-a-0034.a-msedge.net
 0.0.0.0 measure.office.com.akamaized.net
@@ -103,7 +103,6 @@
 0.0.0.0 usgovarizona-0.in.applicationinsights.azure.us
 0.0.0.0 usgovvirginia-0.in.applicationinsights.azure.us
 0.0.0.0 usgovvirginia-1.in.applicationinsights.azure.us
-0.0.0.0 usgovvirginia-global.in.applicationinsights.azure.us
 0.0.0.0 westeurope.in.applicationinsights.azure.com
 0.0.0.0 westeurope-0.in.applicationinsights.azure.com
 0.0.0.0 westeurope-1.in.applicationinsights.azure.com
