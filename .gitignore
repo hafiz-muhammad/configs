@@ -114,3 +114,7 @@ bookmarks*
 *[Cc]ryptomator*
 *.c9r
 *.c9s
+
+# Private directories
+[Pp]rivate/
+.[Pp]rivate/
