@@ -88,6 +88,9 @@ venv/
 
 # KeePass database
 *.kdbx*
+*[Kk]eepass*
+*[Kk]eepassxc*
+*[kK][pP][xX][cC]*
 
 # Identity & Contacts
 *.vcard
@@ -104,11 +107,13 @@ bookmarks*
 *.age
 *.2fas
 *.aegis
+*[kK][eE][yY][fF][iI][lL][eE]*
 
 # Syncthing
 [Ss]ync/
 .stfolder/
 .stversions/
+*sync-conflict*
 
 # Cryptomator
 *[Cc]ryptomator*
