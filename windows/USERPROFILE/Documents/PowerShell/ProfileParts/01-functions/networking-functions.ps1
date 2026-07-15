@@ -60,47 +60,49 @@ Write-Host "Hosts file updated. Backup at `$backupPath" -ForegroundColor Green
 
 # Get hosts file update status
 function Get-HostsFileStatus {
-    $GitHubUser = "hafiz-muhammad"
-    $RepoName = "configs"
-    $RepoHostsPath = "windows/System32/drivers/etc/hosts" 
+    $GitHubUrl = "https://raw.githubusercontent.com/hafiz-muhammad/configs/refs/heads/main/windows/System32/drivers/etc/hosts"
     $LocalHostsPath = "$env:SystemRoot\System32\drivers\etc\hosts"
-    Write-Host "Checking for hosts file updates..." -ForegroundColor Cyan
+    $TempHostsPath = "$env:TEMP\hosts_remote_check"
+    
+    Write-Host "Checking hosts file integrity..." -ForegroundColor Cyan
 
-    # Get local file info
-    if (Test-Path $LocalHostsPath) {
-        $LocalLastWrite = (Get-Item $LocalHostsPath).LastWriteTime
-        $LocalLastWriteFormatted = $LocalLastWrite.ToString("MM/dd/yyyy hh:mm:ss tt")
-        Write-Host "Last local hosts file update:  $LocalLastWriteFormatted" -ForegroundColor Yellow
-    } else {
-        $LocalLastWrite = [DateTime]::MinValue
-        Write-Host "Local hosts file not found!" -ForegroundColor Red
+    # Verify local file presence
+    if (-not (Test-Path $LocalHostsPath)) {
+        Write-Host "[ALERT] Local hosts file not found!" -ForegroundColor Red
+        return
     }
 
-    # Get remote file info via GitHub API
-    $ApiUrl = "https://api.github.com/repos/$GitHubUser/$RepoName/commits?path=$RepoHostsPath&page=1&per_page=1"
-
     try {
-        # Headers for GitHub API compliance and clean JSON formatting
-        $Headers = @{"Accept" = "application/vnd.github.v3+json"; "User-Agent" = "PowerShell-Update-Checker"}
-        $CommitInfo = Invoke-RestMethod -Uri $ApiUrl -Headers $Headers -Method Get
+        # Generate and compare file hashes
+        $LocalHash = (Get-FileHash -Path $LocalHostsPath -Algorithm SHA256).Hash
+
+        $Headers = @{"User-Agent" = "PowerShell-Update-Checker"}
+        Invoke-WebRequest -Uri $GitHubUrl -OutFile $TempHostsPath -Headers $Headers -ErrorAction Stop
         
-        if ($null -ne $CommitInfo -and $CommitInfo.Count -gt 0) {
-            $RemoteCommitDate = [DateTime]::Parse($CommitInfo[0].commit.committer.date).ToLocalTime()
-            $RemoteCommitDateFormatted = $RemoteCommitDate.ToString("MM/dd/yyyy hh:mm:ss tt")
-            
-            Write-Host "Last remote hosts file update: $RemoteCommitDateFormatted" -ForegroundColor Cyan
-            
-            # Compare dates
-            if ($RemoteCommitDate -gt $LocalLastWrite) {
-                Write-Host "Hosts file update is available!" -ForegroundColor Magenta
-            } else {
-                Write-Host "Your hosts file is up to date." -ForegroundColor Green
-            }
+        $RemoteHash = (Get-FileHash -Path $TempHostsPath -Algorithm SHA256).Hash
+
+        Remove-Item $TempHostsPath -Force -ErrorAction SilentlyContinue
+
+        if ($LocalHash -eq $RemoteHash) {
+            # Define terminal escape codes for the hyperlink
+            $Esc = [char]27
+            $LinkStart = "$Esc]8;;$GitHubUrl$Esc\"
+            $LinkEnd = "$Esc]8;;$Esc\"
+
+            Write-Host "Local hosts file matches the " -NoNewline -ForegroundColor Green
+            Write-Host "$LinkStart" -NoNewline
+            Write-Host "GitHub version" -NoNewline -ForegroundColor Green
+            Write-Host "$LinkEnd" -NoNewline
+            Write-Host "." -ForegroundColor Green
         } else {
-            Write-Host "No commit history found for this file on GitHub." -ForegroundColor Yellow
+            Write-Host "Local hosts file does not match the GitHub repository." -ForegroundColor Magenta
+            Write-Host "  -> Local Hash:  $LocalHash"
+            Write-Host "  -> Remote Hash: $RemoteHash"
         }
     } catch {
-        Write-Host "Could not connect to GitHub to check for updates: $_" -ForegroundColor Red
+        # Handle errors and ensure temp file cleanup
+        if (Test-Path $TempHostsPath) { Remove-Item $TempHostsPath -Force -ErrorAction SilentlyContinue }
+        Write-Host "Could not connect to GitHub or calculate hashes: $_" -ForegroundColor Red
     }
 }
 
