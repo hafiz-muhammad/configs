@@ -99,6 +99,15 @@ venv/
 *.ical
 *.vcs
 
+# Email
+*.eml
+*.msg
+*.pst
+*.ost
+*.mbox
+maildir/
+.maildir/
+
 # Bookmarks
 bookmarks*
 
