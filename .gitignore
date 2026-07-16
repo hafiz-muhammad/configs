@@ -92,9 +92,12 @@ venv/
 *[Kk]eepassxc*
 *[kK][pP][xX][cC]*
 
-# Identity & Contacts
+# Calendar & Contacts
 *.vcard
 *.vcf
+*.ics
+*.ical
+*.vcs
 
 # Bookmarks
 bookmarks*
