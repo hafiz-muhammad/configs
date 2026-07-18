@@ -21,7 +21,7 @@ jobs:
       
     - name: Download hosts file
       run: |
-        wget -nv -O windows/System32/drivers/etc/hosts \
+        wget -nv -O windows/hosts \
         https://raw.githubusercontent.com/hagezi/dns-blocklists/refs/heads/main/hosts/native.winoffice.txt
 
     - name: Commit and push changes
@@ -30,8 +30,8 @@ jobs:
         git config --global user.email 'github-actions[bot]@users.noreply.github.com'
         
         
-        if [ -n "$(git status --porcelain windows/System32/drivers/etc/hosts)" ]; then
-          git add windows/System32/drivers/etc/hosts
+        if [ -n "$(git status --porcelain windows/hosts)" ]; then
+          git add windows/hosts
           git commit -m 'chore: update Windows hosts file'
           git push
         else
