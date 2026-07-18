@@ -82,6 +82,9 @@ ehthumbs_vista.db
 env/
 venv/
 
+# Visual Studio Code
+*.code-profile
+
 ####################
 # Personal Data
 ####################
