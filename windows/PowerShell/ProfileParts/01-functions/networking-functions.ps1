@@ -3,7 +3,7 @@ function Clear-DnsCache { Clear-DnsClientCache; Write-Host "DNS cache flushed." 
 
 # Auto update Windows hosts file from hafiz-muhammad/configs GitHub repository
 function Update-HostsFile {
-    $githubUrl = "https://raw.githubusercontent.com/hafiz-muhammad/configs/refs/heads/main/windows/System32/drivers/etc/hosts"
+    $githubUrl = "https://raw.githubusercontent.com/hafiz-muhammad/configs/refs/heads/main/windows/hosts"
     $hostsPath = "$env:SystemRoot\System32\drivers\etc\hosts"
 
     # Check for Admin rights; relaunch elevated if necessary
@@ -60,7 +60,7 @@ Write-Host "Hosts file updated. Backup at `$backupPath" -ForegroundColor Green
 
 # Get hosts file update status
 function Get-HostsFileStatus {
-    $GitHubUrl = "https://raw.githubusercontent.com/hafiz-muhammad/configs/refs/heads/main/windows/System32/drivers/etc/hosts"
+    $GitHubUrl = "https://raw.githubusercontent.com/hafiz-muhammad/configs/refs/heads/main/windows/hosts"
     $LocalHostsPath = "$env:SystemRoot\System32\drivers\etc\hosts"
     $TempHostsPath = "$env:TEMP\hosts_remote_check"
     
