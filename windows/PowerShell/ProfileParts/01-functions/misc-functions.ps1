@@ -169,9 +169,11 @@ function Get-Brave25thWord {
             "wrestle", "wrist", "write", "wrong", "yard", "year", "yellow", "you", "young", "youth", "zebra", "zero", "zone", "zoo"
         )
 
-        $epoch = [datetime]'2022-05-10'
-        $today = [datetime]::Today
-        $daysPassed = ($today - $epoch).Days
+        $epoch = [datetime]::SpecifyKind([datetime]'2022-05-10', [System.DateTimeKind]::Utc)
+        $today = [datetime]::UtcNow
+
+        $deltaInDays = ($today - $epoch).TotalDays
+        $daysPassed = [Math]::Round($deltaInDays)
 
         if ($daysPassed -lt 0) {
             Write-Warning "Today's date must be after May 10, 2022"
