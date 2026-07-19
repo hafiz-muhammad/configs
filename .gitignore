@@ -104,12 +104,6 @@ venv/
 # Personal Data
 ####################
 
-# KeePass database
-*.kdbx*
-*[Kk]eepass*
-*[Kk]eepassxc*
-*[kK][pP][xX][cC]*
-
 # Calendar & Contacts
 *.vcard
 *.vcf
@@ -138,6 +132,8 @@ bookmarks*
 *.2fas
 *.aegis
 *[kK][eE][yY][fF][iI][lL][eE]*
+*[aA][uU][tT][hH][eE][nN][tT][iI][cC][aA][tT][oO][rR]*
+*[aA][uU][tT][hH]*.[tT][xX][tT]
 *_rsa
 *_dsa
 *_ecdsa
@@ -147,6 +143,12 @@ bookmarks*
 *.crt
 *.cer
 id_*
+secrets/
+.secrets/
+*.kdbx*
+*[Kk]eepass*
+*[Kk]eepassxc*
+*[kK][pP][xX][cC]*
 !id_*.pub
 !*.pub
 
@@ -164,5 +166,3 @@ id_*
 # Private directories
 [Pp]rivate/
 .[Pp]rivate/
-secrets/
-.secrets/
