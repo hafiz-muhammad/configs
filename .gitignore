@@ -127,6 +127,12 @@ bookmarks*
 *_dsa
 *_ecdsa
 *_ed25519
+*.pfx
+*.p12
+*.crt
+*.cer
+id_*
+!id_*.pub
 !*.pub
 
 # Syncthing
