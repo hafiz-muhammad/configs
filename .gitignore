@@ -123,6 +123,11 @@ bookmarks*
 *.2fas
 *.aegis
 *[kK][eE][yY][fF][iI][lL][eE]*
+*_rsa
+*_dsa
+*_ecdsa
+*_ed25519
+!*.pub
 
 # Syncthing
 [Ss]ync/
