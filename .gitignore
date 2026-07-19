@@ -66,11 +66,26 @@ ehthumbs_vista.db
 *.dll
 
 ####################
+# macOS
+####################
+
+.DS_Store
+
+####################
 # Logs
 ####################
 
 # Common log files from various platforms
 *.log
+
+####################
+# History
+####################
+*_history
+.lesshst
+.mysql_history
+.psql_history
+.python_history
 
 ####################
 # Development
@@ -149,3 +164,5 @@ id_*
 # Private directories
 [Pp]rivate/
 .[Pp]rivate/
+secrets/
+.secrets/
