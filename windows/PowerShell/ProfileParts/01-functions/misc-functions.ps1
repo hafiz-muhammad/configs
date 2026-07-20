@@ -185,7 +185,7 @@ function Get-Brave25thWord {
         if ($index -lt $w.Count) {
             Write-Host "--- Brave Sync 25th Word ---" -ForegroundColor Cyan
             Write-Host "Days since epoch: $daysPassed"
-            Write-Host "Word position:    $index"
+            Write-Host "Word position:    $index/2048"
             Write-Host "Today's word is:  $($w[$index].Trim())" -ForegroundColor Green
         }
         else {
