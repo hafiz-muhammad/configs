@@ -5,10 +5,10 @@
 # Issues: https://github.com/hagezi/dns-blocklists/issues
 # Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 # Expires: 1 day
-# Last modified: 26 Jul 2026 17:53 UTC
-# Version: 2026.0726.1753.46
+# Last modified: 28 Jul 2026 17:52 UTC
+# Version: 2026.0728.1752.30
 # Syntax: Hosts (including possible subdomains)
-# Number of entries: 745
+# Number of entries: 746
 #
 0.0.0.0 c-bingapis-com.dual-a-0034.a-msedge.net
 0.0.0.0 measure.office.com.akamaized.net
@@ -119,6 +119,7 @@
 0.0.0.0 westus2-4.in.applicationinsights.azure.com
 0.0.0.0 westus2-5.in.applicationinsights.azure.com
 0.0.0.0 westus2-global.in.applicationinsights.azure.com
+0.0.0.0 westus3.in.applicationinsights.azure.com
 0.0.0.0 westus3-1.in.applicationinsights.azure.com
 0.0.0.0 live.applicationinsights.azure.com
 0.0.0.0 inference-app-gateway.eastus2.cloudapp.azure.com
