@@ -89,6 +89,9 @@ FLATPAKS=(
 
     # Tuba (Browse the Fediverse)
     dev.geopjr.Tuba
+
+    # Zotero (Reference management software)
+    org.zotero.Zotero
 )
 
 TO_INSTALL=()
