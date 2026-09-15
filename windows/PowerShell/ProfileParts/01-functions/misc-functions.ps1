@@ -187,6 +187,8 @@ function Get-Brave25thWord {
             Write-Host "Days since epoch: $daysPassed"
             Write-Host "Word position:    $index/2048"
             Write-Host "Today's word is:  $($w[$index].Trim())" -ForegroundColor Green
+            Write-Host -NoNewline "Brave Sync code: [1..24 Words] + "
+            Write-Host "$($w[$index].Trim())" -ForegroundColor Green
         }
         else {
             Write-Warning "Array missing words for position ($index)."
