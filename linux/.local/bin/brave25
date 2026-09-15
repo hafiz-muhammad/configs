@@ -141,6 +141,7 @@ get_brave_25th_word() {
         echo "Days since epoch: $days_passed"
         echo "Word position:    $index/2048"
         echo -e "Today's word is:  \033[32m${w[$index]}\033[0m"
+        echo -e "Brave Sync code: [1..24 Words] + \033[32m${w[$index]}\033[0m"
     else
         echo -e "\033[33mWarning: Array missing words for position ($index).\033[0m" >&2
     fi
