@@ -62,6 +62,12 @@ Set-PSReadLineKeyHandler -Key Tab -Function MenuComplete
 # Configure PSReadLine history size
 Set-PSReadLineOption -MaximumHistoryCount 10000
 
+# Suggest commands from history
+Set-PSReadLineOption -PredictionSource History
+
+# Show suggestions as a scrollable list
+Set-PSReadLineOption -PredictionViewStyle ListView
+
 # Set Oh My Posh theme
 oh-my-posh --init --shell pwsh --config "$Env:LOCALAPPDATA\Programs\oh-my-posh\themes\kushal.omp.json" | Invoke-Expression
 
