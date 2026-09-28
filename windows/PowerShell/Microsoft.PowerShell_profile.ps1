@@ -17,6 +17,15 @@ if (Test-Path $ScriptPath) {
 # Configure PSReadLine history size
 Set-PSReadLineOption -MaximumHistoryCount 10000
 
+# Suggest commands from history
+Set-PSReadLineOption -PredictionSource History
+
+# Show suggestions as a scrollable list
+Set-PSReadLineOption -PredictionViewStyle ListView
+
+# Tab menu completion
+Set-PSReadLineKeyHandler -Key Tab -Function MenuComplete
+
 # Set Oh My Posh theme
 oh-my-posh --init --shell pwsh --config "$Env:LOCALAPPDATA\Programs\oh-my-posh\themes\kushal.omp.json" | Invoke-Expression
 
