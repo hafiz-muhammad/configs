@@ -5,7 +5,7 @@
     process = git-lfs filter-process
 [user]
     name = Abdul Hafiz Muhammad
-    email = hafiz.muhammad.github@outlook.com
+    email = hafizmuhammad.git@outlook.com
     #signingkey = 
 [github]
     user = hafiz-muhammad
