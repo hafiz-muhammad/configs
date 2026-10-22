@@ -15,9 +15,6 @@ $apps = @(
     # Mozilla Thunderbird
     "Mozilla.Thunderbird",
 
-    # DuckDuckGo Browser
-    "DuckDuckGo.DesktopBrowser",
-
     # UniGetUI
     "Devolutions.UniGetUI",
 
