@@ -82,7 +82,10 @@ $apps = @(
     "CPUID.CPU-Z",
     
     # Rufus
-    "Rufus.Rufus"
+    "Rufus.Rufus",
+
+    # Zotero
+    "DigitalScholar.Zotero"
 )
 
 Write-Host "Starting software installation via WinGet..." -ForegroundColor Cyan
