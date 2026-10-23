@@ -92,6 +92,9 @@ FLATPAKS=(
 
     # Zotero (Reference management software)
     org.zotero.Zotero
+    
+    # Dev Toolbox (Development tools)
+    me.iepure.devtoolbox
 )
 
 TO_INSTALL=()
