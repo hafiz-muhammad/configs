@@ -287,5 +287,5 @@
     ],
     "showTabsFullscreen": true,
     "themes": [],
-    "useAcrylicInTabRow": true
+    "useAcrylicInTabRow": false
 }
