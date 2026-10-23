@@ -1,11 +1,3 @@
-# Set execution policy to RemoteSigned
-function Set-ExecutionPolicyState {
-    if ((Get-ExecutionPolicy -Scope CurrentUser) -ne "RemoteSigned") {
-        Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy RemoteSigned -Force
-        return "ExecutionPolicy (Set to RemoteSigned)"
-    }
-}
-
 # Trust PSGallery
 function Set-PSGalleryTrust {
     $repo = Get-PSRepository -Name PSGallery -ErrorAction SilentlyContinue
