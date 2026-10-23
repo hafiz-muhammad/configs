@@ -34,7 +34,55 @@ $apps = @(
     "Microsoft.WindowsTerminal",
 
     # Helix editor
-    "Helix.Helix"
+    "Helix.Helix",
+
+    # Visual Studio Code
+    "Microsoft.VisualStudioCode",
+    
+    # Core Temp
+    "ALCPU.CoreTemp",
+    
+    # Node.js
+    "OpenJS.NodeJS",
+    
+    # Git
+    "Git.Git",
+    
+    # GitHub CLI
+    "GitHub.cli",
+    
+    # Microsoft PowerToys
+    "Microsoft.PowerToys",
+    
+    # VLC media player
+    "VideoLAN.VLC",
+    
+    # Phoenix Code
+    "Core-ai.PhoenixCode",
+    
+    # LibreOffice
+    "TheDocumentFoundation.LibreOffice",
+    
+    # Gimp
+    "GIMP.GIMP.3",
+    
+    # qBittorrent
+    "qBittorrent.qBittorrent",
+    
+    # DevToys
+    "DevToys-app.DevToys",
+    
+    # PowerShell
+    "Microsoft.PowerShell",
+
+    # CPUID HWMonitor
+    "CPUID.HWMonitor",
+    
+    # CPUID CPU-Z
+    "CPUID.CPU-Z",
+    
+    # Rufus
+    "Rufus.Rufus"
 )
 
 Write-Host "Starting software installation via WinGet..." -ForegroundColor Cyan
@@ -45,7 +93,7 @@ foreach ($app in $apps) {
     Write-Host "Installing: $app" -ForegroundColor Yellow
     Write-Host "----------------------------------------" -ForegroundColor Yellow
 
-    winget install --id $app --source winget --exact --accept-package-agreements --accept-source-agreements
+    winget install --id $app --source winget --exact --accept-package-agreements --accept-source-agreements --no-upgrade
 
     if ($LASTEXITCODE -eq 0) {
         Write-Host "Successfully installed $app" -ForegroundColor Green
